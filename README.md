@@ -12,6 +12,18 @@ The card data comes from the SWCCG-Card-JSON Database here (https://github.com/s
 All of the images are hosted in the Holotable Git repository (https://github.com/swccgpc/holotable). This database links directly to those images.
 
 
+## How Does It Work?
+* Javascript + AngularJS
+* Website downloads the Dark.json and Light.json card database files
+* Inspects the database for all possible values of fields (for auto-complete and dropdowns)
+* Searches are 100% client-side.  This is to keep the load off of the PC Server and to also eventually facilitate off-line mode
+
+
+## Interesting Features
+* Dropdowns automatically update when new content is added to the JSON file. No code changes required!
+* Optionally supports "text-only" mode so that we can support new cards in the system, even if images aren't ready yet. This also lets you easily copy-paste from the cards
+
+
 ## How Can I Run This Locally?
 The website code is flexible enough to run on pretty much any web server.  The easiest way to run this locally is to use Python's SimpleHTTPServer.  It's extremely easy to install. Simply follow the steps here:
 https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server
