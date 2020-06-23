@@ -4,14 +4,15 @@ Welcome to the Star Wars CCG Card Search website! This repository contains all o
 For more information about Star Wars CCG, check out the SWCCG Players Committee website here: https://www.starwarsccg.org/
 
 
-# Where Does Your Data Come From?
+## Where Does Your Data Come From?
 The card data comes from the SWCCG-Card-JSON Database here (https://github.com/swccgpc/swccg-card-json/)
 
 
-# Where Are The Images?
+## Where Are The Images?
 All of the images are hosted in the Holotable Git repository (https://github.com/swccgpc/holotable). This database links directly to those images.
 
-# How Can I Run This Locally?
+
+## How Can I Run This Locally?
 The website code is flexible enough to run on pretty much any web server.  The easiest way to run this locally is to use Python's SimpleHTTPServer.  It's extremely easy to install. Simply follow the steps here:
 https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server
 
@@ -24,11 +25,11 @@ After you've followed those instructions:
 Done!  You should be able to play around with the site locally now.
 
 
-# Where Can I Ask Questions?
+## Where Can I Ask Questions?
 The best place to ask questions about this project is on the Star Wars CCG Players Committee Forums. Specifically, the "Resources" Sub-Form: https://forum.starwarsccg.org/viewforum.php?f=188
 
 
-# How To Contribute?
+## How To Contribute?
 If you see bugs in the current site, please contribute!  
 
 Here's a brief overview of what you will need to do:
@@ -41,7 +42,8 @@ Here's a brief overview of what you will need to do:
 There is a nice tutorial here:
 https://www.thinkful.com/learn/github-pull-request-tutorial/Time-to-Submit-Your-First-PR#Time-to-Submit-Your-First-PR
 
-# Bugs In Card JSON Files
+
+## Bugs In Card JSON Files
 For bugs in the Card JSON, please contribute to this repository: https://github.com/swccgpc/swccg-card-json/
 
 
@@ -53,6 +55,7 @@ For bugs in the Card JSON, please contribute to this repository: https://github.
   1. Create a `pull request` against this repo
   2. Have the pull request merged to `master`.
 * Once @DevoKun or @thomasmarlin approve and merge the pull request the GitHub action will automatically deploy the latest code version.
+
 
 ## Attribution
 This repository is a fork from here:  
