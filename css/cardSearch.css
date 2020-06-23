@@ -247,15 +247,15 @@
 
 .cs-card-image {
   position: relative;
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 350px;
   z-index: 9999999;
 }
 
 .cs-card-image-multiple {
   position: relative;
   height: 100%;
-  width: auto;
+  width: 350px;
   z-index: 9999999;
 }
 
@@ -374,6 +374,12 @@
   padding-bottom: 2em;
   max-height: 200px;
   overflow: auto;
+}
+
+.cs-combo-block {
+  border-bottom: thin solid #ccc;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .cs-extra-close-button {

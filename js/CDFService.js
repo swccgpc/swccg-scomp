@@ -547,6 +547,7 @@ cardSearchApp.service('CDFService', [function() {
       }
     }
   }
+  this.getSetAbbreviation = getSetAbbreviation;
 
 
   function getIcons(iconsString) {
@@ -573,14 +574,15 @@ cardSearchApp.service('CDFService', [function() {
    * }
    */
   function getCardValueMap(cards) {
-    var anyCard = cards[0];
 
     var fieldValueMap = {};
 
-    // Add every field we know about
-    for (var field in anyCard) { //jshint ignore:line
-      fieldValueMap[field] = null;
-    }
+    // Add every field we know about based on the card DB
+    cards.forEach(function(card) {
+      for (var field in card.front) { //jshint ignore:line
+        fieldValueMap[field] = null;
+      }
+    });
 
     // Add auto-complete to specific fields
     fieldValueMap.type = getValuesForFieldName('type', cards);
@@ -594,7 +596,6 @@ cardSearchApp.service('CDFService', [function() {
     fieldValueMap.darkSideIcons = getValuesForFieldName('darkSideIcons', cards);
     fieldValueMap.lightSideIcons = getValuesForFieldName('lightSideIcons', cards);
 
-
     // Remove fields that we don't want to show to the user
     delete fieldValueMap.setAbbreviation;
     delete fieldValueMap.links;
@@ -602,36 +603,13 @@ cardSearchApp.service('CDFService', [function() {
     delete fieldValueMap.titleSortable;
     delete fieldValueMap.titleLowerNoSet;
     delete fieldValueMap.twoSided;
-
+    delete fieldValueMap.id;
+    delete fieldValueMap.imageUrl;
 
     return fieldValueMap;
   }
   this.getCardValueMap = getCardValueMap;
 
-
-  function splitValuesFromString(str) {
-
-    while (str.indexOf(".") !== -1) {
-      str = str.replace(".", "<br>");
-    }
-    while (str.indexOf(",") !== -1) {
-      str = str.replace(",", "<br>");
-    }
-
-
-    // SWIP has values split by \par.  The SWIPService changes them into
-    // breaks using <br>.  Now, we want to split these into their sub-values
-    var values = str.split("<br>");
-    var nonEmptyValues = [];
-    for (var i = 0; i < values.length; i++) {
-      var val = values[i].trim();
-      if (val !== "") {
-        nonEmptyValues.push(val);
-      }
-    }
-
-    return nonEmptyValues;
-  }
 
   function getValuesForFieldName(fieldName, cards) {
 
@@ -646,16 +624,24 @@ cardSearchApp.service('CDFService', [function() {
 
     // Get possibilities for each card
     for (var i = 0; i < cards.length; i++) {
-      var card = cards[i];
-      if (card[fieldName] && card[fieldName] !== "") {
-        var cardValueString = card[fieldName];
-        var values = splitValuesFromString(cardValueString);
+      var fullCard = cards[i];
 
-        for (var j = 0; j < values.length; j++) {
-          var value = values[j].toLowerCase();
-          possibleValues[value] = true;
+      var card = fullCard.front;
+
+      var values = [];
+
+      if (card[fieldName] && Array.isArray(card[fieldName])) {
+        values = values.concat(card[fieldName]);
+      } else if (card[fieldName] && typeof card[fieldName] === 'string') {
+        values.push(card[fieldName]);
+      }
+
+      for (var j = 0; j < values.length; j++) {
+        if (!values[j]) {
+          var p = 0;
         }
-
+        var value = values[j].toLowerCase();
+        possibleValues[value] = true;
       }
     }
 

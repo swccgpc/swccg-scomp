@@ -35,6 +35,7 @@
     <!--<script src="js/SWIPExportService.js"></script>-->
     <script src="js/SWIPService.js"></script>
     <script src="js/onLoadError.js"></script>
+    <script src="js/onLoadSuccess.js"></script>
     <script src="js/outsideClick.js"></script>
 
 
@@ -47,10 +48,11 @@
     <!-- Content -->
     <div ng-app="cardSearchApp" ng-controller="CardSearchController" class="cs-main">
 
-      <!--
-      <button data-ng-click="exportLightCdf()">Export Light CDF</button>
-      <button data-ng-click="exportDarkCdf()">Export Dark CDF</button>
-      <button data-ng-click="exportSWIP()">Export SWIP</button>
+
+    <!--
+    <button data-ng-click="exportLightCdf()">Export Light CDF</button>
+    <button data-ng-click="exportDarkCdf()">Export Dark CDF</button>
+    <button data-ng-click="exportSWIP()">Export SWIP</button>
     -->
 
       <div class="cs-title">
@@ -79,11 +81,17 @@
 
             <div class="cs-extra-data-column" data-ng-if="data.selectedCard.pulls">
               <div class="cs-extra-data-label">Pulls:</div>
-              <div data-ng-bind-html='data.selectedCard.pulls | to_trusted' class="cs-exta-data-block"></div>
+              <div data-ng-repeat='pull in data.selectedCard.pulls'>
+                {{pull}}
+              </div>
+              <!--<div data-ng-bind-html='data.selectedCard.pulls | to_trusted' class="cs-exta-data-block"></div>-->
             </div>
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.pulledBy">
               <div class="cs-extra-data-label">Pulled By:</div>
-              <div data-ng-bind-html='data.selectedCard.pulledBy | to_trusted' class="cs-exta-data-block"></div>
+              <div data-ng-repeat='pulledBy in data.selectedCard.pulledBy'>
+                {{pulledBy}}
+              </div>
+              <!-- <div data-ng-bind-html='data.selectedCard.pulledBy | to_trusted' class="cs-exta-data-block"></div> -->
             </div>
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.counterpart">
               <div class="cs-extra-data-label">Counterpart:</div>
@@ -91,23 +99,33 @@
             </div>
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.combo">
               <div class="cs-extra-data-label">Combo:</div>
-              <div data-ng-bind-html='data.selectedCard.combo | to_trusted' class="cs-exta-data-block"></div>
+              <div data-ng-repeat='combo in data.selectedCard.combo' class="cs-combo-block">
+                {{combo}}
+              </div>
             </div>
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.matching">
               <div class="cs-extra-data-label">Matching:</div>
-              <div data-ng-bind-html='data.selectedCard.matching | to_trusted' class="cs-exta-data-block"></div>
+              <div data-ng-repeat='matching in data.selectedCard.matching'>
+                {{matching}}
+              </div>
             </div>
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.matchingWeapon">
               <div class="cs-extra-data-label">Matching Weapon:</div>
-              <div data-ng-bind-html='data.selectedCard.matchingWeapon | to_trusted' class="cs-exta-data-block"></div>
+              <div data-ng-repeat='matchingWeapon in data.selectedCard.matchingWeapon'>
+                {{matchingWeapon}}
+              </div>
             </div>
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.canceledBy">
               <div class="cs-extra-data-label">Canceled By:</div>
-              <div data-ng-bind-html='data.selectedCard.canceledBy | to_trusted' class="cs-exta-data-block"></div>
+              <div data-ng-repeat='canceledBy in data.selectedCard.canceledBy'>
+                {{canceledBy}}
+              </div>
             </div>
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.cancels">
               <div class="cs-extra-data-label">Cancels:</div>
-              <div data-ng-bind-html='data.selectedCard.cancels | to_trusted' class="cs-exta-data-block"></div>
+              <div data-ng-repeat='cancels in data.selectedCard.cancels'>
+                {{cancels}}
+              </div>
             </div>
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.abbreviation">
               <div class="cs-extra-data-label">Abbreviation:</div>
@@ -122,22 +140,22 @@
         <div data-ng-if="data.textOnly || data.imageLoadFailure" class="cs-card-preview-overlay">
           <div data-ng-click="selectCard(null)">
             <div class="cs-card-preview-text-only" data-ng-click="swallow($event)">
-              <div class="cs-card-type">{{data.selectedCard.type}}</div>
-              <div class="cs-card-title">{{data.selectedCard.title}}</div>
-              <div class="cs-card-lore">{{data.selectedCard.lore}}</div>
-              <div class="cs-card-destiny">{{data.selectedCard.destiny}}</div>
-              <div class="cs-card-subtype">{{data.selectedCard.subType}}</div>
-              <div class="cs-card-power" data-ng-if="data.selectedCard.power != ''">Power: {{data.selectedCard.power}}</div>
-              <div class="cs-card-ability" data-ng-if="data.selectedCard.ability != ''">Ability: {{data.selectedCard.ability}}</div>
-              <div class="cs-card-ability" data-ng-if="data.selectedCard.maneuver != ''">Maneuver: {{data.selectedCard.maneuver}}</div>
-              <div class="cs-card-ability" data-ng-if="data.selectedCard.armor != ''">Armor: {{data.selectedCard.armor}}</div>
-              <div class="cs-card-hyperspeed" data-ng-if="data.selectedCard.hyperspeed != ''">Hyperspeed: {{data.selectedCard.hyperspeed}}</div>
-              <div class="cs-card-hyperspeed" data-ng-if="data.selectedCard.landspeed != ''">Landspeed: {{data.selectedCard.landspeed}}</div>
+              <div class="cs-card-type">{{data.selectedCard.front.type}}</div>
+              <div class="cs-card-title">{{data.selectedCard.front.title}}</div>
+              <div class="cs-card-lore">{{data.selectedCard.front.lore}}</div>
+              <div class="cs-card-destiny">{{data.selectedCard.front.destiny}}</div>
+              <div class="cs-card-subtype">{{data.selectedCard.front.subType}}</div>
+              <div class="cs-card-power" data-ng-if="data.selectedCard.front.power != null">Power: {{data.selectedCard.front.power}}</div>
+              <div class="cs-card-ability" data-ng-if="data.selectedCard.front.ability != null">Ability: {{data.selectedCard.front.ability}}</div>
+              <div class="cs-card-ability" data-ng-if="data.selectedCard.front.maneuver != null">Maneuver: {{data.selectedCard.front.maneuver}}</div>
+              <div class="cs-card-ability" data-ng-if="data.selectedCard.front.armor != null">Armor: {{data.selectedCard.front.armor}}</div>
+              <div class="cs-card-hyperspeed" data-ng-if="data.selectedCard.front.hyperspeed != null">Hyperspeed: {{data.selectedCard.front.hyperspeed}}</div>
+              <div class="cs-card-hyperspeed" data-ng-if="data.selectedCard.front.landspeed != null">Landspeed: {{data.selectedCard.front.landspeed}}</div>
 
 
-              <div class="cs-card-deploy">{{data.selectedCard.deploy}}</div>
-              <div class="cs-card-forfeit">{{data.selectedCard.forfeit}}</div>
-              <div class="cs-card-gametext">{{data.selectedCard.gametext}}</div>
+              <div class="cs-card-deploy">{{data.selectedCard.front.deploy}}</div>
+              <div class="cs-card-forfeit">{{data.selectedCard.front.forfeit}}</div>
+              <div class="cs-card-gametext">{{data.selectedCard.front.gametext}}</div>
             </div>
           </div>
         </div>
@@ -146,10 +164,10 @@
         <div data-ng-if="!data.textOnly && !data.imageLoadFailure" class="cs-card-preview-overlay">
           <div class="cs-card-preview-image">
             <div data-ng-if="data.selectedCard.links.length == 1">
-              <img class="cs-card-image" align="right" src="{{data.selectedCard.links_large[0]}}" on-load-error="onImageLoadError">
+              <img class="cs-card-image" align="right" ng-src="{{data.selectedCard.links_large[0]}}" on-load-error="onImageLoadError" on-load-success="onImageLoadSuccess">
             </div>
             <div data-ng-if="data.selectedCard.links.length > 1">
-              <img class="cs-card-image-multiple" align="right" data-ng-repeat="link in data.selectedCard.links_large | orderBy:'$index':true" src="{{link}}">
+              <img class="cs-card-image-multiple" align="right" data-ng-repeat="link in data.selectedCard.links_large | orderBy:'$index':true" ng-src="{{link}}">
             </div>
           </div>
         </div>
@@ -182,8 +200,8 @@
               <option value="ADMIRALS_ORDER">Admiral's Order</option>
               <option value="CHARACTER">Character</option>
               <option value="CREATURE">Creature</option>
-              <option value="DEVICE">Device</option>
               <option value="DEFENSIVE_SHIELD">Defensive Shield</option>
+              <option value="DEVICE">Device</option>
               <option value="EFFECT">Effect</option>
               <option value="EPIC_EVENT">Epic Event</option>
               <option value="INTERRUPT">Interrupt</option>
@@ -298,6 +316,8 @@
             </div>
 
             <label style="margin-top: 2em">Text-Only Display <input type="checkbox" name="checkbox" ng-model="data.textOnly"></label>
+
+            <div style="font-size: 0.75em; margin-top: 1em; margin-bottom: 1em;">Version 2.0.3</div>
           </div>
 
           <!-- Preview Mode -->
@@ -351,7 +371,7 @@
           <div class="row cs-card-result" data-ng-repeat="card in data.matches track by $index"
                data-ng-class="{'cs-card-result-selected': card == data.lastSelectedCard}">
             <div class="col-xs-4 cs-link cs-colored-column cs-color-1" data-ng-click="selectCard(card, $event)">
-              {{card.title}}
+              {{card.front.title}}
             </div>
             <div class="col-xs-1 cs-color-2">
               {{card.side}}
@@ -360,18 +380,18 @@
               {{card.setAbbreviation}}
             </div>
             <div class="col-xs-1 cs-color-2">
-              {{card.type}}
+              {{card.front.type}}
             </div>
             <div class="col-xs-3 cs-colored-column cs-color-1">
               <div>
-                {{card.subType}}
+                {{card.front.subType}}
               </div>
             </div>
             <div class="col-xs-1 cs-color-2">
               {{card.rarity}}
             </div>
             <div class="col-xs-1 cs-colored-column cs-color-1">
-              {{card.destiny}}
+              {{card.front.destiny}}
             </div>
           </div>
 

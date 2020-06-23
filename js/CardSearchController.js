@@ -428,70 +428,100 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     $scope.data.showExtraData = !$scope.data.showExtraData;
   };
 
-  function addCardsFromCdfData(data) {
-    var cards = CDFService.cardsFromCdfData(data);
-    for (var i = 0; i < cards.length; i++) {
-      var card = cards[i];
-      $scope.data.cardList.push(card);
-    }
-  }
 
-  $scope.exportLightCdf = function() {
-    var exportLight = true;
-    var exportDark = false;
-    ExportService.exportCdf(exportLight, exportDark, $scope.data.cardList);
-  };
-
-  $scope.exportDarkCdf = function() {
-    var exportLight = false;
-    var exportDark = true;
-    ExportService.exportCdf(exportLight, exportDark, $scope.data.cardList);
-  };
-
-
-  /*
-  function getDarkCards() {
-    var request = new XMLHttpRequest();
-    request.open("GET", 'darkside.cdf', false);
-    request.overrideMimeType('text/xml; charset==UTF-8');
-    request.send(null);
-    addCardsFromCdfData(request.responseText);
-    $scope.data.loadingDark = false;
-  }
-  getDarkCards();
-  */
-
-
-  $http.get('lightside.cdf').success(function(data) {
-    addCardsFromCdfData(data);
+  $http.get('Light.json').success(function(data) {
+    addCardsFromJson(data);
     $scope.data.loadingLight = false;
 
-    loadSwipData();
+    massageData();
   });
 
-  $http.get('darkside.cdf').success(function(data) {
-    addCardsFromCdfData(data);
+  $http.get('Dark.json').success(function(data) {
+    addCardsFromJson(data);
     $scope.data.loadingDark = false;
 
-    loadSwipData();
+    massageData();
   });
 
-  function loadSwipData() {
-    // Only load SWIP data after we've loaded both the light and dark CDFs
-    if ($scope.data.loadingDark || $scope.data.loadingLight) {
+
+
+  /**
+   * Massage the data so that it can be searched and utilized easier
+   */
+  function massageData() {
+    flattenCardData();
+    loadSearchData();
+  }
+
+
+  /**
+   * We want the card data in a flat data structure so we can
+   * search it really easily
+   */
+  function flattenCardData() {
+
+    for (var i = 0; i < $scope.data.cardList.length; i++) {
+      var card = $scope.data.cardList[i];
+      card.titleSortable = CDFService.getSimpleName(card.front.title);
+      card.setAbbreviation = CDFService.getSetAbbreviation(card.set);
+      card.links = [card.front.imageUrl];
+      if (card.back && card.back.imageUrl) {
+        card.links.push(card.back.imageUrl);
+      }
+      card.links_large = card.links;
+      if (card.links_large.length > 0) {
+        card.links_large[0] = card.links_large[0].replace("?raw=true", "");
+      }
+      if (card.links_large.length > 1) {
+        card.links_large[1] = card.links_large[1].replace("?raw=true", "");
+      }
+
+      addCardDataToFrontBack(card, card.front);
+      addCardDataToFrontBack(card, card.back);
+    }
+
+    console.log("Added titles for card count: " + $scope.data.cardList.length);
+  }
+
+
+  /**
+   * Add the shared 'card' data to the 'front' or 'back' side of the card
+   */
+  function addCardDataToFrontBack(card, cardSide) {
+    if (!cardSide) {
       return;
     }
 
-    $http.get('swipdump.text').success(function(data) {
-      SWIPService.addSwipDataFromSwipDump(data, $scope.data.cardList);
-      $scope.data.cardValueMap = CDFService.getCardValueMap($scope.data.cardList);
+    cardSide.id = card.id;
+    cardSide.side = card.side;
+    cardSide.rarity = card.rarity;
+    cardSide.set = card.set;
+    cardSide.conceptBy = card.conceptBy;
+    cardSide.pulls = card.pulls;
+    cardSide.pulledBy = card.pulledBy;
+    cardSide.counterpart = card.counterpart;
+    cardSide.combo = card.combo;
+    cardSide.matching = card.matching;
+    cardSide.matchingWeapon = card.matchingWeapon;
+    cardSide.canceledBy = card.canceledBy;
+    cardSide.cancels = card.cancels;
+    cardSide.abbreviation = card.abbreviation;
+    cardSide.titleSortable = getSimpleName(card.front.title);
+    cardSide.setAbbreviation = getSetAbbreviation(card.set);
+  }
 
-      $scope.data.cardFields = [];
-      for (var fieldName in $scope.data.cardValueMap) { //jshint ignore:line
-        $scope.data.cardFields.push(fieldName);
+  function addCardsFromJson(cardData) {
+    var cards = cardData.cards;
+    for (var i = 0; i < cards.length; i++) {
+      var card = cards[i];
+
+      // Skip legacy cards!
+      if (card.legacy) {
+        continue;
       }
 
-    });
+      $scope.data.cardList.push(card);
+    }
 
     // For small screens (probably mobile), hide the extra data by default
     var w = angular.element($window);
@@ -499,6 +529,105 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
       $scope.data.showExtraData = false;
     }
   }
+
+
+  /**
+   * Build a list of all of the card fields
+   */
+  function loadSearchData() {
+    $scope.data.cardValueMap = CDFService.getCardValueMap($scope.data.cardList);
+    $scope.data.cardFields = [];
+    for (var fieldName in $scope.data.cardValueMap) { //jshint ignore:line
+      $scope.data.cardFields.push(fieldName);
+    }
+  }
+
+  function getSimpleName(cardName) {
+    var titleSortable = cardName.replace("•", "");
+    titleSortable = titleSortable.replace("•", "");
+    titleSortable = titleSortable.replace("•", "");
+    titleSortable = titleSortable.replace("•", "");
+
+    titleSortable = titleSortable.replace("<>", "");
+    titleSortable = titleSortable.replace("<>", "");
+    titleSortable = titleSortable.replace("<>", "");
+
+    titleSortable = titleSortable.toLowerCase();
+    titleSortable = titleSortable.replace("é", "e");
+
+    titleSortable = titleSortable.replace("ï¿½", "e");
+
+    titleSortable = titleSortable.replace(/\'/g, "");
+    titleSortable = titleSortable.replace(/\"/g, "");
+
+    return titleSortable;
+  }
+
+
+  function getSetAbbreviation(setName) {
+    switch (setName) {
+      case "Premier": {
+        return "PR";
+      }
+      case "A New Hope": {
+        return "ANH";
+      }
+      case "Dagobah": {
+        return "DAG";
+      }
+      case "Jabba's Palace": {
+        return "JP";
+      }
+      case "Cloud City": {
+        return "CC";
+      }
+      case "Special Edition": {
+        return "SE";
+      }
+      case "Endor": {
+        return "EDR";
+      }
+      case "Death Star II": {
+        return "DS2";
+      }
+      case "Tatooine": {
+        return "TAT";
+      }
+      case "Coruscant": {
+        return "COR";
+      }
+      case "Theed Palace": {
+        return "TP";
+      }
+      case "Reflections I": {
+        return "Ref1";
+      }
+      case "Reflections II": {
+        return "Ref2";
+      }
+      case "Reflections III": {
+        return "Ref3";
+      }
+      case "Demo Deck": {
+        return "Demo";
+      }
+      default: {
+        var abbreviation = "";
+        var splitWords = setName.split(" ");
+
+        if (-1 !== setName.indexOf("Virtual Set")) {
+          return setName.replace("Virtual Set ", "V");
+        }
+
+        for (var i = 0; i < splitWords.length; i++) {
+          var firstLetter = splitWords[i].substring(0, 1);
+          abbreviation += firstLetter.toUpperCase();
+        }
+        return abbreviation;
+      }
+    }
+  }
+
 
   $scope.searchIfNotEmpty = function() {
     if ($scope.search.text.trim() !== "") {
@@ -511,6 +640,16 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
    * Compare the given field, returning true on match and false otherwise
    */
   function compareFields(card, fieldName, compareType, value) {
+
+    return compareFieldsToCardSide(card.front, fieldName, compareType, value) ||
+           compareFieldsToCardSide(card.back, fieldName, compareType, value);
+  }
+
+  function compareFieldsToCardSide(card, fieldName, compareType, value) {
+    if (!card || typeof card[fieldName] === 'undefined' || card[fieldName] === null) {
+      return false;
+    }
+
     /*
     { name: '=' },
     { name: '<' },
@@ -522,13 +661,36 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     { name: "doesn't contain"}
     */
 
-    var valueToCompare = value;//value.toLowerCase();
-    if (value && value.toLowerCase) {
+    var valueToCompare = value;
+    var cardField = "";
+
+    // If the card data is of type number, then compare using numbers
+    // If the card data is of type string, then do string compares
+    if (typeof card[fieldName] === 'string')
+    {
+      cardField = card[fieldName].toLowerCase();
       valueToCompare = value.toLowerCase();
     }
-    var cardField = "";
-    if (card[fieldName] && card[fieldName].toLowerCase) {
-      cardField = card[fieldName].toLowerCase();
+    else if (typeof card[fieldName] === 'number')
+    {
+      cardField = parseFloat(card[fieldName]);
+      valueToCompare = parseFloat(value);
+    }
+    else if (Array.isArray(card[fieldName]))
+    {
+      // Add all string values from the array
+      cardField = "";
+      card[fieldName].forEach(function(txt) {
+        cardField += " " + txt.toLowerCase();
+      });
+      valueToCompare = value.toLowerCase();
+    }
+
+    // For "contains", treat them all as strings
+    if ((compareType === "contains") || (compareType === "doesn't contain"))
+    {
+      cardField = ("" + card[fieldName]).toLowerCase();
+      valueToCompare = value.toLowerCase();
     }
 
     if (compareType === '=') {
@@ -811,6 +973,11 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
   $scope.onImageLoadError = function() {
     console.error("Error loading image!");
     $scope.data.imageLoadFailure = true;
+  };
+
+  $scope.onImageLoadSuccess = function() {
+    console.log("Image Loaded");
+    $scope.data.imageLoadFailure = false;
   };
 
   $scope.swallow = function($event) {
