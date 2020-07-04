@@ -81,14 +81,14 @@
 
             <div class="cs-extra-data-column" data-ng-if="data.selectedCard.pulls">
               <div class="cs-extra-data-label">Pulls:</div>
-              <div data-ng-repeat='pull in data.selectedCard.pulls'>
+              <div data-ng-repeat='pull in data.selectedCard.pulls track by $index'>
                 {{pull}}
               </div>
               <!--<div data-ng-bind-html='data.selectedCard.pulls | to_trusted' class="cs-exta-data-block"></div>-->
             </div>
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.pulledBy">
               <div class="cs-extra-data-label">Pulled By:</div>
-              <div data-ng-repeat='pulledBy in data.selectedCard.pulledBy'>
+              <div data-ng-repeat='pulledBy in data.selectedCard.pulledBy track by $index'>
                 {{pulledBy}}
               </div>
               <!-- <div data-ng-bind-html='data.selectedCard.pulledBy | to_trusted' class="cs-exta-data-block"></div> -->
@@ -99,31 +99,31 @@
             </div>
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.combo">
               <div class="cs-extra-data-label">Combo:</div>
-              <div data-ng-repeat='combo in data.selectedCard.combo' class="cs-combo-block">
+              <div data-ng-repeat='combo in data.selectedCard.combo track by $index' class="cs-combo-block">
                 {{combo}}
               </div>
             </div>
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.matching">
               <div class="cs-extra-data-label">Matching:</div>
-              <div data-ng-repeat='matching in data.selectedCard.matching'>
+              <div data-ng-repeat='matching in data.selectedCard.matching track by $index'>
                 {{matching}}
               </div>
             </div>
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.matchingWeapon">
-              <div class="cs-extra-data-label">Matching Weapon:</div>
-              <div data-ng-repeat='matchingWeapon in data.selectedCard.matchingWeapon'>
+              <div class="cs-extra-data-label">Matching Weapon:</div> track by $index
+              <div data-ng-repeat='matchingWeapon in data.selectedCard.matchingWeapon track by $index'>
                 {{matchingWeapon}}
               </div>
             </div>
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.canceledBy">
               <div class="cs-extra-data-label">Canceled By:</div>
-              <div data-ng-repeat='canceledBy in data.selectedCard.canceledBy'>
+              <div data-ng-repeat='canceledBy in data.selectedCard.canceledBy track by $index'>
                 {{canceledBy}}
               </div>
             </div>
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.cancels">
               <div class="cs-extra-data-label">Cancels:</div>
-              <div data-ng-repeat='cancels in data.selectedCard.cancels'>
+              <div data-ng-repeat='cancels in data.selectedCard.cancels track by $index'>
                 {{cancels}}
               </div>
             </div>
