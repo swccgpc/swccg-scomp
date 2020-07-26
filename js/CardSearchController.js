@@ -508,6 +508,8 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     cardSide.abbreviation = card.abbreviation;
     cardSide.titleSortable = getSimpleName(card.front.title);
     cardSide.setAbbreviation = getSetAbbreviation(card.set);
+
+    // If we are missing an array completely, just stick an empty one in it's place
     if (!cardSide.icons) {
       cardSide.icons = [];
     }
