@@ -1,0 +1,31 @@
+---
+
+#profile:   swccg-production
+
+s3_bucket: scomp.starwarsccg.org
+
+site: ./
+
+gzip:
+  - .html
+  - .css
+  - .md
+gzip_zopfli: false
+
+cloudfront_distribution_id: E2CSZKAUVDC9IT
+cloudfront_invalidate_root: true
+
+exclude_from_upload:
+  - '.git'
+  - '.github'
+  - '.gitignore'
+  - 'node_modules'
+  - '.git/*'
+  - '.github/*'
+  - 'node_modules/*'
+  - 'README.md'
+  - 'package.json'
+  - 'package-lock.json'
+  - 'create_json.js'
+  - 's3_website.yml'
+
