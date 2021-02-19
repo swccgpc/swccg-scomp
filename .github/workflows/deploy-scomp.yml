@@ -22,28 +22,15 @@ jobs:
       - name: npm install aws-sdk
         run: npm install aws-sdk
 
-      #- name: sync to s3
-      #  run: aws s3 sync . s3://scomp.starwarsccg.org/ --exclude '.git/*' --exclude '.github/*' --exclude 'node_modules/*' --exclude README.md --exclude package-lock.json --exclude package.json
-      #  env:
-      #    AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      #    AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      #    AWS_REGION: ${{ secrets.AWS_REGION }}
-      #    AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
-
-      - name: s3_website push
-        run: |
-          echo
-          echo "Install s3_website"
-          echo
-          sudo gem install s3_website
-          echo
-          echo "s3_website push"
-          echo
-          s3_website push
+      - name: sync to s3
+        run: |+
+          aws s3 sync . s3://scomp.starwarsccg.org/ --exclude '.git/*' --exclude '.github/*' --exclude 'node_modules/*' --exclude README.md --exclude package-lock.json --exclude package.json --exclude create_json.js --exclude s3_website.yml
+          aws cloudfront create-invalidation --distribution-id E2CSZKAUVDC9IT --paths "/"
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
           AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
+
 
 
