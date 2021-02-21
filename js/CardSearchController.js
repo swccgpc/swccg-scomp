@@ -18,6 +18,7 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     "landspeed",
     "politics",
     "deploy",
+    "forfeit"
   ];
 
   $scope.data = {
@@ -488,11 +489,11 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
         card.links_large[1] = card.links_large[1].replace("?raw=true", "");
       }
 
-      convertNumberDataFromStrings(card);
-
-
       addCardDataToFrontBack(card, card.front);
       addCardDataToFrontBack(card, card.back);
+
+      convertNumberDataFromStrings(card.front);
+      convertNumberDataFromStrings(card.back);
     }
 
     console.log("Added titles for card count: " + $scope.data.cardList.length);
@@ -503,15 +504,17 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
    * due to needing to support '*' and multi-value cards. For Scomp link, just
    * convert these string values into numbers, which works for all of our purposes
    */
-  function convertNumberDataFromStrings(card){
-    numberFields.forEach((fieldName) => {
-      if (card[fieldName]) {
-        var value = parseFloat(card[fieldName]);;
-        if (value) {
-          card[fieldName] = value;
+  function convertNumberDataFromStrings(cardFrontOrBack){
+    if (cardFrontOrBack) {
+      numberFields.forEach((fieldName) => {
+        if (cardFrontOrBack[fieldName]) {
+          var value = parseFloat(cardFrontOrBack[fieldName]);
+          if (value) {
+            cardFrontOrBack[fieldName] = value;
+          }
         }
-      }
-    });
+      });
+    }
   }
 
 
