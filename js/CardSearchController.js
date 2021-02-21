@@ -7,6 +7,19 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     OR: "OR",
     NOT: "NOT"
   };
+  // Convert 'number' fields into strings  (power, etc)
+  var numberFields = [
+    "destiny",
+    "power",
+    "ability",
+    "maneuver",
+    "armor",
+    "hyperspeed",
+    "landspeed",
+    "politics",
+    "deploy",
+    "forfeit"
+  ];
 
   $scope.data = {
     matches: [],
@@ -150,7 +163,7 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     var condition = buildRule(fieldName, textSearch, operator);
 
     // If no search text, don't do anything
-    if (textSearch.trim() === "") {
+    if (!textSearch || textSearch.trim() === "") {
       return;
     }
 
@@ -478,9 +491,30 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
 
       addCardDataToFrontBack(card, card.front);
       addCardDataToFrontBack(card, card.back);
+
+      convertNumberDataFromStrings(card.front);
+      convertNumberDataFromStrings(card.back);
     }
 
     console.log("Added titles for card count: " + $scope.data.cardList.length);
+  }
+
+  /*
+   * In the DB, many of our fields are stored as strings (power, etc)
+   * due to needing to support '*' and multi-value cards. For Scomp link, just
+   * convert these string values into numbers, which works for all of our purposes
+   */
+  function convertNumberDataFromStrings(cardFrontOrBack){
+    if (cardFrontOrBack) {
+      numberFields.forEach((fieldName) => {
+        if (cardFrontOrBack[fieldName]) {
+          var value = parseFloat(cardFrontOrBack[fieldName]);
+          if (value) {
+            cardFrontOrBack[fieldName] = value;
+          }
+        }
+      });
+    }
   }
 
 
