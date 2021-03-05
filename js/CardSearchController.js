@@ -2,6 +2,8 @@
 var cardSearchApp = angular.module('cardSearchApp');
 cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http', '$timeout', '$window', 'CDFService', 'ExportService', 'SWIPService',  function($scope, $document, $http, $timeout, $window, CDFService, ExportService, SWIPService) {
 
+  var LOCAL_STORAGE_DATA_KEY = "scomp_data";
+
   var filterAddMode = {
     AND: "AND",
     OR: "OR",
@@ -20,6 +22,18 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     "deploy",
     "forfeit"
   ];
+
+  // This is the data that is currently being downloaded
+  // We stage that data here first and then swap
+  $scope.downloadedData = {
+    cardList: [],
+    sets: [],
+    loadingLight: true,
+    loadingDark: true,
+    loadingSets: true,
+    cardValueMap: null,
+    cardFields: []
+  };
 
   $scope.data = {
     matches: [],
@@ -443,26 +457,37 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     $scope.data.showExtraData = !$scope.data.showExtraData;
   };
 
+  // Load cached data if available!
+  loadCachedData();
 
   $http.get('Light.json').success(function(data) {
     addCardsFromJson(data);
-    $scope.data.loadingLight = false;
+    $scope.downloadedData.loadingLight = false;
 
     massageData();
+  }).error(function(err) {
+    console.error("Data load failure. Defaulting to text-only");
+    $scope.data.textOnly = true;
   });
 
   $http.get('Dark.json').success(function(data) {
     addCardsFromJson(data);
-    $scope.data.loadingDark = false;
+    $scope.downloadedData.loadingDark = false;
 
     massageData();
+  }).error(function(err) {
+    console.error("Data load failure. Defaulting to text-only");
+    $scope.data.textOnly = true;
   });
 
   $http.get('sets.json').success(function(setsData) {
-    $scope.data.sets = setsData;
-    $scope.data.loadingSets = false;
+    $scope.downloadedData.sets = setsData;
+    $scope.downloadedData.loadingSets = false;
 
     massageData();
+  }).error(function(err) {
+    console.error("Data load failure. Defaulting to text-only");
+    $scope.data.textOnly = true;
   });
 
 
@@ -471,10 +496,63 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
    * Massage the data so that it can be searched and utilized easier
    */
   function massageData() {
-    flattenCardData();
-    loadSearchData();
+    flattenCardData($scope.downloadedData);
+    loadSearchData($scope.downloadedData);
+
+    // For small screens (probably mobile), hide the extra data by default
+    var w = angular.element($window);
+    if (w.width() < 800) {
+      $scope.data.showExtraData = false;
+    }
+
+    // Once we have all of the real data loaded. Move it into the active data!
+    if (!$scope.downloadedData.loadingLight &&
+        !$scope.downloadedData.loadingDark &&
+        !$scope.downloadedData.loadingSets)
+    {
+      swapActiveDataWithLoadedData($scope.downloadedData);
+    }
   }
 
+  function swapActiveDataWithLoadedData(downloadedData) {
+    $scope.data.cardList = downloadedData.cardList;
+    $scope.data.sets = downloadedData.sets;
+    $scope.data.loadingLight = downloadedData.loadingLight;
+    $scope.data.loadingDark = downloadedData.loadingDark;
+    $scope.data.loadingSets = downloadedData.loadingSets;
+    $scope.data.cardValueMap = downloadedData.cardValueMap;
+    $scope.data.cardFields = downloadedData.cardFields;
+
+    try {
+      // Store the loaded data into LocalStorage for fast loading later
+      // Note: This is approaching 3.8 MB. If we exceed 5MB, this will start failing
+      localStorage.setItem(LOCAL_STORAGE_DATA_KEY, JSON.stringify($scope.data));
+    }
+    catch(ex) {
+      console.error("Error saving data into LocalStorage. Cache will not be availalbe");
+    }
+    
+  }
+
+  function loadCachedData() {
+    try {
+      var cachedDataString = localStorage.getItem(LOCAL_STORAGE_DATA_KEY);
+      if (cachedDataString) {
+        var cachedData = JSON.parse(cachedDataString);
+
+        $scope.data.cardList = cachedData.cardList;
+        $scope.data.sets = cachedData.sets;
+        $scope.data.loadingLight = cachedData.loadingLight;
+        $scope.data.loadingDark = cachedData.loadingDark;
+        $scope.data.loadingSets = cachedData.loadingSets;
+        $scope.data.cardValueMap = cachedData.cardValueMap;
+        $scope.data.cardFields = cachedData.cardFields;
+      }
+    }
+    catch(ex) {
+      console.error("Error loading data from LocalStorage.");
+    }
+  }
 
   function setNameFromSetId(setId, setNameMapping) {
     if (setNameMapping[setId]) {
@@ -487,15 +565,15 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
    * We want the card data in a flat data structure so we can
    * search it really easily
    */
-  function flattenCardData() {
+  function flattenCardData(data) {
 
     var setNameMapping = {};
-    $scope.data.sets.forEach(function(set) {
+    data.sets.forEach(function(set) {
       setNameMapping[set.id] = set.name;
     });
 
-    for (var i = 0; i < $scope.data.cardList.length; i++) {
-      var card = $scope.data.cardList[i];
+    for (var i = 0; i < data.cardList.length; i++) {
+      var card = data.cardList[i];
       card.titleSortable = CDFService.getSimpleName(card.front.title);
       card.set = setNameFromSetId(card.set, setNameMapping);
       card.setAbbreviation = CDFService.getSetAbbreviation(card.set);
@@ -581,13 +659,13 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
         continue;
       }
 
-      $scope.data.cardList.push(card);
-    }
+      // Trim some data to save space
+      delete card.id;
+      delete card.gempId;
+      delete card.printings;
+      delete card.legacy;
 
-    // For small screens (probably mobile), hide the extra data by default
-    var w = angular.element($window);
-    if (w.width() < 800) {
-      $scope.data.showExtraData = false;
+      $scope.downloadedData.cardList.push(card);
     }
   }
 
@@ -595,11 +673,11 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
   /**
    * Build a list of all of the card fields
    */
-  function loadSearchData() {
-    $scope.data.cardValueMap = CDFService.getCardValueMap($scope.data.cardList);
-    $scope.data.cardFields = [];
-    for (var fieldName in $scope.data.cardValueMap) { //jshint ignore:line
-      $scope.data.cardFields.push(fieldName);
+  function loadSearchData(data) {
+    data.cardValueMap = CDFService.getCardValueMap(data.cardList);
+    data.cardFields = [];
+    for (var fieldName in data.cardValueMap) { //jshint ignore:line
+      data.cardFields.push(fieldName);
     }
   }
 
