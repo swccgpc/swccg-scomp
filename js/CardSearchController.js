@@ -23,9 +23,11 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
 
   $scope.data = {
     matches: [],
-    cardList: [],
+    cardList: [], // From Dark.json & Light.json
+    sets: [], // From sets.json
     loadingLight: true,
     loadingDark: true,
+    loadingSets: true,
     performedSearch: false,
     noResultsFound: false,
     selectedCard: null,
@@ -456,6 +458,13 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     massageData();
   });
 
+  $http.get('sets.json').success(function(setsData) {
+    $scope.data.sets = setsData;
+    $scope.data.loadingSets = false;
+
+    massageData();
+  });
+
 
 
   /**
@@ -467,15 +476,28 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
   }
 
 
+  function setNameFromSetId(setId, setNameMapping) {
+    if (setNameMapping[setId]) {
+      return setNameMapping[setId];
+    }
+    return setId;
+  }
+
   /**
    * We want the card data in a flat data structure so we can
    * search it really easily
    */
   function flattenCardData() {
 
+    var setNameMapping = {};
+    $scope.data.sets.forEach(function(set) {
+      setNameMapping[set.id] = set.name;
+    });
+
     for (var i = 0; i < $scope.data.cardList.length; i++) {
       var card = $scope.data.cardList[i];
       card.titleSortable = CDFService.getSimpleName(card.front.title);
+      card.set = setNameFromSetId(card.set, setNameMapping);
       card.setAbbreviation = CDFService.getSetAbbreviation(card.set);
       card.links = [card.front.imageUrl];
       if (card.back && card.back.imageUrl) {
