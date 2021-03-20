@@ -17,7 +17,7 @@
     "id": "102",
     "name": "Jedi Pack",
     "gempName": "Jedi Pack",
-    "abbr": "J",
+    "abbr": "JEDI",
     "legacy": false
   },
   {
@@ -101,7 +101,7 @@
     "id": "108",
     "name": "Enhanced Premiere",
     "gempName": "Enhanced Premiere Pack",
-    "abbr": "EP",
+    "abbr": "EPP",
     "legacy": false
   },
   {
@@ -277,6 +277,20 @@
     "name": "Virtual Set 13",
     "gempName": "Set 13",
     "abbr": "V13",
+    "legacy": false
+  },
+  {
+    "id": "214",
+    "name": "Virtual Set 14",
+    "gempName": "Set 14",
+    "abbr": "V14",
+    "legacy": false
+  },
+  {
+    "id": "215",
+    "name": "Virtual Set 15",
+    "gempName": "Set 15",
+    "abbr": "V15",
     "legacy": false
   },
   {
