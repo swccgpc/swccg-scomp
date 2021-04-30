@@ -635,6 +635,7 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     cardSide.pulledBy = card.pulledBy;
     cardSide.counterpart = card.counterpart;
     cardSide.combo = card.combo;
+    cardSide.rulings = card.rulings;
     cardSide.matching = card.matching;
     cardSide.matchingWeapon = card.matchingWeapon;
     cardSide.canceledBy = card.canceledBy;
@@ -1128,6 +1129,7 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
             card.pulledBy ||
             card.counterpart ||
             card.combo ||
+            card.rulings ||
             card.matching ||
             card.matchingWeapon ||
             card.canceledBy ||

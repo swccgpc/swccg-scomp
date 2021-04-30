@@ -131,6 +131,12 @@
               <div class="cs-extra-data-label">Abbreviation:</div>
               <div data-ng-bind-html='data.selectedCard.abbreviation | to_trusted' class="cs-exta-data-block"></div>
             </div>
+            <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.rulings">
+              <div class="cs-extra-data-label">Rulings:</div>
+              <div data-ng-repeat='rulings in data.selectedCard.rulings track by $index' class="cs-rulings-block">
+                {{rulings}}
+              </div>
+            </div>
           </div>
 
         </div>

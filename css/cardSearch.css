@@ -376,7 +376,7 @@
   overflow: auto;
 }
 
-.cs-combo-block {
+.cs-combo-block, .cs-rulings-block {
   border-bottom: thin solid #ccc;
   margin-bottom: 0.5em;
   padding-bottom: 0.5em;
