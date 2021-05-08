@@ -92,51 +92,107 @@
                 {{pulledBy}}
               </div>
               <!-- <div data-ng-bind-html='data.selectedCard.pulledBy | to_trusted' class="cs-exta-data-block"></div> -->
-            </div>
+            </div><!-- / Pulled By -->
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.counterpart">
               <div class="cs-extra-data-label">Counterpart:</div>
               <div data-ng-bind-html='data.selectedCard.counterpart | to_trusted' class="cs-exta-data-block"></div>
-            </div>
+            </div><!-- / Counterpart -->
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.combo">
               <div class="cs-extra-data-label">Combo:</div>
               <div data-ng-repeat='combo in data.selectedCard.combo track by $index' class="cs-combo-block">
                 {{combo}}
               </div>
-            </div>
+            </div><!-- / Combo -->
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.matching">
               <div class="cs-extra-data-label">Matching:</div>
               <div data-ng-repeat='matching in data.selectedCard.matching track by $index'>
                 {{matching}}
               </div>
-            </div>
+            </div><!-- / Matching -->
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.matchingWeapon">
               <div class="cs-extra-data-label">Matching Weapon:</div>
               <div data-ng-repeat='matchingWeapon in data.selectedCard.matchingWeapon track by $index'>
                 {{matchingWeapon}}
               </div>
-            </div>
+            </div><!-- / Matching Weapon -->
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.canceledBy">
               <div class="cs-extra-data-label">Canceled By:</div>
               <div data-ng-repeat='canceledBy in data.selectedCard.canceledBy track by $index'>
                 {{canceledBy}}
               </div>
-            </div>
+            </div><!-- / Canceled By -->
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.cancels">
               <div class="cs-extra-data-label">Cancels:</div>
               <div data-ng-repeat='cancels in data.selectedCard.cancels track by $index'>
                 {{cancels}}
               </div>
-            </div>
+            </div><!-- / Cancels -->
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.abbreviation">
               <div class="cs-extra-data-label">Abbreviation:</div>
               <div data-ng-bind-html='data.selectedCard.abbreviation | to_trusted' class="cs-exta-data-block"></div>
-            </div>
-            <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.rulings">
+            </div><!-- / Abbreviation -->
+            <div class="cs-extra-data-column" data-ng-if="data.selectedCard.rulings">
               <div class="cs-extra-data-label">Rulings:</div>
               <div data-ng-repeat='rulings in data.selectedCard.rulings track by $index' class="cs-rulings-block">
                 {{rulings}}
               </div>
-            </div>
+            </div><!-- / rulings -->
+
+            <div class="cs-extra-data-column" ng-if="(data.selectedCard.front.type == 'Character')">
+              <div class="cs-extra-data-label">Important Details:</div>
+              <div class="cs-rulings-block">{{data.selectedCard.front.type}}</div>
+              <div class="cs-rulings-block">{{data.selectedCard.front.subType}}</div>
+
+              <!-- ######## NOT A REBEL ########## -->
+              <div class="ability-info ability-not-a-jedi" ng-if="(data.selectedCard.front.side == 'Light') && (data.selectedCard.front.subType == 'Resistance')">
+                <strong>NOT A REBEL</strong><p />
+                The <strong>Resistance</strong> is different than the <strong>Rebel Alliance</strong>.
+              </div>
+
+              <!-- ######## NOT A RESISTANCE ########## -->
+              <div class="ability-info ability-not-a-jedi" ng-if="(data.selectedCard.front.side == 'Light') && (data.selectedCard.front.subType == 'Rebel')">
+                <strong>NOT A MEMBER OF RESISTANCE</strong><p />
+                The <strong>Resistance</strong> is different than the <strong>Rebel Alliance</strong>.
+              </div>
+
+
+              <!-- ######## NOT A JEDI ########## -->
+              <div class="ability-info ability-not-a-jedi" ng-if="(data.selectedCard.front.side == 'Light') && (data.selectedCard.front.ability < 6)">
+                <strong>NOT A JEDI</strong><p />
+                Any character with an <strong>ability</strong> less than 6 is <em>never</em> considered a Jedi, Dark Jedi, or Sith.
+              </div>
+
+              <div class="ability-info ability-not-a-jedi" ng-if="(data.selectedCard.front.side == 'Dark') && (data.selectedCard.front.ability < 6)">
+                <strong>NOT A DARK JEDI or SITH</strong><p />
+                Any character with an <strong>ability</strong> less than 6 is <em>never</em> considered a Jedi, Dark Jedi, or Sith.
+              </div>
+
+              <!-- ######## JEDI KNIGHT ########## -->
+
+              <div class="ability-info ability-jedi-knight" ng-if="(data.selectedCard.front.side == 'Light') && (data.selectedCard.front.ability == 6)">
+                <strong>JEDI KNIGHT</strong><p />
+                Any character with an <strong>ability</strong> less than 6 is <em>never</em> considered a Jedi, Dark Jedi, or Sith.<p />Characters with an ability of 7 are Masters.
+              </div>
+
+              <div class="ability-info ability-dark-jedi" ng-if="(data.selectedCard.front.side == 'Dark') && (data.selectedCard.front.ability == 6)">
+                <strong>DARK JEDI or SITH</strong><p />
+                Any character with an <strong>ability</strong> less than 6 is <em>never</em> considered a Jedi, Dark Jedi, or Sith.<p />Characters with an ability of 7 are Masters.
+              </div>
+
+              <!-- ######## JEDI MASTER ########## -->
+
+              <div class="ability-info ability-jedi-master" ng-if="(data.selectedCard.front.side == 'Light') && (data.selectedCard.front.ability == 7)">
+                <strong>JEDI MASTER</strong><p />
+                Any character with an <strong>ability</strong> less than 6 is <em>never</em> considered a Jedi, Dark Jedi, or Sith.<p />Characters with an ability of 7 are Masters.
+              </div>
+
+              <div class="ability-info ability-dark-jedi-master" ng-if="(data.selectedCard.front.side == 'Dark') && (data.selectedCard.front.ability == 7)">
+                <strong>DARK JEDI MASTER or SITH MASTER</strong><p />
+                Any character with an <strong>ability</strong> less than 6 is <em>never</em> considered a Jedi, Dark Jedi, or Sith.<p />Characters with an ability of 7 are Masters.
+              </div>
+
+            </div><!-- / important details -->
+
           </div>
 
         </div>

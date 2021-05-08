@@ -337,7 +337,7 @@
 .cs-extra-data {
   position: relative;
   float: right;
-  height: 100%;
+  min-height: 100%;
   width: 250px;
   background: #f2f2f2;
   border: thin solid #AAA;
@@ -501,3 +501,17 @@
 #cs-advanced-field-name-dropdown {
   text-transform: capitalize !important;
 }
+
+
+
+div.ability-info             { 
+  border:1px #807f80 solid;
+  text-align:center;
+  margin-bottom:4px;
+}
+div.ability-not-a-jedi       { background-color:#999999; }
+div.ability-jedi-knight      { background-color:#a3dcff; }
+div.ability-jedi-master      { background-color:#bfffbf; }
+div.ability-dark-jedi        { background-color:#ffc0bf; }
+div.ability-dark-jedi-master { background-color:#ff7f80; }
+
