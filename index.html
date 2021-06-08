@@ -143,20 +143,32 @@
               <div class="cs-rulings-block">{{data.selectedCard.front.type}}</div>
               <div class="cs-rulings-block">{{data.selectedCard.front.subType}}</div>
 
-              <!-- ######## NOT A REBEL ########## -->
+
+              <!-- Removing these sections for now until we can find a better plan which isn't quite as obtrusive 
+                   and doesn't clutter things. (For example, having "NOT A JEDI" on things like Jawas is odd)
+
+                   Ideas:
+                   1) Only put "Not a Jedi" on characters who are ability >= 5 which aren't Jedi?
+                      And also make it not in all-caps and sticking out so much
+                   2) Put "Resistance" as a hyperlink where the hyperlink tells you what Resistance characters are
+                   3) Have all of the cards with Force-Attuned, Force Sensitive, Jedi Knight, Master, etc
+                      have a hyperlink which shows what those things are instead of it being there directly
+                      on the page
+
+              !-- ######## NOT A REBEL ########## --
               <div class="ability-info ability-not-a-jedi" ng-if="(data.selectedCard.front.side == 'Light') && (data.selectedCard.front.subType == 'Resistance')">
                 <strong>NOT A REBEL</strong><p />
                 The <strong>Resistance</strong> is different than the <strong>Rebel Alliance</strong>.
               </div>
 
-              <!-- ######## NOT A RESISTANCE ########## -->
+              !-- ######## NOT A RESISTANCE ########## --
               <div class="ability-info ability-not-a-jedi" ng-if="(data.selectedCard.front.side == 'Light') && (data.selectedCard.front.subType == 'Rebel')">
                 <strong>NOT A MEMBER OF RESISTANCE</strong><p />
                 The <strong>Resistance</strong> is different than the <strong>Rebel Alliance</strong>.
               </div>
 
 
-              <!-- ######## NOT A JEDI ########## -->
+              !-- ######## NOT A JEDI ########## --
               <div class="ability-info ability-not-a-jedi" ng-if="(data.selectedCard.front.side == 'Light') && (data.selectedCard.front.ability < 6)">
                 <strong>NOT A JEDI</strong><p />
                 Any character with an <strong>ability</strong> less than 6 is <em>never</em> considered a Jedi, Dark Jedi, or Sith.
@@ -167,8 +179,7 @@
                 Any character with an <strong>ability</strong> less than 6 is <em>never</em> considered a Jedi, Dark Jedi, or Sith.
               </div>
 
-              <!-- ######## JEDI KNIGHT ########## -->
-
+              !-- ######## JEDI KNIGHT ########## --
               <div class="ability-info ability-jedi-knight" ng-if="(data.selectedCard.front.side == 'Light') && (data.selectedCard.front.ability == 6)">
                 <strong>JEDI KNIGHT</strong><p />
                 Any character with an <strong>ability</strong> less than 6 is <em>never</em> considered a Jedi, Dark Jedi, or Sith.<p />Characters with an ability of 7 are Masters.
@@ -179,7 +190,7 @@
                 Any character with an <strong>ability</strong> less than 6 is <em>never</em> considered a Jedi, Dark Jedi, or Sith.<p />Characters with an ability of 7 are Masters.
               </div>
 
-              <!-- ######## JEDI MASTER ########## -->
+              !-- ######## JEDI MASTER ########## --
 
               <div class="ability-info ability-jedi-master" ng-if="(data.selectedCard.front.side == 'Light') && (data.selectedCard.front.ability == 7)">
                 <strong>JEDI MASTER</strong><p />
@@ -190,6 +201,7 @@
                 <strong>DARK JEDI MASTER or SITH MASTER</strong><p />
                 Any character with an <strong>ability</strong> less than 6 is <em>never</em> considered a Jedi, Dark Jedi, or Sith.<p />Characters with an ability of 7 are Masters.
               </div>
+            -->
 
             </div><!-- / important details -->
 
