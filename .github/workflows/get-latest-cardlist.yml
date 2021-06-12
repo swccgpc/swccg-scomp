@@ -1,51 +1,48 @@
----
-
-name: Remote Dispatch Action Responder
-
-on: [repository_dispatch]
-
-jobs:
-  ping-pong:
+--- 
+jobs: 
+  ping-pong: 
     runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-      with:
-        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
-        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
-      - name: Downloading latest json files
-        run: |+
-          echo
-          echo "Event '${{ github.event.action }}' received from '${{ github.event.client_payload.repository }}'"
-          echo
-          echo "Downloading latest Dark.json"
-          curl -O https://raw.githubusercontent.com/swccgpc/swccg-card-json/main/Dark.json
-          echo
-          echo "Downloading latest DarkLegacy.json"
-          curl -O https://raw.githubusercontent.com/swccgpc/swccg-card-json/main/DarkLegacy.json
-          echo
-          echo "Downloading latest Light.json"
-          curl -O https://raw.githubusercontent.com/swccgpc/swccg-card-json/main/Light.json
-          echo
-          echo "Downloading latest LightLegacy.json"
-          curl -O https://raw.githubusercontent.com/swccgpc/swccg-card-json/main/LightLegacy.json
-          echo
-          echo "Downloading latest sets.json"
-          curl -O https://raw.githubusercontent.com/swccgpc/swccg-card-json/main/sets.json
-          echo
-          echo
-    - name: Commit files
-      run: |
-        git config --local user.email "devon+github-actions[bot]@hubner.org"
-        git config --local user.name "github-actions[bot]"
-        git add -A . ; true
-        git commit -m "Downloading latest json files from swccg-card-json" -a ; true
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
-
-
-
-
-
+    steps: 
+      - 
+        uses: actions/checkout@v2
+        with: 
+          fetch-depth: 0
+          persist-credentials: false
+      - 
+        name: "Downloading latest json files"
+        run: |
+            echo
+            echo "Event '${{ github.event.action }}' received from '${{ github.event.client_payload.repository }}'"
+            echo
+            echo "Downloading latest Dark.json"
+            curl -O https://raw.githubusercontent.com/swccgpc/swccg-card-json/main/Dark.json
+            echo
+            echo "Downloading latest DarkLegacy.json"
+            curl -O https://raw.githubusercontent.com/swccgpc/swccg-card-json/main/DarkLegacy.json
+            echo
+            echo "Downloading latest Light.json"
+            curl -O https://raw.githubusercontent.com/swccgpc/swccg-card-json/main/Light.json
+            echo
+            echo "Downloading latest LightLegacy.json"
+            curl -O https://raw.githubusercontent.com/swccgpc/swccg-card-json/main/LightLegacy.json
+            echo
+            echo "Downloading latest sets.json"
+            curl -O https://raw.githubusercontent.com/swccgpc/swccg-card-json/main/sets.json
+            echo
+            echo
+      - 
+        name: "Commit files"
+        run: |
+            git config --local user.email "devon+github-actions[bot]@hubner.org"
+            git config --local user.name "github-actions[bot]"
+            git add -A . ; true
+            git commit -m "Downloading latest json files from swccg-card-json" -a ; true
+      - 
+        name: "Push changes"
+        uses: ad-m/github-push-action@master
+        with: 
+          branch: "${{ github.ref }}"
+          github_token: "${{ secrets.GITHUB_TOKEN }}"
+name: "Remote Dispatch Action Responder"
+true: 
+  - repository_dispatch
