@@ -25,7 +25,7 @@ jobs:
       - name: sync to s3
         run: |+
           aws s3 sync . s3://scomp.starwarsccg.org/ --exclude '.git/*' --exclude '.github/*' --exclude 'node_modules/*' --exclude README.md --exclude package-lock.json --exclude package.json --exclude create_json.js --exclude s3_website.yml
-          aws cloudfront create-invalidation --distribution-id E2CSZKAUVDC9IT --paths "/"
+          aws cloudfront create-invalidation --distribution-id E2CSZKAUVDC9IT --paths "/" "/Dark.json" "/Light.json" "/sets.json"
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
