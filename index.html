@@ -127,7 +127,7 @@
                 {{cancels}}
               </div>
             </div><!-- / Cancels -->
-            <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.abbreviations">
+            <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.abbreviations && data.selectedCard.abbreviations.length > 0">
               <div class="cs-extra-data-label">Abbreviations:</div>
               <div data-ng-repeat='abbreviation in data.selectedCard.abbreviations track by $index'>
                 {{abbreviation}}
