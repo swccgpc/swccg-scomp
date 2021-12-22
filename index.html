@@ -127,9 +127,11 @@
                 {{cancels}}
               </div>
             </div><!-- / Cancels -->
-            <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.abbreviation">
-              <div class="cs-extra-data-label">Abbreviation:</div>
-              <div data-ng-bind-html='data.selectedCard.abbreviation | to_trusted' class="cs-exta-data-block"></div>
+            <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.abbreviations">
+              <div class="cs-extra-data-label">Abbreviations:</div>
+              <div data-ng-repeat='abbreviation in data.selectedCard.abbreviations track by $index'>
+                {{abbreviation}}
+              </div>
             </div><!-- / Abbreviation -->
             <div class="cs-extra-data-column" data-ng-if="data.selectedCard.rulings">
               <div class="cs-extra-data-label">Rulings:</div>
@@ -282,7 +284,7 @@
               <option value="JEDI_TEST">Jedi Test</option>
               <option value="LOCATION">Location</option>
               <option value="OBJECTIVE">Objective</option>
-              <option value="PODRADER">Podracer</option>
+              <option value="PODRACER">Podracer</option>
               <option value="STARSHIP">Starship</option>
               <option value="VEHICLE">Vehicle</option>
               <option value="WEAPON">Weapon</option>
