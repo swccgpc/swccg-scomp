@@ -366,9 +366,21 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     }
     if (searchText !== "" && $scope.search.searchField === "TITLE") {
       andSearches.push({
-        condition: 'contains',
-        field: 'title',
-        data: searchText
+        group: {
+          operator: 'OR',
+          rules: [
+            {
+              condition: 'contains',
+              field: 'title',
+              data: searchText
+            },
+            {
+              condition: 'contains',
+              field: 'abbreviations',
+              data: searchText
+            }
+          ]
+        }
       });
     }
 
@@ -637,6 +649,7 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
       if (card.links_large.length > 1) {
         card.links_large[1] = card.links_large[1].replace("?raw=true", "");
       }
+      card.abbreviations = card.abbr ?? [];
 
       addCardDataToFrontBack(card, card.front);
       addCardDataToFrontBack(card, card.back);
@@ -689,10 +702,10 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     cardSide.matchingWeapon = card.matchingWeapon;
     cardSide.canceledBy = card.canceledBy;
     cardSide.cancels = card.cancels;
-    cardSide.abbreviation = card.abbreviation;
+    cardSide.abbreviations = card.abbreviations;
     cardSide.titleSortable = getSimpleName(card.front.title);
     cardSide.setAbbreviation = getSetAbbreviation(card.set);
-
+    
     // If we are missing an array completely, just stick an empty one in it's place
     if (!cardSide.icons) {
       cardSide.icons = [];
@@ -1183,7 +1196,7 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
             card.matchingWeapon ||
             card.canceledBy ||
             card.cancels ||
-            card.abbreviation;
+            card.abbreviations;
   };
 
 
