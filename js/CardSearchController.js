@@ -30,6 +30,8 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     sets: [],
     loadingLight: true,
     loadingDark: true,
+    loadingLegacyLight: true,
+    loadingLegacyDark: true,
     loadingSets: true,
     cardValueMap: null,
     cardFields: []
@@ -41,7 +43,10 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     sets: [], // From sets.json
     loadingLight: true,
     loadingDark: true,
+    loadingLegacyLight: true,
+    loadingLegacyDark: true,
     loadingSets: true,
+    shouldLoadLegacy: false,
     performedSearch: false,
     noResultsFound: false,
     selectedCard: null,
@@ -207,6 +212,10 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     doSearch();
   };
 
+  $scope.toggleLegacyCards = function() {
+    reloadCards();
+  };
+
   $scope.removeCondition = function() {
     for (var i = 0; i < $scope.data.advancedConditions.length; i++) {
       var condition = $scope.data.advancedConditions[i];
@@ -224,6 +233,7 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     $scope.data.advancedOperator = "contains";
     doSearch();
   };
+
 
 
   function buildRule(fieldName, text, operator) {
@@ -460,25 +470,56 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
   // Load cached data if available!
   loadCachedData();
 
-  $http.get('Light.json').success(function(data) {
-    addCardsFromJson(data);
-    $scope.downloadedData.loadingLight = false;
+  function reloadCards() {
 
-    massageData();
-  }).error(function(err) {
-    console.error("Data load failure. Defaulting to text-only");
-    $scope.data.textOnly = true;
-  });
+    $scope.downloadedData.cardList = [];
 
-  $http.get('Dark.json').success(function(data) {
-    addCardsFromJson(data);
-    $scope.downloadedData.loadingDark = false;
+    $http.get('Light.json').success(function(data) {
+      addCardsFromJson(data);
+      $scope.downloadedData.loadingLight = false;
+  
+      massageData();
+    }).error(function(err) {
+      console.error("Data load failure. Defaulting to text-only");
+      $scope.data.textOnly = true;
+    });
+  
+    $http.get('Dark.json').success(function(data) {
+      addCardsFromJson(data);
+      $scope.downloadedData.loadingDark = false;
+  
+      massageData();
+    }).error(function(err) {
+      console.error("Data load failure. Defaulting to text-only");
+      $scope.data.textOnly = true;
+    });
 
-    massageData();
-  }).error(function(err) {
-    console.error("Data load failure. Defaulting to text-only");
-    $scope.data.textOnly = true;
-  });
+
+    if ($scope.data.shouldLoadLegacy) {
+      $http.get('LightLegacy.json').success(function(data) {
+        addCardsFromJson(data);
+        $scope.downloadedData.loadingLegacyLight = false;
+
+        massageData();
+      }).error(function(err) {
+        console.error("Data load failure. Defaulting to text-only");
+        $scope.data.textOnly = true;
+      });
+    
+      $http.get('DarkLegacy.json').success(function(data) {
+        addCardsFromJson(data);
+        $scope.downloadedData.loadingLegacyDark = false;
+
+        massageData();
+      }).error(function(err) {
+        console.error("Data load failure. Defaulting to text-only");
+        $scope.data.textOnly = true;
+      });
+    }
+
+  };
+
+
 
   $http.get('sets.json').success(function(setsData) {
     $scope.downloadedData.sets = setsData;
@@ -489,7 +530,6 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     console.error("Data load failure. Defaulting to text-only");
     $scope.data.textOnly = true;
   });
-
 
 
   /**
@@ -508,10 +548,17 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     // Once we have all of the real data loaded. Move it into the active data!
     if (!$scope.downloadedData.loadingLight &&
         !$scope.downloadedData.loadingDark &&
-        !$scope.downloadedData.loadingSets)
+        !$scope.downloadedData.loadingSets &&
+        !isLoadingLegacy())
     {
       swapActiveDataWithLoadedData($scope.downloadedData);
+      doSearch();
     }
+  }
+
+  function isLoadingLegacy() {
+    if (!$scope.data.shouldLoadLegacy) return false;
+    return $scope.downloadedData.loadingLegacyDark || $scope.downloadedData.loadingLegacyLight;
   }
 
   function swapActiveDataWithLoadedData(downloadedData) {
@@ -520,6 +567,8 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     $scope.data.loadingLight = downloadedData.loadingLight;
     $scope.data.loadingDark = downloadedData.loadingDark;
     $scope.data.loadingSets = downloadedData.loadingSets;
+    $scope.data.loadingLegacyLight = downloadedData.loadingLegacyLight;
+    $scope.data.loadingLegacyDark = downloadedData.loadingLegacyDark;
     $scope.data.cardValueMap = downloadedData.cardValueMap;
     $scope.data.cardFields = downloadedData.cardFields;
 
@@ -656,9 +705,9 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
       var card = cards[i];
 
       // Skip legacy cards!
-      if (card.legacy) {
-        continue;
-      }
+      //if (card.legacy) {
+      //  continue;
+      //}
 
       // Trim some data to save space
       delete card.id;
@@ -931,9 +980,9 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     var matches = [];
     for (var i = 0; i < $scope.data.cardList.length; i++) {
       var card = $scope.data.cardList[i];
-      if (card.legacy) {
-        continue;
-      }
+      //if (card.legacy) {
+      //  continue;
+      //}
 
       // Empty field. Just ignore it!
       if (rule.data === "") {
@@ -1137,6 +1186,10 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
             card.abbreviation;
   };
 
+
+  $timeout(function() {
+    reloadCards();
+  })
 
 
   // Listen for events on load
