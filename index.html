@@ -140,6 +140,13 @@
               </div>
             </div><!-- / rulings -->
 
+            <div class="cs-extra-data-column" data-ng-if="data.selectedCard.rules">
+              <div class="cs-extra-data-label">Rules:</div>
+              <div data-ng-repeat='rules in data.selectedCard.rules track by $index' class="cs-rulings-block">
+                <a href="{{rules.url}}">{{rules.name}}</a>
+              </div>
+            </div><!-- / rulings -->
+
             <div class="cs-extra-data-column" ng-if="(data.selectedCard.front.type == 'Character')">
               <div class="cs-extra-data-label">Important Details:</div>
               <div class="cs-rulings-block">{{data.selectedCard.front.type}}</div>
