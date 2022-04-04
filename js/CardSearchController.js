@@ -630,6 +630,7 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
 
     var setNameMapping = {};
     data.sets.forEach(function(set) {
+      set.name = fixReflectionsString(set.name);
       setNameMapping[set.id] = set.name;
     });
 
@@ -656,9 +657,49 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
 
       convertNumberDataFromStrings(card.front);
       convertNumberDataFromStrings(card.back);
+
+      fixIcons(card.front);
+      fixIcons(card.back);
+
+      fixGametext(card.front);
+      fixGametext(card.back);
     }
 
     console.log("Added titles for card count: " + $scope.data.cardList.length);
+  }
+
+  function fixGametext(cardFrontOrBack) {
+    if (!cardFrontOrBack || !cardFrontOrBack.gametext) return;
+
+    cardFrontOrBack.gametext = cardFrontOrBack.gametext.replaceAll('Reflections III', 'Reflections 3');
+    cardFrontOrBack.gametext = cardFrontOrBack.gametext.replaceAll('Reflections II', 'Reflections 2');
+    cardFrontOrBack.gametext = cardFrontOrBack.gametext.replaceAll('Reflections I', 'Reflections 1');
+  }
+
+  function fixReflectionsString(str) {
+    if (str === 'Reflections I') {
+      return 'Reflections 1'
+    }
+    else if (str === 'Reflections II') {
+      return 'Reflections 2'
+    }
+    else if (str === 'Reflections III') {
+      return 'Reflections 3';
+    }
+
+    return str;
+  }
+
+  // Fix "Reflections III" => "Reflections 3"
+  function fixIcons(cardFrontOrBack) {
+    if (!cardFrontOrBack) return;
+
+    var icons = cardFrontOrBack.icons;
+    if (icons) {
+      icons.forEach(function(icon, index) {
+        icons[index] = fixReflectionsString(icon);
+      });
+    }
   }
 
   /*
@@ -804,10 +845,19 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
       case "Reflections I": {
         return "Ref1";
       }
+      case "Reflections 1": {
+        return "Ref1";
+      }
       case "Reflections II": {
         return "Ref2";
       }
+      case "Reflections 2": {
+        return "Ref2";
+      }
       case "Reflections III": {
+        return "Ref3";
+      }
+      case "Reflections 3": {
         return "Ref3";
       }
       case "Demo Deck": {
