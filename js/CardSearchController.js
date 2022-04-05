@@ -67,7 +67,7 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
       { name: "doesn't contain"},
       { name: '>' },
       { name: '<' },
-      //{ name: '=' }, Gets confusing with multi-value fields, so just removing
+      { name: '=' },
       { name: '<=' },
       { name: '>=' },
       { name: 'not'}
@@ -638,7 +638,8 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
       var card = data.cardList[i];
       card.titleSortable = CDFService.getSimpleName(card.front.title);
       card.set = setNameFromSetId(card.set, setNameMapping);
-      card.setAbbreviation = CDFService.getSetAbbreviation(card.set);
+      card.setAbbreviation = getSetAbbreviation(card.set);
+      
       card.links = [card.front.imageUrl];
       if (card.back && card.back.imageUrl) {
         card.links.push(card.back.imageUrl);
@@ -809,11 +810,14 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
 
   function getSetAbbreviation(setName) {
     switch (setName) {
-      case "Premier": {
-        return "PR";
+      case "Premiere": {
+        return "P";
       }
       case "A New Hope": {
         return "ANH";
+      }
+      case "Hoth": {
+        return "H";
       }
       case "Dagobah": {
         return "DAG";
@@ -829,6 +833,39 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
       }
       case "Endor": {
         return "EDR";
+      }
+      case "Enhanced Cloud City": {
+        return "ECC";
+      }
+      case "Enhanced Premiere": {
+        return "EP";
+      }
+      case "Enhanced Jabba's Palace": {
+        return "EJP";
+      }
+      case "Official Tournament Sealed Deck": {
+        return "OTSD";
+      }
+      case "Jabba's Palace Sealed Deck": {
+        return "JPSD";
+      }
+      case "Jedi Pack": {
+        return "JEDI";
+      }
+      case "Premiere Introductory Two Player Game": {
+        return "P2PG";
+      }
+      case "Empire Strikes Back Introductory Two Player Game": {
+        return "H2PG";
+      }
+      case "Third Anthology": {
+        return "3ANTH";
+      }
+      case "Second Anthology": {
+        return "2ANTH";
+      }
+      case "First Anthology": {
+        return "1ANTH";
       }
       case "Death Star II": {
         return "DS2";
@@ -914,37 +951,51 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     */
 
     var valueToCompare = value;
-    var cardField = "";
+    var cardFields = [];
 
     // If the card data is of type number, then compare using numbers
     // If the card data is of type string, then do string compares
     if (typeof card[fieldName] === 'string')
     {
-      cardField = card[fieldName].toLowerCase();
+      cardFields.push(card[fieldName].toLowerCase());
       valueToCompare = value.toLowerCase();
     }
     else if (typeof card[fieldName] === 'number')
     {
-      cardField = parseFloat(card[fieldName]);
+      cardFields.push(parseFloat(card[fieldName]));
       valueToCompare = parseFloat(value);
     }
     else if (Array.isArray(card[fieldName]))
     {
       // Add all string values from the array
-      cardField = "";
       card[fieldName].forEach(function(txt) {
-        cardField += " " + txt.toLowerCase();
+        cardFields.push(txt.toLowerCase());
       });
       valueToCompare = value.toLowerCase();
+    }
+    else 
+    {
+      cardFields.push(card[fieldName]);
+      valueToCompare = value;
     }
 
     // For "contains", treat them all as strings
     if ((compareType === "contains") || (compareType === "doesn't contain"))
     {
-      cardField = ("" + card[fieldName]).toLowerCase();
+      cardFields.push(("" + card[fieldName]).toLowerCase());
       valueToCompare = value.toLowerCase();
     }
 
+    // Some fields like 'icons' have multiple fields, so loop over each possibility
+    var anyMatches = false;
+    cardFields.forEach(function(cardField) {
+      anyMatches = anyMatches || compareField(compareType, cardField, valueToCompare);
+    });
+
+    return anyMatches;
+  }
+
+  function compareField(compareType, cardField, valueToCompare) {
     if (compareType === '=') {
       return cardField == valueToCompare; //jshint ignore:line
     } else if (compareType === 'not') {
@@ -965,9 +1016,7 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
       console.error("Unknown compare type: " + compareType);
       return false;
     }
-
   }
-
 
   /**
    * Get a list of all cards that exist in either list #1 or list #2
