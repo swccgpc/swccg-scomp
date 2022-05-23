@@ -1,6 +1,6 @@
 'use strict';
 var cardSearchApp = angular.module('cardSearchApp');
-cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http', '$timeout', '$window', 'CDFService', 'ExportService', 'SWIPService',  function($scope, $document, $http, $timeout, $window, CDFService, ExportService, SWIPService) {
+cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http', '$timeout', '$window', '$location', 'CDFService', 'ExportService', 'SWIPService',  function($scope, $document, $http, $timeout, $window, $location, CDFService, ExportService, SWIPService) {
 
   var LOCAL_STORAGE_DATA_KEY = "scomp_data";
 
@@ -1300,8 +1300,22 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
 
 
   $timeout(function() {
+    /*
+     * Load the card database in to memory
+     */
     reloadCards();
-  })
+    /*
+     * Check if a search string was passed via the ?s= location.
+     * If a search string was passed, then populate the "Search Text" box and trigger a search.
+     * Example: ?s=%E2%80%A2Kalit%27s%20Sandcrawler
+     */
+    console.log("s:",$location.search().s,typeof $location.search().s);
+    if ((typeof $location.search().s != undefined) && ($location.search().s != undefined)) {
+      $scope.search.text = $location.search().s;
+      console.log("Searching for:",$scope.search.text);
+      doSearch();
+    }
+  }) // timeout
 
 
   // Listen for events on load
