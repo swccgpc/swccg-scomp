@@ -1262,13 +1262,20 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
 
     if ($scope.data.matches.length === 0) {
       $scope.data.noResultsFound = true;
+    /*
+     * If the length of the found cards is exactly 1 card,
+     * then click the card and display it.
+     */
+    } else if ($scope.data.matches.length === 1) {
+      $scope.data.noResultsFound = false;
+      selectCardAtIndex(0);
     } else {
       $scope.data.noResultsFound = false;
     }
 
     $scope.data.matches.sort(sortByName);
     $scope.data.showAdvancedSearch = false;
-  }
+  } // function performSearchAndDisplayResults
 
 
   $scope.onImageLoadError = function() {
