@@ -132,7 +132,6 @@
 .cs-card-preview-overlay {
   position: relative;
   float: right;
-  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .cs-card-preview-text-only {
@@ -140,7 +139,7 @@
   float: right;
 
   width: 400px;
-  height: 600px;
+  height: 570px;
 
   z-index: 999999;
   text-align: left;
@@ -148,6 +147,8 @@
   background-color: white;
   border: thin solid black;
   box-shadow: 2px 2px 2px black;
+
+  overflow-wrap: break-word;
 }
 
 .cs-card-preview-image {
