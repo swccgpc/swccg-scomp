@@ -93,13 +93,12 @@
               <div data-ng-repeat='pulledBy in data.selectedCard.pulledBy track by $index'>
                 <div ng-bind-html="pulledBy | to_trusted"></div>
               </div>
-              <!-- <div data-ng-bind-html='data.selectedCard.pulledBy | to_trusted' class="cs-exta-data-block"></div> -->
             </div>
 
             <!-- Counterpart -->
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.counterpart">
               <div class="cs-extra-data-label">Counterpart:</div>
-              <div data-ng-bind-html='data.selectedCard.counterpart | to_trusted' class="cs-exta-data-block"></div>
+              <div data-ng-bind-html='data.selectedCard.counterpart | to_trusted'></div>
             </div>
 
             <!-- Combo -->
@@ -159,7 +158,7 @@
             </div>
 
             <!-- Important Details -->
-            <div class="cs-extra-data-column" ng-if="(data.selectedCard.front.type == 'Character')">
+            <div class="cs-extra-data-column" ng-if="(data.selectedCard.front.type == 'Character') || data.selectedCard.front.characteristics || data.selectedCard.back.characteristics">
               <div class="cs-extra-data-label">Misc</div>
               <div >{{data.selectedCard.front.type}}: {{data.selectedCard.front.subType}}</div>
 
@@ -329,7 +328,7 @@
             <div class="cs-searchLabel">Search In</div>
             <select data-ng-model="search.searchField" class="cs-search-input" data-ng-change="searchIfNotEmpty()">
               <option value="ALL">Any</option>
-              <option value="TITLE">Title</option>
+              <option value="TITLE">Title / Abbreviation</option>
               <option value="GAMETEXT">Gametext</option>
               <option value="LORE">Lore</option>
             </select>
