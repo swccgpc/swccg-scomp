@@ -361,10 +361,14 @@
 }
 .cs-extra-data-column {
   text-align: left;
-  box-shadow: 1px 1px 1px black;
+  box-shadow: 1px 1px 1px gray;
   padding: 5px;
   width: 100%;
   overflow-y: auto;
+}
+
+.cs-extra-data-column ul {
+  padding-left: 1em;
 }
 
 .cs-extra-data-label {
@@ -500,6 +504,10 @@
 }
 
 #cs-advanced-field-name-dropdown {
+  text-transform: capitalize !important;
+}
+
+.cs-camel-cased {
   text-transform: capitalize !important;
 }
 

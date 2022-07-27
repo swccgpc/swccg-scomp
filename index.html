@@ -79,72 +79,105 @@
               No Additional Information
             </div>
 
+            <!-- Pulls -->
             <div class="cs-extra-data-column" data-ng-if="data.selectedCard.pulls">
               <div class="cs-extra-data-label">Pulls:</div>
               <div data-ng-repeat='pull in data.selectedCard.pulls track by $index'>
-                {{pull}}
+                <div ng-bind-html="pull | to_trusted"></div>
               </div>
-              <!--<div data-ng-bind-html='data.selectedCard.pulls | to_trusted' class="cs-exta-data-block"></div>-->
             </div>
+
+            <!-- Pulled By -->
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.pulledBy">
               <div class="cs-extra-data-label">Pulled By:</div>
               <div data-ng-repeat='pulledBy in data.selectedCard.pulledBy track by $index'>
-                {{pulledBy}}
+                <div ng-bind-html="pulledBy | to_trusted"></div>
               </div>
               <!-- <div data-ng-bind-html='data.selectedCard.pulledBy | to_trusted' class="cs-exta-data-block"></div> -->
-            </div><!-- / Pulled By -->
+            </div>
+
+            <!-- Counterpart -->
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.counterpart">
               <div class="cs-extra-data-label">Counterpart:</div>
               <div data-ng-bind-html='data.selectedCard.counterpart | to_trusted' class="cs-exta-data-block"></div>
-            </div><!-- / Counterpart -->
+            </div>
+
+            <!-- Combo -->
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.combo">
               <div class="cs-extra-data-label">Combo:</div>
               <div data-ng-repeat='combo in data.selectedCard.combo track by $index' class="cs-combo-block">
-                {{combo}}
+                <div ng-bind-html="combo | to_trusted"></div>
               </div>
-            </div><!-- / Combo -->
+            </div>
+            
+            <!-- Matching -->
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.matching">
               <div class="cs-extra-data-label">Matching:</div>
               <div data-ng-repeat='matching in data.selectedCard.matching track by $index'>
-                {{matching}}
+                <div ng-bind-html="matching | to_trusted"></div>
               </div>
-            </div><!-- / Matching -->
+            </div>
+
+            <!-- Matching Weapon -->
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.matchingWeapon">
               <div class="cs-extra-data-label">Matching Weapon:</div>
               <div data-ng-repeat='matchingWeapon in data.selectedCard.matchingWeapon track by $index'>
-                {{matchingWeapon}}
+                <div ng-bind-html="matchingWeapon | to_trusted"></div>
               </div>
-            </div><!-- / Matching Weapon -->
+            </div>
+
+            <!-- Canceled By -->
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.canceledBy">
               <div class="cs-extra-data-label">Canceled By:</div>
               <div data-ng-repeat='canceledBy in data.selectedCard.canceledBy track by $index'>
-                {{canceledBy}}
+                <div ng-bind-html="canceledBy | to_trusted"></div>
               </div>
-            </div><!-- / Canceled By -->
+            </div>
+
+            <!-- Cancels -->
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.cancels">
               <div class="cs-extra-data-label">Cancels:</div>
               <div data-ng-repeat='cancels in data.selectedCard.cancels track by $index'>
-                {{cancels}}
+                <div ng-bind-html="cancels | to_trusted"></div>
               </div>
-            </div><!-- / Cancels -->
+            </div>
+
+            <!-- Abbreviation -->
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.abbreviations && data.selectedCard.abbreviations.length > 0">
               <div class="cs-extra-data-label">Abbreviations:</div>
               <div data-ng-repeat='abbreviation in data.selectedCard.abbreviations track by $index'>
                 {{abbreviation}}
               </div>
-            </div><!-- / Abbreviation -->
+            </div>
+
+            <!-- Rulings -->
             <div class="cs-extra-data-column" data-ng-if="data.selectedCard.rulings">
               <div class="cs-extra-data-label">Rulings:</div>
               <div data-ng-repeat='rulings in data.selectedCard.rulings track by $index' class="cs-rulings-block">
                 <div ng-bind-html="rulings | to_trusted"></div>
               </div>
-            </div><!-- / rulings -->
+            </div>
 
+            <!-- Important Details -->
             <div class="cs-extra-data-column" ng-if="(data.selectedCard.front.type == 'Character')">
-              <div class="cs-extra-data-label">Important Details:</div>
-              <div class="cs-rulings-block">{{data.selectedCard.front.type}}</div>
-              <div class="cs-rulings-block">{{data.selectedCard.front.subType}}</div>
+              <div class="cs-extra-data-label">Misc</div>
+              <div >{{data.selectedCard.front.type}}: {{data.selectedCard.front.subType}}</div>
 
+              <!-- Characteristics -->
+              <div class="cs-rulings-block cs-camel-cased" data-ng-if="data.selectedCard.front.characteristics">
+                <ul>
+                  <li data-ng-repeat='characteristics in data.selectedCard.front.characteristics track by $index'>
+                    <div ng-bind-html="characteristics | to_trusted"></div>
+                  </li>
+                </ul>
+              </div>
+              <div class="cs-rulings-block cs-camel-cased" data-ng-if="data.selectedCard.back.characteristics">
+                <ul>
+                  <li data-ng-repeat='characteristics in data.selectedCard.back.characteristics track by $index'>
+                    <div ng-bind-html="characteristics | to_trusted"></div>
+                  </li>
+                </ul>
+              </div>
 
               <!-- Removing these sections for now until we can find a better plan which isn't quite as obtrusive 
                    and doesn't clutter things. (For example, having "NOT A JEDI" on things like Jawas is odd)
