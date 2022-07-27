@@ -651,7 +651,7 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
       if (card.links_large.length > 1) {
         card.links_large[1] = card.links_large[1].replace("?raw=true", "");
       }
-      card.abbreviations = card.abbr ?? [];
+      card.abbreviations = card.abbr ?? [];      
 
       addCardDataToFrontBack(card, card.front);
       addCardDataToFrontBack(card, card.back);
@@ -675,6 +675,16 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     cardFrontOrBack.gametext = cardFrontOrBack.gametext.replaceAll('Reflections III', 'Reflections 3');
     cardFrontOrBack.gametext = cardFrontOrBack.gametext.replaceAll('Reflections II', 'Reflections 2');
     cardFrontOrBack.gametext = cardFrontOrBack.gametext.replaceAll('Reflections I', 'Reflections 1');
+
+    if (cardFrontOrBack.characteristics) {
+      cardFrontOrBack.characteristics.sort(sortIgnoreCase)
+    }
+  }
+
+  function sortIgnoreCase(a, b) {
+    if (a.toLowerCase() < b.toLowerCase()) return -1;
+    if (a.toLowerCase() > b.toLowerCase()) return 1;
+    return 0;
   }
 
   function fixReflectionsString(str) {
@@ -987,12 +997,26 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     }
 
     // Some fields like 'icons' have multiple fields, so loop over each possibility
-    var anyMatches = false;
-    cardFields.forEach(function(cardField) {
-      anyMatches = anyMatches || compareField(compareType, cardField, valueToCompare);
-    });
+    var doesCardMatch = false;
+    
+    if (compareType != "doesn't contain") {
+      var anyMatches = false;
+      cardFields.forEach(function(cardField) {
+        anyMatches = anyMatches || compareField(compareType, cardField, valueToCompare);
+      });
+      doesCardMatch = anyMatches;
+    } 
+    else {
+      // For "doesn't contain", then they ALL need to evaluate to true
+      var noMatches = true;
+      cardFields.forEach(function(cardField) {
+        noMatches = noMatches && compareField(compareType, cardField, valueToCompare);
+      });
+      doesCardMatch = noMatches;
+    }
+    
 
-    return anyMatches;
+    return doesCardMatch;
   }
 
   function compareField(compareType, cardField, valueToCompare) {
