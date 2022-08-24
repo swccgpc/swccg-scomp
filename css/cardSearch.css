@@ -13,6 +13,10 @@
   color: white;
 }
 
+/* Adding a container will make the page responsive, but we don't want the extra margin it causes */
+.container-fluid > .row {
+  margin: 0;
+}
 .cs-main {
   padding: 5px;
   text-align: center;
