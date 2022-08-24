@@ -57,11 +57,16 @@
   border-bottom: thin solid #CACACA;
 }
 
+/* The search doesn't need to be this long when the screen is small*/
+@media (min-width: 768px) {
+  div.cs-search-pane {
+    height: 100vh;
+  }
+}
 .cs-search-pane {
   text-align: left;
   background-color: #DADADA;
   padding: 1em;
-  height: 100vh;
   border-right: thin solid #CACACA;
   background: linear-gradient(#DADADA, #FAFAFA);
 }
