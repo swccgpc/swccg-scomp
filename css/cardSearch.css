@@ -581,3 +581,14 @@ div.ability-jedi-master      { background-color:#bfffbf; }
 div.ability-dark-jedi        { background-color:#ffc0bf; }
 div.ability-dark-jedi-master { background-color:#ff7f80; }
 
+@media (min-height: 1025px) {
+  #results-link {
+    display: none;
+  }
+}
+
+#results-link {
+  float: right;
+  margin-top: 15px;
+  font-size: larger;
+}
