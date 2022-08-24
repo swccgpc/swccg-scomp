@@ -357,9 +357,14 @@
           <div class="cs-searchField cs-search-buttons">
 
             <button data-ng-click="clearSearch()" class="btn cs-card-search-button hyperstyle pull-left">Reset Search</button>
-            <button data-ng-click="doSearch()" class="btn btn-primary cs-card-search-button pull-right">Search</button>
-
+            <a href="#">
+              <button data-ng-click="doSearch()" class="btn btn-primary cs-card-search-button pull-right">
+                Search
+              </button>
+            </a>
+            
             <div class="clearfix"></div>
+            <a href="#results" id="results-link" data-ng-if="data.matches.length > 0">Jump to search results</a>
             <!-- <button data-ng-click="advancedSearchBuilder()" class="btn btn-primary cs-card-search-button">Advanced Search</button> -->
           </div>
 
@@ -448,7 +453,7 @@
         </div>
 
         <!-- Results Pane -->
-        <div class="col-xs-8 col-md-9 cs-search-results-pane table-responsive">
+        <div class="col-xs-8 col-md-9 cs-search-results-pane table-responsive" id="results">
           <!-- <div class="cs-search-results-label">Search Results</div> -->
           <table>
             <tr class="row cs-search-results-header">
