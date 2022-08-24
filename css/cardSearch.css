@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .button-hide-card-data {
     display: none;
   }
@@ -58,7 +58,7 @@
 }
 
 /* The search doesn't need to be this long when the screen is small*/
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   div.cs-search-pane {
     height: 100vh;
   }
@@ -74,6 +74,12 @@
 .cs-search-input {
   width: 100%;
   padding-left: 5px;
+}
+
+@media (max-width: 992px) {
+  .cs-search-results-pane {
+    min-width: 100%;
+  }
 }
 
 .cs-search-results-pane {
@@ -144,15 +150,17 @@
   color: white;
 }
 
-@media(min-width: 768px) {
+@media(min-width: 992px) {
   .cs-card-preview-pane {
     height: 100vh;
     position: fixed;
   }
 }
-@media(max-width: 768px) {
+@media(max-width: 992px) {
   .cs-card-preview-pane {
     position: absolute;
+    min-width: 100%;
+    background-color: #f2f2f2;
   }
 }
 
@@ -164,7 +172,7 @@
   z-index: 9999;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 992px) {
   div.cs-card-preview-overlay {
     float: none;
     margin-left: auto;
@@ -379,7 +387,7 @@
   left: 5px;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 992px) {
   div.cs-extra-data {
     width: 100%;
   }
