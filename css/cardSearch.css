@@ -143,14 +143,34 @@
 .cs-card-result-selected .cs-link {
   color: white;
 }
+
+@media(min-width: 768px) {
+  .cs-card-preview-pane {
+    height: 100vh;
+    position: fixed;
+  }
+}
+@media(max-width: 768px) {
+  .cs-card-preview-pane {
+    position: absolute;
+  }
+}
+
 .cs-card-preview-pane {
-  position: fixed;
   top: 0px;
   right: 0px;
-  height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
   z-index: 9999;
+}
+
+@media(max-width: 768px) {
+  div.cs-card-preview-overlay {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-grid;
+  }
 }
 
 .cs-card-preview-overlay {
@@ -273,7 +293,7 @@
 .cs-card-image {
   position: relative;
   height: auto;
-  width: 350px;
+  max-width: 350px;
   z-index: 9999999;
 }
 
@@ -359,11 +379,17 @@
   left: 5px;
 }
 
+@media(max-width: 768px) {
+  div.cs-extra-data {
+    width: 100%;
+  }
+}
+
 .cs-extra-data {
   position: relative;
   float: right;
-  min-height: 100%;
   width: 250px;
+  min-height: 100%;
   background: #f2f2f2;
   border: thin solid #AAA;
   z-index: 99999;
