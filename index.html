@@ -448,31 +448,32 @@
         </div>
 
         <!-- Results Pane -->
-        <div class="col-xs-8 col-md-9 cs-search-results-pane">
+        <div class="col-xs-8 col-md-9 cs-search-results-pane table-responsive">
           <!-- <div class="cs-search-results-label">Search Results</div> -->
-          <div class="row cs-search-results-header">
-            <div class="col-xs-4 cs-colored-column cs-color-1">
+          <table>
+            <tr class="row cs-search-results-header">
+            <th class="col-xs-4 cs-colored-column cs-color-1">
               Card Name
-            </div>
-            <div class="col-xs-1 cs-color-2">
+            </th>
+            <th class="col-xs-1 cs-color-2">
               Side
-            </div>
-            <div class="col-xs-1 cs-colored-column cs-color-1">
+            </th>
+            <th class="col-xs-1 cs-colored-column cs-color-1">
               Set
-            </div>
-            <div class="col-xs-1 cs-color-2">
+            </th>
+            <th class="col-xs-1 cs-color-2">
               Type
-            </div>
-            <div class="col-xs-3 cs-colored-column cs-color-1">
+            </th>
+            <th class="col-xs-3 cs-colored-column cs-color-1">
               Sub Type
-            </div>
-            <div class="col-xs-1 cs-color-2">
+            </th>
+            <th class="col-xs-1 cs-color-2">
               Rare
-            </div>
-            <div class="col-xs-1 cs-colored-column cs-color-1">
+            </th>
+            <th class="col-xs-1 cs-colored-column cs-color-1">
               Destiny
-            </div>
-          </div>
+            </th>
+          </tr>
 
           <div data-ng-if="data.loadingLight || data.loadingDark" class="cs-loading-data">
             Loading...
@@ -486,36 +487,37 @@
             No Matches Found
           </div>
 
-          <div class="row cs-card-result" data-ng-repeat="card in data.matches track by $index"
-               data-ng-class="{'cs-card-result-selected': card == data.lastSelectedCard}">
-            <div class="col-xs-4 cs-link cs-colored-column cs-color-1" data-ng-click="selectCard(card, $event)">
+          <tr class="row cs-card-result" data-ng-repeat="card in data.matches track by $index"
+                data-ng-class="{'cs-card-result-selected': card == data.lastSelectedCard}">
+            <td class="col-xs-4 cs-link cs-colored-column cs-color-1" data-ng-click="selectCard(card, $event)">
               {{card.front.title}}
-            </div>
-            <div class="col-xs-1 cs-color-2">
+            </td>
+            <td class="col-xs-1 cs-color-2">
               {{card.side}}
-            </div>
-            <div class="col-xs-1 cs-colored-column cs-color-1">
+            </td>
+            <td class="col-xs-1 cs-colored-column cs-color-1">
               {{card.setAbbreviation}}
-            </div>
-            <div class="col-xs-1 cs-color-2">
+            </td>
+            <td class="col-xs-1 cs-color-2">
               {{card.front.type}}
-            </div>
-            <div class="col-xs-3 cs-colored-column cs-color-1">
+            </td>
+            <td class="col-xs-3 cs-colored-column cs-color-1">
               <div>
                 {{card.front.subType}}
               </div>
-            </div>
-            <div class="col-xs-1 cs-color-2">
+            </td>
+            <td class="col-xs-1 cs-color-2">
               {{card.rarity}}
-            </div>
-            <div class="col-xs-1 cs-colored-column cs-color-1">
+            </td>
+            <td class="col-xs-1 cs-colored-column cs-color-1">
               {{card.front.destiny}}
-            </div>
-          </div>
+            </td>
+          </tr>
 
           <div class="cs-result-count" data-ng-if="data.matches.length > 0">
             Match Count: {{data.matches.length}}
           </div>
+          </table>
 
         </div>
 
