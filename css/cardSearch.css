@@ -1,3 +1,18 @@
+@media (min-width: 768px) {
+  .button-hide-card-data {
+    display: none;
+  }
+}
+.button-hide-card-data {
+  height: 50px;
+  width: 100%;
+  margin-top: 5px;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  border-radius: 4px;
+  color: white;
+}
+
 .cs-main {
   padding: 5px;
   text-align: center;

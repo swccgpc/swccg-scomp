@@ -273,12 +273,18 @@
         <div data-ng-if="!data.textOnly && !data.imageLoadFailure" class="cs-card-preview-overlay">
           <div class="cs-card-preview-image">
             <div data-ng-if="data.selectedCard.links.length == 1">
-              <img class="cs-card-image" align="right" ng-src="{{data.selectedCard.links_large[0]}}" on-load-error="onImageLoadError" on-load-success="onImageLoadSuccess">
+              <img class="cs-card-image img-responsive" align="right" ng-src="{{data.selectedCard.links_large[0]}}" on-load-error="onImageLoadError" on-load-success="onImageLoadSuccess">
             </div>
             <div data-ng-if="data.selectedCard.links.length > 1">
               <img class="cs-card-image-multiple" align="right" data-ng-repeat="link in data.selectedCard.links_large | orderBy:'$index':true" ng-src="{{link}}">
             </div>
           </div>
+          <button
+          class="cs-row-full-width button-hide-card-data"
+            @click="hideCardData"
+          >
+            Back to Search
+          </button>
         </div>
 
 
