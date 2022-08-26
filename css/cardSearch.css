@@ -158,9 +158,15 @@
 }
 @media(max-width: 992px) {
   .cs-card-preview-pane {
-    position: absolute;
+    height: 100%;
     min-width: 100%;
     background-color: #F3F3F3;
+  }
+}
+
+@media(max-width: 825px) {
+  .cs-card-preview-pane {
+    position: fixed;
   }
 }
 
@@ -392,12 +398,17 @@
     width: 100%;
   }
 }
+@media(min-width: 992px) {
+  div.cs-extra-data {
+    /* width: 100%; */
+    min-height: 100%;
+  }
+}
 
 .cs-extra-data {
   position: relative;
   float: right;
   width: 250px;
-  min-height: 100%;
   background: #f2f2f2;
   border: thin solid #AAA;
   z-index: 99999;
