@@ -552,10 +552,10 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     loadSearchData($scope.downloadedData);
 
     // For small screens (probably mobile), hide the extra data by default
-    var w = angular.element($window);
-    if (w.width() < 800) {
-      $scope.data.showExtraData = false;
-    }
+    // var w = angular.element($window);
+    // if (w.width() < 800) {
+    //   $scope.data.showExtraData = false;
+    // }
 
     // Once we have all of the real data loaded. Move it into the active data!
     if (!$scope.downloadedData.loadingLight &&
