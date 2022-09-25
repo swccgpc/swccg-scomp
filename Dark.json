@@ -460,7 +460,7 @@
       ],
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -497,7 +497,7 @@
       "rarity": "R1",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -661,7 +661,7 @@
       "rarity": "C1",
       "set": "201",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -758,7 +758,7 @@
       "rarity": "U1",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -1076,7 +1076,7 @@
       "rarity": "C",
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -1465,7 +1465,7 @@
       "rarity": "R2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -1563,7 +1563,7 @@
       "rarity": "R1",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -1683,7 +1683,7 @@
       ],
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "They Win This Round",
@@ -2146,7 +2146,7 @@
       "rarity": "R",
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -2183,7 +2183,7 @@
       ],
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -2731,7 +2731,7 @@
       "rarity": "U",
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -3052,7 +3052,7 @@
       ],
       "set": "10",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -3283,7 +3283,7 @@
       "rarity": "R2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Asteroid Field",
@@ -3345,7 +3345,7 @@
       "rarity": "U2",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "It's On Automatic Pilot!",
@@ -3409,7 +3409,7 @@
       "rarity": "U1",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -3537,7 +3537,7 @@
       "rarity": "R",
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -3673,7 +3673,7 @@
       "rarity": "PM",
       "set": "13",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -3950,7 +3950,7 @@
       ],
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -4113,7 +4113,7 @@
       "rarity": "R",
       "set": "7",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -4145,7 +4145,7 @@
       "rarity": "R",
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -4574,7 +4574,7 @@
       "rarity": "R",
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Security Control",
@@ -4686,7 +4686,7 @@
       ],
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -4754,7 +4754,7 @@
       "rarity": "C2",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -5149,7 +5149,7 @@
       "rarity": "R1",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -5323,7 +5323,7 @@
       ],
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -5450,7 +5450,7 @@
       "rarity": "PM",
       "set": "106",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -5575,7 +5575,7 @@
       ],
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -5605,7 +5605,7 @@
       ],
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Sai'torr Kal Fas (V)",
@@ -5639,7 +5639,7 @@
       "rarity": "U1",
       "set": "200",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -5678,7 +5678,7 @@
       "rarity": "C2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -5742,7 +5742,7 @@
       ],
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -5790,7 +5790,7 @@
       "rarity": "R1",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -5835,7 +5835,7 @@
       "rarity": "R2",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -6083,7 +6083,7 @@
       "rarity": "R1",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -6175,7 +6175,7 @@
       "rarity": "U2",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -6351,7 +6351,7 @@
       "rarity": "PM",
       "set": "13",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -6873,7 +6873,7 @@
       "rarity": "R",
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -6994,7 +6994,7 @@
       "rarity": "C",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -7116,7 +7116,7 @@
       "rarity": "U1",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -7203,7 +7203,7 @@
       "rarity": "R",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -7461,7 +7461,7 @@
       ],
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -7502,7 +7502,7 @@
       ],
       "set": "204",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -7817,7 +7817,7 @@
       ],
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -8150,7 +8150,7 @@
       "rarity": "U1",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -8195,7 +8195,7 @@
       "rarity": "U1",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -8243,7 +8243,7 @@
       ],
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -8285,7 +8285,7 @@
       "rarity": "PM",
       "set": "208",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -8428,7 +8428,7 @@
       "rarity": "R2",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -8618,7 +8618,7 @@
       "rarity": "U",
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -8767,7 +8767,7 @@
       ],
       "set": "106",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -8855,7 +8855,7 @@
       "rarity": "U1",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -8928,7 +8928,7 @@
       ],
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -9233,7 +9233,7 @@
       "rarity": "C",
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Cloud City Technician",
@@ -9474,7 +9474,7 @@
       "rarity": "C",
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -10071,7 +10071,7 @@
       ],
       "set": "13",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -10523,7 +10523,7 @@
       "rarity": "PM",
       "set": "13",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -10549,7 +10549,7 @@
       "rarity": "C",
       "set": "7",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Eject! Eject!",
@@ -10582,7 +10582,7 @@
       ],
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -10639,7 +10639,7 @@
       "rarity": "C",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -10723,7 +10723,7 @@
       "rarity": "U",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -10802,7 +10802,7 @@
       "rarity": "U",
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -11009,7 +11009,7 @@
       "rarity": "U",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "conceptBy": "(Original concept by UK Community)",
@@ -11113,7 +11113,7 @@
       "rarity": "U2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -11302,7 +11302,7 @@
       "rarity": "PM",
       "set": "13",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -11348,7 +11348,7 @@
       "rarity": "R1",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -12455,7 +12455,7 @@
       "rarity": "R",
       "set": "7",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -12756,7 +12756,7 @@
       "rarity": "U1",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -12918,7 +12918,7 @@
       "rarity": "U",
       "set": "7",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -12992,7 +12992,7 @@
       ],
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Dantooine",
@@ -13026,7 +13026,7 @@
       "rarity": "U1",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -13103,7 +13103,7 @@
       "rarity": "U2",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -13238,7 +13238,7 @@
       ],
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Jedi Lightsaber",
@@ -13271,7 +13271,7 @@
       "rarity": "U1",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -13416,7 +13416,7 @@
       "rarity": "PM",
       "set": "13",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -13451,7 +13451,7 @@
       "rarity": "C",
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -13790,7 +13790,7 @@
       ],
       "set": "203",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -14021,7 +14021,7 @@
       ],
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -14093,7 +14093,7 @@
       ],
       "set": "200",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -14352,7 +14352,7 @@
       "rarity": "R",
       "set": "208",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -14603,7 +14603,7 @@
       "rarity": "U1",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -14862,7 +14862,7 @@
       "rarity": "C",
       "set": "9",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -14894,7 +14894,7 @@
       "rarity": "C",
       "set": "9",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -15126,7 +15126,7 @@
       "rarity": "R2",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -15402,7 +15402,7 @@
       "rarity": "PM",
       "set": "101",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -15862,7 +15862,7 @@
       "rarity": "R",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -16011,7 +16011,7 @@
       "rarity": "PM",
       "set": "110",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -16063,7 +16063,7 @@
       "rarity": "PM",
       "set": "200",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -16101,7 +16101,7 @@
       "rarity": "R",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -16135,7 +16135,7 @@
       "rarity": "R",
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Desert",
@@ -16259,7 +16259,7 @@
       "rarity": "R",
       "set": "201",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -16502,7 +16502,7 @@
       "rarity": "C",
       "set": "14",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -16790,7 +16790,7 @@
       ],
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Disruptor Pistol",
@@ -17274,7 +17274,7 @@
       "rarity": "R",
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -17460,7 +17460,7 @@
       "rarity": "R2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -17680,7 +17680,7 @@
       "rarity": "C2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -18078,7 +18078,7 @@
       "rarity": "U1",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -18119,7 +18119,7 @@
       "rarity": "R1",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -18158,7 +18158,7 @@
       "rarity": "R2",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -18443,7 +18443,7 @@
       ],
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -18601,7 +18601,7 @@
       ],
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -18661,7 +18661,7 @@
       ],
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -18721,7 +18721,7 @@
       "rarity": "PM",
       "set": "200",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -18793,7 +18793,7 @@
       ],
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -19040,7 +19040,7 @@
       "rarity": "R",
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -19643,7 +19643,7 @@
       "rarity": "C2",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "A Vergence In The Force",
@@ -19962,7 +19962,7 @@
       "rarity": "R",
       "set": "207",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -20031,7 +20031,7 @@
       ],
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -20063,7 +20063,7 @@
       "rarity": "U1",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -20454,7 +20454,7 @@
       "rarity": "U1",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -20488,7 +20488,7 @@
       "rarity": "C2",
       "set": "204",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -20525,7 +20525,7 @@
       "rarity": "R",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -20769,7 +20769,7 @@
       "set": "200d",
       "side": "Dark",
       "sourceType": "effect",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -20862,7 +20862,7 @@
       "rarity": "R2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -20912,7 +20912,7 @@
       ],
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -20976,7 +20976,7 @@
       "rarity": "R",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Concentrate All Fire",
@@ -21266,7 +21266,7 @@
       "rarity": "C3",
       "set": "204",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -21332,7 +21332,7 @@
       "rarity": "R",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -21536,7 +21536,7 @@
       "rarity": "C",
       "set": "7",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -21711,7 +21711,7 @@
       "rarity": "R",
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -22027,7 +22027,7 @@
       "rarity": "R",
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -22116,7 +22116,7 @@
       "rarity": "R1",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -22146,7 +22146,7 @@
       "rarity": "R",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -22227,7 +22227,7 @@
       "rarity": "C2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "FX-7 (Effex-Seven)",
@@ -22260,7 +22260,7 @@
       "rarity": "C2",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -22283,7 +22283,7 @@
       "rarity": "C2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -22325,7 +22325,7 @@
       "rarity": "R",
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -22421,7 +22421,7 @@
       "rarity": "C",
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -22776,7 +22776,7 @@
       "rarity": "U",
       "set": "204",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "conceptBy": "(Original concept by James Barnes)",
@@ -22910,7 +22910,7 @@
       "rarity": "R1",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -23042,7 +23042,7 @@
       ],
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -23079,7 +23079,7 @@
       ],
       "set": "10",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -23330,7 +23330,7 @@
       ],
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -23399,7 +23399,7 @@
       "rarity": "U2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -23704,7 +23704,7 @@
       "rarity": "R2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -24102,7 +24102,7 @@
       ],
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Get Alongside That One",
@@ -24779,7 +24779,7 @@
       ],
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -24912,7 +24912,7 @@
       "rarity": "R",
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -25061,7 +25061,7 @@
       ],
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -25245,7 +25245,7 @@
       "rarity": "R1",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -25312,7 +25312,7 @@
       "rarity": "R",
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -25482,7 +25482,7 @@
       "rarity": "R",
       "set": "11",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -25646,7 +25646,7 @@
       ],
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -25762,7 +25762,7 @@
       "rarity": "R",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -25817,7 +25817,7 @@
       ],
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -26042,7 +26042,7 @@
       "rarity": "R",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -26072,7 +26072,7 @@
       "rarity": "R1",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -26521,7 +26521,7 @@
       "rarity": "C2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -26671,7 +26671,7 @@
       ],
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -26701,7 +26701,7 @@
       "rarity": "U",
       "set": "200",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Goldenrod",
@@ -26841,7 +26841,7 @@
       ],
       "set": "201",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -26878,7 +26878,7 @@
       "rarity": "C2",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -26910,7 +26910,7 @@
       "rarity": "C",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -27091,7 +27091,7 @@
       ],
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Imperial Atrocity",
@@ -27149,7 +27149,7 @@
       "rarity": "C1",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Rebel Squad Leader",
@@ -27196,7 +27196,7 @@
       ],
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -27255,7 +27255,7 @@
       "rarity": "C2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -27300,7 +27300,7 @@
       "rarity": "U",
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -27444,7 +27444,7 @@
       ],
       "set": "7",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Superficial Damage",
@@ -27552,7 +27552,7 @@
       "rarity": "C2",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -27585,7 +27585,7 @@
       "rarity": "U1",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -28037,7 +28037,7 @@
       ],
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -28117,7 +28117,7 @@
       ],
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -28202,7 +28202,7 @@
       "rarity": "C2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -28235,7 +28235,7 @@
       ],
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -28367,7 +28367,7 @@
       "rarity": "R",
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -28846,7 +28846,7 @@
       ],
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -29030,7 +29030,7 @@
       "rarity": "R",
       "set": "210",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -29544,7 +29544,7 @@
       "rarity": "C2",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -30100,7 +30100,7 @@
       ],
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -30166,7 +30166,7 @@
       "rarity": "C2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Kiffex",
@@ -30303,7 +30303,7 @@
       "rarity": "C1",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -30393,7 +30393,7 @@
       "rarity": "PM",
       "set": "208",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -30433,7 +30433,7 @@
       "rarity": "R",
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -30533,7 +30533,7 @@
       "rarity": "C",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Anger, Fear, Aggression (V)",
@@ -30562,7 +30562,7 @@
       "rarity": "C",
       "set": "200",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -31248,7 +31248,7 @@
       ],
       "set": "209",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Lando Calrissian",
@@ -31295,7 +31295,7 @@
       ],
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -31383,7 +31383,7 @@
       "rarity": "U2",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -31406,7 +31406,7 @@
       "rarity": "U2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -31574,7 +31574,7 @@
       "rarity": "R2",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -31720,7 +31720,7 @@
       "rarity": "U2",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -32026,7 +32026,7 @@
       "rarity": "R",
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -32094,7 +32094,7 @@
       "rarity": "U2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -32276,7 +32276,7 @@
       "rarity": "R1",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -32366,7 +32366,7 @@
       "rarity": "U2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -32402,7 +32402,7 @@
       ],
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -32440,7 +32440,7 @@
       "rarity": "U2",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -32564,7 +32564,7 @@
       "rarity": "R1",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -32600,7 +32600,7 @@
       "rarity": "R",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -32632,7 +32632,7 @@
       "rarity": "R2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Warrior's Courage",
@@ -32657,7 +32657,7 @@
       "rarity": "R2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -32735,7 +32735,7 @@
       "rarity": "PM",
       "set": "13",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -32783,7 +32783,7 @@
       "rarity": "R",
       "set": "208",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -32941,7 +32941,7 @@
       ],
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -33029,7 +33029,7 @@
       "rarity": "C1",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "conceptBy": "(Original concept by Ryan Jellison and Blake Huffman)",
@@ -33160,7 +33160,7 @@
       "rarity": "R2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "back": {
@@ -33416,7 +33416,7 @@
       ],
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -34271,7 +34271,7 @@
       "rarity": "PM",
       "set": "13",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -34472,7 +34472,7 @@
       "rarity": "PM",
       "set": "112",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -34630,7 +34630,7 @@
       "rarity": "U2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "We're Leaving",
@@ -34665,7 +34665,7 @@
       ],
       "set": "12",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -34829,7 +34829,7 @@
       "rarity": "C2",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -34941,7 +34941,7 @@
       "rarity": "R2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Mon Calamari",
@@ -35016,7 +35016,7 @@
       ],
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Mos Eisley Blaster",
@@ -35050,7 +35050,7 @@
       "rarity": "C",
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -35087,7 +35087,7 @@
       "rarity": "U2",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -35244,7 +35244,7 @@
       "rarity": "R1",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -35273,7 +35273,7 @@
       "rarity": "U1",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -35451,7 +35451,7 @@
       "rarity": "C2",
       "set": "210",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -35562,7 +35562,7 @@
       ],
       "set": "112",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -35723,7 +35723,7 @@
       "rarity": "C",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -35929,7 +35929,7 @@
       "rarity": "C",
       "set": "12",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Naboo: Swamp",
@@ -36103,7 +36103,7 @@
       "rarity": "PM",
       "set": "13",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Naboo: Theed Palace Hallway",
@@ -36640,7 +36640,7 @@
       "rarity": "R2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -36681,7 +36681,7 @@
       ],
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "K'lor'slug (V)",
@@ -36722,7 +36722,7 @@
       ],
       "set": "201",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -37319,7 +37319,7 @@
       ],
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -37485,7 +37485,7 @@
       "rarity": "PM",
       "set": "106",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -37521,7 +37521,7 @@
       "rarity": "C1",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -37557,7 +37557,7 @@
       ],
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -38615,7 +38615,7 @@
       "rarity": "C",
       "set": "8",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -38722,7 +38722,7 @@
       "rarity": "R",
       "set": "205",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -39318,7 +39318,7 @@
       "rarity": "U1",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "conceptBy": "(Original concept by Mike Raveling - Minnesota States 2008)",
@@ -39363,7 +39363,7 @@
       ],
       "set": "200",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -39566,7 +39566,7 @@
       "rarity": "C2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Crack Shot",
@@ -39789,7 +39789,7 @@
       "rarity": "C",
       "set": "7",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -39889,7 +39889,7 @@
       "rarity": "U2",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -39932,7 +39932,7 @@
       "rarity": "C2",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -39962,7 +39962,7 @@
       "rarity": "U2",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -40071,7 +40071,7 @@
       "rarity": "U1",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -40103,7 +40103,7 @@
       "rarity": "U",
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -40440,7 +40440,7 @@
       "rarity": "U",
       "set": "211",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -40585,7 +40585,7 @@
       "rarity": "C2",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -40628,7 +40628,7 @@
       "rarity": "R1",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "R4-E1 (Arfour-Eeone)",
@@ -40661,7 +40661,7 @@
       "rarity": "C2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "R5-D4 (Arfive-Defour)",
@@ -40698,7 +40698,7 @@
       "rarity": "C2",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -41409,7 +41409,7 @@
       ],
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -41447,7 +41447,7 @@
       "rarity": "U1",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Ultimatum",
@@ -41539,7 +41539,7 @@
       "rarity": "R1",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Restraining Bolt",
@@ -41603,7 +41603,7 @@
       ],
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -41796,7 +41796,7 @@
       "rarity": "C2",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -42044,7 +42044,7 @@
       "rarity": "U",
       "set": "200",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -42395,7 +42395,7 @@
       ],
       "set": "9",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "First Aid",
@@ -42493,7 +42493,7 @@
       "rarity": "R2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Sandcrawler: Loading Bay",
@@ -42530,7 +42530,7 @@
       ],
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -43606,7 +43606,7 @@
       "rarity": "U1",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Senate Hovercam",
@@ -43781,7 +43781,7 @@
       "rarity": "PM",
       "set": "10",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -44449,7 +44449,7 @@
       "rarity": "R",
       "set": "209",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -44476,7 +44476,7 @@
       "rarity": "U",
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -44625,7 +44625,7 @@
       "rarity": "U",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -44738,7 +44738,7 @@
       "rarity": "R",
       "set": "7",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -45020,7 +45020,7 @@
       "rarity": "C",
       "set": "200",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -45144,7 +45144,7 @@
       "rarity": "C",
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -45362,7 +45362,7 @@
       "rarity": "C",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -45476,7 +45476,7 @@
       "rarity": "U1",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -45551,7 +45551,7 @@
       "rarity": "PM",
       "set": "10",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -45590,7 +45590,7 @@
       "rarity": "C3",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -45997,7 +45997,7 @@
       "rarity": "C",
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -46040,7 +46040,7 @@
       "rarity": "C",
       "set": "207",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Speeder Bike",
@@ -46143,7 +46143,7 @@
       "rarity": "R1",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -46901,7 +46901,7 @@
       ],
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -46935,7 +46935,7 @@
       "rarity": "PM",
       "set": "106",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -47141,7 +47141,7 @@
       ],
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Ineffective Maneuver",
@@ -47294,7 +47294,7 @@
       "rarity": "R2",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -47654,7 +47654,7 @@
       "rarity": "C2",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -47908,7 +47908,7 @@
       "rarity": "C2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -48066,7 +48066,7 @@
       "rarity": "PM",
       "set": "204",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -48097,7 +48097,7 @@
       ],
       "set": "200",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -48128,7 +48128,7 @@
       "rarity": "U",
       "set": "7",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -48925,7 +48925,7 @@
       "rarity": "C",
       "set": "208",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Tatooine: Mos Espa Docking Bay",
@@ -49145,7 +49145,7 @@
       "rarity": "R",
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -49431,7 +49431,7 @@
       "rarity": "R",
       "set": "8",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -49723,7 +49723,7 @@
       ],
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -49821,7 +49821,7 @@
       "rarity": "U2",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -49850,7 +49850,7 @@
       "rarity": "R1",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -50042,7 +50042,7 @@
       "rarity": "R",
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -50400,7 +50400,7 @@
       "rarity": "C",
       "set": "11",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -50568,7 +50568,7 @@
       "rarity": "U2",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -51026,7 +51026,7 @@
       "rarity": "PM",
       "set": "13",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -51125,7 +51125,7 @@
       "rarity": "R",
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -51329,7 +51329,7 @@
       "rarity": "C",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -51642,7 +51642,7 @@
       "rarity": "C2",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -51763,7 +51763,7 @@
       ],
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -51905,7 +51905,7 @@
       "rarity": "U1",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -52128,7 +52128,7 @@
       "rarity": "R1",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -52347,7 +52347,7 @@
       ],
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Trooper Sabacc",
@@ -52497,7 +52497,7 @@
       "rarity": "R2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "cancels": [
@@ -52861,7 +52861,7 @@
       "rarity": "C2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -53009,7 +53009,7 @@
       "rarity": "C",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Undercover",
@@ -53042,7 +53042,7 @@
       ],
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -53219,7 +53219,7 @@
       "rarity": "U1",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -53406,7 +53406,7 @@
       ],
       "set": "211",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -53437,7 +53437,7 @@
       "rarity": "R",
       "set": "5",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -53564,7 +53564,7 @@
       ],
       "set": "206",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -53627,7 +53627,7 @@
       "rarity": "R1",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -53915,7 +53915,7 @@
       "rarity": "PM",
       "set": "206",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Vehicle Mine",
@@ -53942,7 +53942,7 @@
       "rarity": "C2",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Attark",
@@ -54129,7 +54129,7 @@
       ],
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -54296,7 +54296,7 @@
       "rarity": "C",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -54615,7 +54615,7 @@
       "rarity": "U1",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -54666,7 +54666,7 @@
       "rarity": "U1",
       "set": "3",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "combo": [
@@ -54741,7 +54741,7 @@
       "rarity": "U",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "counterpart": "Darklighter Spin",
@@ -54939,7 +54939,7 @@
       "rarity": "C2",
       "set": "2",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -55201,7 +55201,7 @@
       "rarity": "R2",
       "set": "1",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -55339,7 +55339,7 @@
       "rarity": "U",
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -55469,7 +55469,7 @@
       "rarity": "R",
       "set": "8",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "canceledBy": [
@@ -55923,7 +55923,7 @@
       "rarity": "R",
       "set": "6",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -56159,7 +56159,7 @@
       "rarity": "C2",
       "set": "209",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -56744,7 +56744,7 @@
       "rarity": "U",
       "set": "208",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -57310,7 +57310,7 @@
       "rarity": "R",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -57356,7 +57356,7 @@
       "rarity": "PM",
       "set": "110",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -57392,7 +57392,7 @@
       "rarity": "R",
       "set": "4",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -57485,7 +57485,7 @@
       ],
       "set": "212",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "abbr": [
@@ -57614,7 +57614,7 @@
       ],
       "set": "212",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -57675,7 +57675,7 @@
       ],
       "set": "212",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -59032,7 +59032,7 @@
       ],
       "set": "214",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -59362,7 +59362,7 @@
       ],
       "set": "215",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
@@ -59714,7 +59714,7 @@
       ],
       "set": "216",
       "side": "Dark",
-      "has_errata": "True"
+      "errataVersion": "E1"
     },
     {
       "front": {
