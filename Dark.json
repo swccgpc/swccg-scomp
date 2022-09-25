@@ -459,7 +459,8 @@
         "This weapon is not a blaster."
       ],
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -495,7 +496,8 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -658,7 +660,8 @@
       ],
       "rarity": "C1",
       "set": "201",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -754,7 +757,8 @@
       ],
       "rarity": "U1",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -1071,7 +1075,8 @@
       ],
       "rarity": "C",
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -1459,7 +1464,8 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -1556,7 +1562,8 @@
       ],
       "rarity": "R1",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -1675,7 +1682,8 @@
         "If 2 Advosze are somehow at the same location, owner chooses one to be lost."
       ],
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "They Win This Round",
@@ -2137,7 +2145,8 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -2173,7 +2182,8 @@
         "The captured character's values are restored to normal and if hit, is no longer hit."
       ],
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -2720,7 +2730,8 @@
       ],
       "rarity": "U",
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -3040,7 +3051,8 @@
         "If breaking cover to fire a repeating weapon (e.g. Light Repeating Blaster Rifle), it may fire repeatedly but only the first shot is free."
       ],
       "set": "10",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -3270,7 +3282,8 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Asteroid Field",
@@ -3331,7 +3344,8 @@
       ],
       "rarity": "U2",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "It's On Automatic Pilot!",
@@ -3394,7 +3408,8 @@
       ],
       "rarity": "U1",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -3521,7 +3536,8 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -3656,7 +3672,8 @@
       ],
       "rarity": "PM",
       "set": "13",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -3932,7 +3949,8 @@
         "If canceled while character is piloting, character moves to a passenger slot if available, otherwise character is placed in Used Pile."
       ],
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -4094,7 +4112,8 @@
       ],
       "rarity": "R",
       "set": "7",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -4125,7 +4144,8 @@
       ],
       "rarity": "R",
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -4553,7 +4573,8 @@
       ],
       "rarity": "R",
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Security Control",
@@ -4664,7 +4685,8 @@
         "The starship being a stolen starship currently owned by Light, does not cause Besieged to be canceled."
       ],
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -4731,7 +4753,8 @@
       ],
       "rarity": "C2",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -5125,7 +5148,8 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -5298,7 +5322,8 @@
         "When using the react text to deploy for free, the pilot is also free."
       ],
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -5424,7 +5449,8 @@
       ],
       "rarity": "PM",
       "set": "106",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -5548,7 +5574,8 @@
         "If firing a repeating blaster (e.g. Light Repeating Blaster Rifle), only the first shot is free."
       ],
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -5577,7 +5604,8 @@
         "Placing a weapon on Blaster Rack is a top-level action."
       ],
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Sai'torr Kal Fas (V)",
@@ -5610,7 +5638,8 @@
       ],
       "rarity": "U1",
       "set": "200",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -5648,7 +5677,8 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -5711,7 +5741,8 @@
         "May <u>not</u> deploy on a [Permanent Weapon] card (e.g. Dengar With Blaster Carbine)."
       ],
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -5758,7 +5789,8 @@
       ],
       "rarity": "R1",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -5802,7 +5834,8 @@
       ],
       "rarity": "R2",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -6049,7 +6082,8 @@
       ],
       "rarity": "R1",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -6140,7 +6174,8 @@
       ],
       "rarity": "U2",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -6315,7 +6350,8 @@
       ],
       "rarity": "PM",
       "set": "13",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -6836,7 +6872,8 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -6956,7 +6993,8 @@
       ],
       "rarity": "C",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -7077,7 +7115,8 @@
       ],
       "rarity": "U1",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -7163,7 +7202,8 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -7420,7 +7460,8 @@
         "Only completes if the captive is imprisoned by the original seizing bounty hunter card."
       ],
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -7460,7 +7501,8 @@
         "The Force used to deploy Hux, Kylo, Phasma, or Snoke is already in the Used Pile and is among the cards that will be searched through."
       ],
       "set": "204",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -7774,7 +7816,8 @@
         "If deployed on a non-shielded location (e.g. Hoth: Defensive Perimeter) and then that location becomes shielded later, Cane Adiss remains there and will allow cards to deploy there regardless of the shield."
       ],
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -8106,7 +8149,8 @@
       ],
       "rarity": "U1",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -8150,7 +8194,8 @@
       ],
       "rarity": "U1",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -8197,7 +8242,8 @@
         "Characters hit by weapons may be forfeited before forfeiting Needa."
       ],
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -8238,7 +8284,8 @@
       ],
       "rarity": "PM",
       "set": "208",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -8380,7 +8427,8 @@
       ],
       "rarity": "R2",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -8569,7 +8617,8 @@
       ],
       "rarity": "U",
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -8717,7 +8766,8 @@
         "If deployed at the start of the game using the text on 'You Can Either Profit By This...', may take a non-unique alien into hand. In this case Dark's starting hand will have 1 more card than usual."
       ],
       "set": "106",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -8804,7 +8854,8 @@
       ],
       "rarity": "U1",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -8876,7 +8927,8 @@
         "May target (for example) Seekers, Vaporator, or Medium Repeating Blaster Cannon."
       ],
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -9180,7 +9232,8 @@
       ],
       "rarity": "C",
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Cloud City Technician",
@@ -10467,7 +10520,8 @@
       ],
       "rarity": "PM",
       "set": "13",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -10492,7 +10546,8 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Eject! Eject!",
@@ -10524,7 +10579,8 @@
         "If this card removes a unique permanent pilot, that persona's uniqueness still applies (e.g. if played on Gold Leader In Gold 1, the character Dutch still cannot be deployed)."
       ],
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -10580,7 +10636,8 @@
       ],
       "rarity": "C",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -10663,7 +10720,8 @@
       ],
       "rarity": "U",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -10741,7 +10799,8 @@
       ],
       "rarity": "U",
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -10947,7 +11006,8 @@
       ],
       "rarity": "U",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "conceptBy": "(Original concept by UK Community)",
@@ -11050,7 +11110,8 @@
       ],
       "rarity": "U2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -11238,7 +11299,8 @@
       ],
       "rarity": "PM",
       "set": "13",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -11283,7 +11345,8 @@
       ],
       "rarity": "R1",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -12389,7 +12452,8 @@
       ],
       "rarity": "R",
       "set": "7",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -12689,7 +12753,8 @@
       ],
       "rarity": "U1",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -12923,7 +12988,8 @@
         "If Dannik leaves table and a new Dannik enters play, the previous bonus power is retained."
       ],
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Dantooine",
@@ -13032,7 +13098,8 @@
       ],
       "rarity": "U2",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -13166,7 +13233,8 @@
         "A character affected by multiple copies of Dark Hours remains asleep until all copies leave table."
       ],
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Jedi Lightsaber",
@@ -13198,7 +13266,8 @@
       ],
       "rarity": "U1",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -13342,7 +13411,8 @@
       ],
       "rarity": "PM",
       "set": "13",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -13376,7 +13446,8 @@
       ],
       "rarity": "C",
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -13714,7 +13785,8 @@
         "Cancels game text of any version of the Amidala persona, including Padme."
       ],
       "set": "203",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -13944,7 +14016,8 @@
         "This card is a Black Squadron pilot."
       ],
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -14015,7 +14088,8 @@
         "Vader only looks for <u>your</u> Black Squadron pilot, not an opponent's Black Squadron pilot."
       ],
       "set": "200",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -14273,7 +14347,8 @@
       ],
       "rarity": "R",
       "set": "208",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -14523,7 +14598,8 @@
       ],
       "rarity": "U1",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -14781,7 +14857,8 @@
       ],
       "rarity": "C",
       "set": "9",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -14812,7 +14889,8 @@
       ],
       "rarity": "C",
       "set": "9",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -15043,7 +15121,8 @@
       ],
       "rarity": "R2",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -15318,7 +15397,8 @@
       ],
       "rarity": "PM",
       "set": "101",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -15777,7 +15857,8 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -15925,7 +16006,8 @@
       ],
       "rarity": "PM",
       "set": "110",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -15976,7 +16058,8 @@
       ],
       "rarity": "PM",
       "set": "200",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -16013,7 +16096,8 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -16046,7 +16130,8 @@
       ],
       "rarity": "R",
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Desert",
@@ -16169,7 +16254,8 @@
       ],
       "rarity": "R",
       "set": "201",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -16411,7 +16497,8 @@
       ],
       "rarity": "C",
       "set": "14",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -16698,7 +16785,8 @@
         "During persona replacement, transfers to the new version of the character."
       ],
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Disruptor Pistol",
@@ -17181,7 +17269,8 @@
       ],
       "rarity": "R",
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -17366,7 +17455,8 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -17585,7 +17675,8 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -17982,7 +18073,8 @@
       ],
       "rarity": "U1",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -18022,7 +18114,8 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -18060,7 +18153,8 @@
       ],
       "rarity": "R2",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -18344,7 +18438,8 @@
         "This weapon is a blaster."
       ],
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -18501,7 +18596,8 @@
         "Does not double attrition."
       ],
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -18560,7 +18656,8 @@
         "If using I Have A Bad Feeling About This to choose new characters, the new characters may be at the same origin site or a different origin site, but it cannot include any of the original characters."
       ],
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -18619,7 +18716,8 @@
       ],
       "rarity": "PM",
       "set": "200",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -18690,7 +18788,8 @@
         "If the player somehow activates or loses Force from Reserve Deck while the top card is revealed, it is un-revealed and then activated/lost normally."
       ],
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -18936,7 +19035,8 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -19538,7 +19638,8 @@
       ],
       "rarity": "C2",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "A Vergence In The Force",
@@ -19856,7 +19957,8 @@
       ],
       "rarity": "R",
       "set": "207",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -19924,7 +20026,8 @@
         "If relocating to a capital starship, it must be to the starship card itself, not a starship site."
       ],
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -19955,7 +20058,8 @@
       ],
       "rarity": "U1",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -20345,7 +20449,8 @@
       ],
       "rarity": "U1",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -20378,7 +20483,8 @@
       ],
       "rarity": "C2",
       "set": "204",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -20414,7 +20520,8 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -20657,7 +20764,8 @@
       "rarity": "PM",
       "set": "200d",
       "side": "Dark",
-      "sourceType": "effect"
+      "sourceType": "effect",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -20749,7 +20857,8 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -20798,7 +20907,8 @@
         "If inside a starship or enclosed vehicle, the number of Force icons present with Trevagg is 0."
       ],
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -20861,7 +20971,8 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Concentrate All Fire",
@@ -21150,7 +21261,8 @@
       ],
       "rarity": "C3",
       "set": "204",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -21215,7 +21327,8 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -21418,7 +21531,8 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -21592,7 +21706,8 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -21907,7 +22022,8 @@
       ],
       "rarity": "R",
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -21995,7 +22111,8 @@
       ],
       "rarity": "R1",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -22024,7 +22141,8 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -22104,7 +22222,8 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "FX-7 (Effex-Seven)",
@@ -22136,7 +22255,8 @@
       ],
       "rarity": "C2",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -22158,7 +22278,8 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -22199,7 +22320,8 @@
       ],
       "rarity": "R",
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -22294,7 +22416,8 @@
       ],
       "rarity": "C",
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -22648,7 +22771,8 @@
       ],
       "rarity": "U",
       "set": "204",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "conceptBy": "(Original concept by James Barnes)",
@@ -22781,7 +22905,8 @@
       ],
       "rarity": "R1",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -22912,7 +23037,8 @@
         "Cards that cannot be forfeited (such as a character not participating in battle, or a Floating Refinery) do not prevent a player from canceling all remaining battle damage."
       ],
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -22948,7 +23074,8 @@
         "The USED function is not immune to Sense."
       ],
       "set": "10",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -23198,7 +23325,8 @@
         "May cancel a duel destiny (if the duel takes place during a battle where Tarkin is with Vader)."
       ],
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -23266,7 +23394,8 @@
       ],
       "rarity": "U2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -23570,7 +23699,8 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -23967,7 +24097,8 @@
         "This card is canceled if the missing character is no longer missing (found, captured, leaves table, etc)."
       ],
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Get Alongside That One",
@@ -24643,7 +24774,8 @@
         "For the Lost function, captives forfeit values are affected by global modifiers (e.g. Insurrection) and modifiers that affect captives (e.g. Lieutenant Sheckil)."
       ],
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -24775,7 +24907,8 @@
       ],
       "rarity": "R",
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -24923,7 +25056,8 @@
         "If stolen by Light, neither option may be used."
       ],
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -25106,7 +25240,8 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -25172,7 +25307,8 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -25341,7 +25477,8 @@
       ],
       "rarity": "R",
       "set": "11",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -25504,7 +25641,8 @@
         "Cannot be played as a response to other replacement (e.g. X-wing Assault Squadron replacing 3 X-wings)."
       ],
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -25619,7 +25757,8 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -25673,7 +25812,8 @@
         "Canceling IG-88's game text or excluding him from battle could result in a battle ending immediately (in cases where his game text is required for the battle to occur)."
       ],
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -25897,7 +26037,8 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -25926,7 +26067,8 @@
       ],
       "rarity": "R1",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -26374,7 +26516,8 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -26523,7 +26666,8 @@
         "For example, if DS Force drains at the LS site Tatooine: Obi-Wan's Hut, the +1 bonus in the site's game text is not canceled because it is a DS Force drain."
       ],
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -26552,7 +26696,8 @@
       ],
       "rarity": "U",
       "set": "200",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Goldenrod",
@@ -26691,7 +26836,8 @@
         "You may deploy (for example) Mara Jade, The Emperor's Hand."
       ],
       "set": "201",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -26727,7 +26873,8 @@
       ],
       "rarity": "C2",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -26758,7 +26905,8 @@
       ],
       "rarity": "C",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -26938,7 +27086,8 @@
         "Two copies of this card piloting the same starship only increases the starship's power by 2, not 4."
       ],
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Imperial Atrocity",
@@ -26995,7 +27144,8 @@
       ],
       "rarity": "C1",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Rebel Squad Leader",
@@ -27041,7 +27191,8 @@
         "Suspends the 'cannot move' text on Imperial Trooper Guards at same site."
       ],
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -27099,7 +27250,8 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -27143,7 +27295,8 @@
       ],
       "rarity": "U",
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -27286,7 +27439,8 @@
         "A starship captured and stolen mid-battle with In Range becomes inactive that battle."
       ],
       "set": "7",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Superficial Damage",
@@ -27425,7 +27579,8 @@
       ],
       "rarity": "U1",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -27876,7 +28031,8 @@
         "Weapons aboard the starship are only lost as a one-time response to the Cannon firing. Weapons can subsequently be deployed on the starship without becoming lost."
       ],
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -27955,7 +28111,8 @@
         "If stolen by Light, its Force drain bonus does not work."
       ],
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -28039,7 +28196,8 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -28071,7 +28229,8 @@
         "If this Effect is canceled, the added astromech capacity is removed. If this results in insufficient capacity, astromech owner moves it to a passenger slot (if available), otherwise place astromech in Used Pile."
       ],
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -28202,7 +28361,8 @@
       ],
       "rarity": "R",
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -28680,7 +28840,8 @@
         "May deploy Passenger Deck even though Jabba's Sail Barge is unpiloted."
       ],
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -28863,7 +29024,8 @@
       ],
       "rarity": "R",
       "set": "210",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -29376,7 +29538,8 @@
       ],
       "rarity": "C2",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -29996,7 +30159,8 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Kiffex",
@@ -30132,7 +30296,8 @@
       ],
       "rarity": "C1",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -30221,7 +30386,8 @@
       ],
       "rarity": "PM",
       "set": "208",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -30260,7 +30426,8 @@
       ],
       "rarity": "R",
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -30359,7 +30526,8 @@
       ],
       "rarity": "C",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Anger, Fear, Aggression (V)",
@@ -30387,7 +30555,8 @@
       ],
       "rarity": "C",
       "set": "200",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -31072,7 +31241,8 @@
         "If using I Have A Bad Feeling About This to choose new characters, the new characters may be at the same origin site or a different origin site, but it cannot include any of the original characters."
       ],
       "set": "209",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Lando Calrissian",
@@ -31205,7 +31375,8 @@
       ],
       "rarity": "U2",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -31227,7 +31398,8 @@
       ],
       "rarity": "U2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -31394,7 +31566,8 @@
       ],
       "rarity": "R2",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -31539,7 +31712,8 @@
       ],
       "rarity": "U2",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -31844,7 +32018,8 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -31911,7 +32086,8 @@
       ],
       "rarity": "U2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -32092,7 +32268,8 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -32181,7 +32358,8 @@
       ],
       "rarity": "U2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -32216,7 +32394,8 @@
         "May defuse any number of mines per turn, whether 'laid' or 'buried.'"
       ],
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -32253,7 +32432,8 @@
       ],
       "rarity": "U2",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -32376,7 +32556,8 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -32411,7 +32592,8 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -32442,7 +32624,8 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Warrior's Courage",
@@ -32466,7 +32649,8 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -32543,7 +32727,8 @@
       ],
       "rarity": "PM",
       "set": "13",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -32590,7 +32775,8 @@
       ],
       "rarity": "R",
       "set": "208",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -32747,7 +32933,8 @@
         "The character can be targeted by weapons as if a starfighter, but not during battle (the character does not participate in battles). The player will need a card that allows them to fire a weapon outside of battle, such as Sorry About The Mess, Stay Sharp!, Sniper, Scythe 1, etc."
       ],
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -32834,7 +33021,8 @@
       ],
       "rarity": "C1",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "conceptBy": "(Original concept by Ryan Jellison and Blake Huffman)",
@@ -32964,7 +33152,8 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "back": {
@@ -33219,7 +33408,8 @@
         "If relocating to a Sandcrawler site, it must be a site belonging to the same Sandcrawler that is using the Magnetic Suction Tube."
       ],
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -34073,7 +34263,8 @@
       ],
       "rarity": "PM",
       "set": "13",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -34273,7 +34464,8 @@
       ],
       "rarity": "PM",
       "set": "112",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -34430,7 +34622,8 @@
       ],
       "rarity": "U2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "We're Leaving",
@@ -34464,7 +34657,8 @@
         "Cards that cannot be forfeited (such as a character not participating in battle, or a Floating Refinery) do not prevent a player from canceling all remaining battle damage."
       ],
       "set": "12",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -34627,7 +34821,8 @@
       ],
       "rarity": "C2",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -34738,7 +34933,8 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Mon Calamari",
@@ -34812,7 +35008,8 @@
         "The Used function still has its result even if the opponent plays any response(s) that reduces their hand size below 13 cards."
       ],
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Mos Eisley Blaster",
@@ -34845,7 +35042,8 @@
       ],
       "rarity": "C",
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -34881,7 +35079,8 @@
       ],
       "rarity": "U2",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -35037,7 +35236,8 @@
       ],
       "rarity": "R1",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -35065,7 +35265,8 @@
       ],
       "rarity": "U1",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -35242,7 +35443,8 @@
       ],
       "rarity": "C2",
       "set": "210",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -35352,7 +35554,8 @@
         "A unique alien character whose species is defined via rules/rulebook may be used as a Rep."
       ],
       "set": "112",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -35512,7 +35715,8 @@
       ],
       "rarity": "C",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -36426,7 +36630,8 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -36466,7 +36671,8 @@
         "This Interrupt may be played even if the unique card Ng'ok War Beast is on table."
       ],
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "K'lor'slug (V)",
@@ -36506,7 +36712,8 @@
         "If a hit character is excluded from battle (e.g. by Clash Of Sabers), the character is excluded, then automatically lost due to being hit outside of battle. Ng'ok War Beast does not protect a character in that situation."
       ],
       "set": "201",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -37102,7 +37309,8 @@
         "An Imperial Trooper Guard at an adjacent site would not be defending in the battle and thus would not have +4 power to add from his game text."
       ],
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -37267,7 +37475,8 @@
       ],
       "rarity": "PM",
       "set": "106",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -37302,7 +37511,8 @@
       ],
       "rarity": "C1",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -37337,7 +37547,8 @@
         "If canceling an attempt to fire a weapon at a droid, play during the response step (before weapon destiny is drawn)."
       ],
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -38394,7 +38605,8 @@
       ],
       "rarity": "C",
       "set": "8",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -38500,7 +38712,8 @@
       ],
       "rarity": "R",
       "set": "205",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -39095,7 +39308,8 @@
       ],
       "rarity": "U1",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "conceptBy": "(Original concept by Mike Raveling - Minnesota States 2008)",
@@ -39139,7 +39353,8 @@
         "The 'may not return aliens to hand' text refers to Master Luke."
       ],
       "set": "200",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -39341,7 +39556,8 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Crack Shot",
@@ -39563,7 +39779,8 @@
       ],
       "rarity": "C",
       "set": "7",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -39662,7 +39879,8 @@
       ],
       "rarity": "U2",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -39704,7 +39922,8 @@
       ],
       "rarity": "C2",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -39733,7 +39952,8 @@
       ],
       "rarity": "U2",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -39841,7 +40061,8 @@
       ],
       "rarity": "U1",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -39872,7 +40093,8 @@
       ],
       "rarity": "U",
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -40208,7 +40430,8 @@
       ],
       "rarity": "U",
       "set": "211",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -40352,7 +40575,8 @@
       ],
       "rarity": "C2",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -40394,7 +40618,8 @@
       ],
       "rarity": "R1",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "R4-E1 (Arfour-Eeone)",
@@ -40426,7 +40651,8 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "R5-D4 (Arfive-Defour)",
@@ -40462,7 +40688,8 @@
       ],
       "rarity": "C2",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -41172,7 +41399,8 @@
         "Works with either player's Boba Fett."
       ],
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -41209,7 +41437,8 @@
       ],
       "rarity": "U1",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Ultimatum",
@@ -41300,7 +41529,8 @@
       ],
       "rarity": "R1",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Restraining Bolt",
@@ -41363,7 +41593,8 @@
         "If face up in Reserve Deck for any reason, it is active (not part of Life Force)."
       ],
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -41555,7 +41786,8 @@
       ],
       "rarity": "C2",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -41802,7 +42034,8 @@
       ],
       "rarity": "U",
       "set": "200",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -42152,7 +42385,8 @@
         "When using the react text to deploy for free, the pilot is also free."
       ],
       "set": "9",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "First Aid",
@@ -42249,7 +42483,8 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Sandcrawler: Loading Bay",
@@ -42285,7 +42520,8 @@
         "This site does <u>not</u> take on the name of the planet (e.g. it is not a Tatooine site, a character here is not 'on Tatooine' or 'on Cloud City' even if the Sandcrawler is, etc)."
       ],
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -43360,7 +43596,8 @@
       ],
       "rarity": "U1",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Senate Hovercam",
@@ -43534,7 +43771,8 @@
       ],
       "rarity": "PM",
       "set": "10",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -44201,7 +44439,8 @@
       ],
       "rarity": "R",
       "set": "209",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -44227,7 +44466,8 @@
       ],
       "rarity": "U",
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -44375,7 +44615,8 @@
       ],
       "rarity": "U",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -44487,7 +44728,8 @@
       ],
       "rarity": "R",
       "set": "7",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -44768,7 +45010,8 @@
       ],
       "rarity": "C",
       "set": "200",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -44891,7 +45134,8 @@
       ],
       "rarity": "C",
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -45108,7 +45352,8 @@
       ],
       "rarity": "C",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -45221,7 +45466,8 @@
       ],
       "rarity": "U1",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -45295,7 +45541,8 @@
       ],
       "rarity": "PM",
       "set": "10",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -45333,7 +45580,8 @@
       ],
       "rarity": "C3",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -45739,7 +45987,8 @@
       ],
       "rarity": "C",
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -45781,7 +46030,8 @@
       ],
       "rarity": "C",
       "set": "207",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Speeder Bike",
@@ -45883,7 +46133,8 @@
       ],
       "rarity": "R1",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -46640,7 +46891,8 @@
         "Does not allow the character to use weapons/devices that they cannot use otherwise."
       ],
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -46673,7 +46925,8 @@
       ],
       "rarity": "PM",
       "set": "106",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -46878,7 +47131,8 @@
         "To initiate this Interrupt, there must be at least one character targeted to be excluded."
       ],
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Ineffective Maneuver",
@@ -47030,7 +47284,8 @@
       ],
       "rarity": "R2",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -47389,7 +47644,8 @@
       ],
       "rarity": "C2",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -47642,7 +47898,8 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -47799,7 +48056,8 @@
       ],
       "rarity": "PM",
       "set": "204",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -47829,7 +48087,8 @@
         "This mandatory action may be initiated by Dark as a top-level action. If both players pass consecutively during Dark's control phase and this hasn't been initiated yet, it initiates itself as an automatic action."
       ],
       "set": "200",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -47859,7 +48118,8 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -48655,7 +48915,8 @@
       ],
       "rarity": "C",
       "set": "208",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Tatooine: Mos Espa Docking Bay",
@@ -48874,7 +49135,8 @@
       ],
       "rarity": "R",
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -49159,7 +49421,8 @@
       ],
       "rarity": "R",
       "set": "8",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -49450,7 +49713,8 @@
         "Once this grabs an Interrupt, it immediately prevents any further copies of the same name from being played that turn."
       ],
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -49547,7 +49811,8 @@
       ],
       "rarity": "U2",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -49575,7 +49840,8 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -49766,7 +50032,8 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -50123,7 +50390,8 @@
       ],
       "rarity": "C",
       "set": "11",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -50290,7 +50558,8 @@
       ],
       "rarity": "U2",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -50747,7 +51016,8 @@
       ],
       "rarity": "PM",
       "set": "13",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -50845,7 +51115,8 @@
       ],
       "rarity": "R",
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -51048,7 +51319,8 @@
       ],
       "rarity": "C",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -51360,7 +51632,8 @@
       ],
       "rarity": "C2",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -51480,7 +51753,8 @@
         "Cards with multiple warrior icons can still only escort one captive at a time."
       ],
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -51621,7 +51895,8 @@
       ],
       "rarity": "U1",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -51843,7 +52118,8 @@
       ],
       "rarity": "R1",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -52061,7 +52337,8 @@
         "The phrase 'on Cloud City' means at a Cloud City site, not the Bespin: Cloud City sector."
       ],
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Trooper Sabacc",
@@ -52210,7 +52487,8 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "cancels": [
@@ -52573,7 +52851,8 @@
       ],
       "rarity": "C2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -52720,7 +52999,8 @@
       ],
       "rarity": "C",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Undercover",
@@ -52752,7 +53032,8 @@
         "If the character is persona replaced by a non-spy version, Undercover is lost and the character ceases to be Undercover."
       ],
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -52928,7 +53209,8 @@
       ],
       "rarity": "U1",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -53114,7 +53396,8 @@
         "If Dark did not successfully complete any battle destiny draws, there is no total battle destiny and so it is not possible for this Interrupt to add to total battle destiny."
       ],
       "set": "211",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -53144,7 +53427,8 @@
       ],
       "rarity": "R",
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -53270,7 +53554,8 @@
         "An astromech slot counts as a type of passenger slot. For example if the character card R2-D2 is in the astromech slot of the starship card Red 5, Vader's Custom TIE (V) can cancel R2-D2's game text."
       ],
       "set": "206",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -53332,7 +53617,8 @@
       ],
       "rarity": "R1",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -53619,7 +53905,8 @@
       ],
       "rarity": "PM",
       "set": "206",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Vehicle Mine",
@@ -54315,7 +54602,8 @@
       ],
       "rarity": "U1",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -54365,7 +54653,8 @@
       ],
       "rarity": "U1",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -54439,7 +54728,8 @@
       ],
       "rarity": "U",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Darklighter Spin",
@@ -54636,7 +54926,8 @@
       ],
       "rarity": "C2",
       "set": "2",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -54897,7 +55188,8 @@
       ],
       "rarity": "R2",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -55034,7 +55326,8 @@
       ],
       "rarity": "U",
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -55163,7 +55456,8 @@
       ],
       "rarity": "R",
       "set": "8",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -55616,7 +55910,8 @@
       ],
       "rarity": "R",
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -55851,7 +56146,8 @@
       ],
       "rarity": "C2",
       "set": "209",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -56435,7 +56731,8 @@
       ],
       "rarity": "U",
       "set": "208",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -57000,7 +57297,8 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -57045,7 +57343,8 @@
       ],
       "rarity": "PM",
       "set": "110",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -57080,7 +57379,8 @@
       ],
       "rarity": "R",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -57172,7 +57472,8 @@
         "The limit of +3 is only a limit on how much Pryde can add, not other cards."
       ],
       "set": "212",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -57300,7 +57601,8 @@
         "May deploy Sergeant Narthax With E-web Blaster (deploys -2)."
       ],
       "set": "212",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -57360,7 +57662,8 @@
         "May be played even if the site you deployed has been converted to longer have exactly two [Dark Side]. May even still deploy a related site under those circumstances."
       ],
       "set": "212",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -58716,7 +59019,8 @@
         "You may play (for example) Prepared Defenses to deploy I Will Finish What You Started, followed by The Dead Speak!"
       ],
       "set": "214",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -59045,7 +59349,8 @@
         "Does not cause an already attached starfighter to detach."
       ],
       "set": "215",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -59396,7 +59701,8 @@
         "If rotated by Revolution, Light could use the text to deploy Senator Palpatine."
       ],
       "set": "216",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -62141,7 +62447,6 @@
       "rulings": [
         "The movement action requires the loss of 1 Force as well as the normal movement cost (e.g. for most characters, Dark will lose 1 Force and then use 1 Force.  For EPP Mara with her conditions met, Dark will lose 1 Force and then move her for free)."
       ],
-
       "set": "219",
       "side": "Dark"
     },
