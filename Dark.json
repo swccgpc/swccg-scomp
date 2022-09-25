@@ -9473,7 +9473,8 @@
       ],
       "rarity": "C",
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -10069,7 +10070,8 @@
         "All modifiers transfer from the old destiny card to the new one."
       ],
       "set": "13",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -12915,7 +12917,8 @@
       ],
       "rarity": "U",
       "set": "7",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "combo": [
@@ -13022,7 +13025,8 @@
       ],
       "rarity": "U1",
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -27547,7 +27551,8 @@
       ],
       "rarity": "C2",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "canceledBy": [
@@ -30094,7 +30099,8 @@
         "(Light side text) Passengers do not count towards the 6 ability requirement. If the requirement is not met, Light does not get any battle destiny draws (even if they have multiple battle destiny adders such as Captain Han Solo, Life Debt, etc). However, 'draws if unable to otherwise' still works without 6 ability."
       ],
       "set": "1",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -31288,7 +31294,8 @@
         "The phrase 'on Cloud City' means at a Cloud City site, not the Bespin: Cloud City sector."
       ],
       "set": "5",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
@@ -35921,7 +35928,8 @@
       ],
       "rarity": "C",
       "set": "12",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Naboo: Swamp",
@@ -36094,7 +36102,8 @@
       ],
       "rarity": "PM",
       "set": "13",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Naboo: Theed Palace Hallway",
@@ -53932,7 +53941,8 @@
       ],
       "rarity": "C2",
       "set": "3",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "counterpart": "Attark",
@@ -54118,7 +54128,8 @@
         "The destiny drawn by the owner of the targeted character is <u>not</u> a weapon destiny."
       ],
       "set": "6",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "abbr": [
@@ -54284,7 +54295,8 @@
       ],
       "rarity": "C",
       "set": "4",
-      "side": "Dark"
+      "side": "Dark",
+      "has_errata": "True"
     },
     {
       "front": {
