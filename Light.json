@@ -26478,6 +26478,7 @@
       "cancels": [
         "Jabba's Prize (in a way)"
       ],
+      "errataVersion": "E2",
       "front": {
         "ability": "0",
         "characteristics": [
@@ -42241,6 +42242,7 @@
       "combo": [
         "R2-D2 (Artoo-Detoo) (V) + Double Agent"
       ],
+      "errataVersion": "E2",
       "front": {
         "characteristics": [
           "r-unit",
@@ -61361,7 +61363,7 @@
       "side": "Light"
     },
     {
-      "errataVersion": "E1",
+      "errataVersion": "E2",
       "front": {
         "ability": "7",
         "characteristics": [
@@ -61538,7 +61540,7 @@
       "abbr": [
         "AS"
       ],
-      "errataVersion": "E1",
+      "errataVersion": "E2",
       "front": {
         "destiny": "4",
         "gametext": "During any move phase, if I Feel The Conflict on table, take [Endor] Leia or [Dagobah] Luke into hand from Reserve Deck; reshuffle. OR During a battle at a site involving [Death Star II] Luke, choose: Add one destiny to attrition. OR Cancel the game text of a character of ability < 4.",
@@ -62657,7 +62659,7 @@
       "cancels": [
         "Kylo's game text at same location"
       ],
-      "errataVersion": "E1",
+      "errataVersion": "E2",
       "front": {
         "ability": "3",
         "characteristics": [
