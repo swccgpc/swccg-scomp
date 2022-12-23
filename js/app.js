@@ -16,3 +16,7 @@ cardSearchApp.filter('to_trusted', ['$sce', function($sce){
         return $sce.trustAsHtml(text);
     };
 }]);
+
+function toggleDarkMode(){
+  document.body.classList.toggle('darkMode')
+}

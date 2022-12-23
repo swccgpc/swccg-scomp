@@ -1,8 +1,34 @@
+:root {
+  --defaultBackground: #F3F3F3;
+  --defaultForeground: #1E1E1E;
+  --searchBackground: #F3F3F3;
+  --searchForeground: #1E1E1E;
+  --extraBackground: #F3F3F3;
+  --extraForeground: #1E1E1E;
+  --linkColor: blue;
+}
+
+.darkMode {
+  --defaultBackground: #1E1E1E;
+  --defaultForeground: #F3F3F3;
+  --searchBackground: #1E1E1E;
+  --searchForeground: #F3F3F3;
+  --extraBackground: #1E1E1E;
+  --extraForeground: #F3F3F3;
+  --linkColor: red;
+}
+
+body {
+  color: var(--defaultForeground);
+  background: var(--defaultBackground);
+}
+
 @media (min-width: 992px) {
   .button-hide-card-data {
     display: none;
   }
 }
+
 .button-hide-card-data {
   height: 50px;
   width: 100%;
@@ -14,24 +40,29 @@
 }
 
 /* Adding a container will make the page responsive, but we don't want the extra margin it causes */
-.container-fluid > .row {
+.container-fluid>.row {
   margin: 0;
 }
+
 .cs-main {
   padding: 5px;
   text-align: center;
-  /*background-color: #FAFAFA;*/
-  background-color: #F3F3F3;
+  background-color: var(--defaultBackground);
+  color: var(--defaultForeground);
 }
 
 .cs-colored-colum {
   border-right: thin solid #DADADA;
 }
+
 .cs-color-1 {
-  background-color: #FAFAFA;
+  background-color: var(--defaultBackground);
+  color: var(--defaultForeground);
 }
+
 .cs-color-2 {
-  background-color: white;
+  background-color: var(--defaultBackground);
+  color: var(--defaultForeground);
 }
 
 .cs-title {
@@ -41,6 +72,7 @@
   font-weight: bold;
   padding: 8px;
 }
+
 .cs-title-holder {
   position: relative;
 }
@@ -63,17 +95,20 @@
     height: 100vh;
   }
 }
+
 .cs-search-pane {
   text-align: left;
-  background-color: #DADADA;
+  background-color: var(--searchBackground);
+  color: var(--searchForeground);
   padding: 1em;
   border-right: thin solid #CACACA;
-  background: linear-gradient(#DADADA, #FAFAFA);
 }
 
 .cs-search-input {
   width: 100%;
   padding-left: 5px;
+  background-color: var(--searchBackground);
+  color: var(--searchForeground);
 }
 
 @media (max-width: 992px) {
@@ -84,7 +119,7 @@
 
 .cs-search-results-pane {
   text-align: left;
-  background-color: white;
+  background-color: var(--searchBackground);
   box-shadow: 1px 1px 1px #BBB;
 }
 
@@ -104,10 +139,11 @@
   color: white;
   padding-left: 5px;
 }
+
 .cs-searchField {
   margin-top: 1em;
-  /*background-color: #DADADA;*/
 }
+
 .cs-searchField.cs-first-one {
   margin-top: 0px;
 }
@@ -130,7 +166,8 @@
 }
 
 .cs-search-results-label {
-  background-color: #DADADA;
+  background-color: var(--searchBackground);
+  color: var(--searchForeground);
 }
 
 .cs-card-result {
@@ -140,12 +177,15 @@
 .cs-card-result-selected {
   background-color: #4444FF;
 }
+
 .cs-card-result-selected .cs-color-1 {
   background-color: #4444FF;
 }
+
 .cs-card-result-selected .cs-color-2 {
   background-color: #4444FF;
 }
+
 .cs-card-result-selected .cs-link {
   color: white;
 }
@@ -156,6 +196,7 @@
     position: fixed;
   }
 }
+
 @media(max-width: 992px) {
   .cs-card-preview-pane {
     height: 100%;
@@ -328,9 +369,10 @@
 */
 
 .cs-link {
-  color: blue;
+  color: var(--linkColor);
   cursor: pointer;
 }
+
 .cs-link:hover {
   text-decoration: underline;
 }
@@ -361,7 +403,7 @@
   margin: auto;
   padding: 1.5em;
   text-align: left;
-  background-color: #f2f2f2;
+  background-color: var(--searchBackground);
   border-radius: 1em;
 }
 
@@ -398,6 +440,7 @@
     width: 100%;
   }
 }
+
 @media(min-width: 992px) {
   div.cs-extra-data {
     /* width: 100%; */
@@ -409,7 +452,7 @@
   position: relative;
   float: right;
   width: 250px;
-  background: #f2f2f2;
+  background: var(--extraBackground);
   border: thin solid #AAA;
   z-index: 99999;
   padding-left: 5px;
@@ -427,6 +470,7 @@
   text-decoration: underline;
   border-bottom: thin solid #DADADA;
 }
+
 .cs-extra-data-column {
   text-align: left;
   box-shadow: 1px 1px 1px gray;
@@ -449,7 +493,8 @@
   overflow: auto;
 }
 
-.cs-combo-block, .cs-rulings-block {
+.cs-combo-block,
+.cs-rulings-block {
   border-bottom: thin solid #ccc;
   margin-bottom: 0.5em;
   padding-bottom: 0.5em;
@@ -517,6 +562,7 @@
 .cs-columns-no-right-pad {
   padding-right: 2px;
 }
+
 .cs-columns-no-left-pad {
   padding-left: 2px;
 }
@@ -581,16 +627,31 @@
 
 
 
-div.ability-info             { 
-  border:1px #807f80 solid;
-  text-align:center;
-  margin-bottom:4px;
+div.ability-info {
+  border: 1px #807f80 solid;
+  text-align: center;
+  margin-bottom: 4px;
 }
-div.ability-not-a-jedi       { background-color:#999999; }
-div.ability-jedi-knight      { background-color:#a3dcff; }
-div.ability-jedi-master      { background-color:#bfffbf; }
-div.ability-dark-jedi        { background-color:#ffc0bf; }
-div.ability-dark-jedi-master { background-color:#ff7f80; }
+
+div.ability-not-a-jedi {
+  background-color: #999999;
+}
+
+div.ability-jedi-knight {
+  background-color: #a3dcff;
+}
+
+div.ability-jedi-master {
+  background-color: #bfffbf;
+}
+
+div.ability-dark-jedi {
+  background-color: #ffc0bf;
+}
+
+div.ability-dark-jedi-master {
+  background-color: #ff7f80;
+}
 
 @media (min-height: 1025px) {
   #results-link {

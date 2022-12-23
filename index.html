@@ -419,8 +419,8 @@
             </div>
             <div class="cs-advanced-summary" data-ng-if="data.advancedConditions.length > 0">
               <div data-ng-repeat="condition in data.advancedConditions"
-                   data-ng-class="{'cs-condition-selected': condition.selected}"
-                   data-ng-click="selectCondition(condition)">
+                  data-ng-class="{'cs-condition-selected': condition.selected}"
+                  data-ng-click="selectCondition(condition)">
                 {{ conditionToString(condition) }}
               </div>
             </div>
@@ -438,8 +438,10 @@
             <label style="margin-top: 2em">Text-Only Display <input type="checkbox" name="checkbox" ng-model="data.textOnly"></label>
             <div></div>
             <label style="margin-top: 0.5em">Include Legacy Cards <input type="checkbox" name="checkbox" ng-model="data.shouldLoadLegacy"
-                   data-ng-click="toggleLegacyCards()"></label>
-
+                  data-ng-click="toggleLegacyCards()"></label>
+            <div>
+              <button class="btn btn-primary cs-card-search-button" onclick="toggleDarkMode()">Dark Mode</button>
+            </div>
             <div style="font-size: 0.75em; margin-top: 1em; margin-bottom: 1em;">Version 2.0.3</div>
           </div>
 
