@@ -139,15 +139,25 @@
 
 .cs-card-result-selected {
   background-color: #4444FF;
+    color: #FFFFFF;
 }
 .cs-card-result-selected .cs-color-1 {
   background-color: #4444FF;
+    color: #FFFFFF;
 }
 .cs-card-result-selected .cs-color-2 {
   background-color: #4444FF;
+    color: #FFFFFF;
 }
 .cs-card-result-selected .cs-link {
   color: white;
+}
+
+.cs-extra-card-data-close {
+  position: absolute;
+  right: 0.5em;
+  top: 0px;
+  font-size: 1.5em;
 }
 
 @media(min-width: 992px) {
