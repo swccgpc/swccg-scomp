@@ -72,6 +72,9 @@
 
         <!-- Extra Card Data -->
         <div data-ng-if="data.selectedCard != null" class="cs-extra-data" data-ng-click="clickedCardData($event)">
+          <div class="cs-extra-card-data-close" data-ng-click="hideCardData()">
+            <i class="glyphicon glyphicon-remove"></i> 
+          </div>
           <div class="cs-extra-card-data-title">
             Extra Card Data
           </div>
