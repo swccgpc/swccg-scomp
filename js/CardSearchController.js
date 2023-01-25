@@ -653,6 +653,8 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
       }
       card.abbreviations = card.abbr ?? [];      
 
+      card.underlyingcardfor = card.underlyingCardFor ?? [];
+
       addCardDataToFrontBack(card, card.front);
       addCardDataToFrontBack(card, card.back);
 
@@ -1326,7 +1328,8 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
             card.matchingWeapon ||
             card.canceledBy ||
             card.cancels ||
-            card.abbreviations;
+            card.abbreviations||
+            card.underlyingcardfor;
   };
 
 
