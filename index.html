@@ -153,6 +153,14 @@
               </div>
             </div>
 
+            <!-- Virtual Cards -->
+            <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.underlyingcardfor && data.selectedCard.underlyingcardfor.length > 0">
+              <div class="cs-extra-data-label">Underlying Card For:</div>
+              <div data-ng-repeat='vcard in data.selectedCard.underlyingcardfor track by $index'>
+		<a href="/?s={{vcard}}" target="_blank">{{vcard}}</a>
+              </div>
+            </div>
+
             <!-- Rulings -->
             <div class="cs-extra-data-column" data-ng-if="data.selectedCard.rulings">
               <div class="cs-extra-data-label">Rulings:</div>
