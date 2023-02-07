@@ -753,8 +753,6 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     }
 
     cardSide.id = card.id;
-    console.log("ID:");
-    console.log(cardSide.id);
     cardSide.side = card.side;
     cardSide.rarity = card.rarity;
     cardSide.set = card.set;
