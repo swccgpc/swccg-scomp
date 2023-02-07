@@ -322,13 +322,13 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     }
     */
 
-    if ($scope.search.gempId != undefined){
-      var gempIdSearch = $scope.search.gempId.trim();
-      console.log("insearch:"+gempIdSearch);
+    if ($scope.search.cardId != undefined){
+      var cardIdSearch = $scope.search.cardId.trim();
+      console.log("insearch:"+cardIdSearch);
       andSearches.push({
 	condition: '=',
-	field: 'gempId',
-	data: gempIdSearch
+	field: 'id',
+	data: cardIdSearch
       });
     }
 
@@ -753,7 +753,8 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     }
 
     cardSide.id = card.id;
-    cardSide.gempId = card.gempId;
+    console.log("ID:");
+    console.log(cardSide.id);
     cardSide.side = card.side;
     cardSide.rarity = card.rarity;
     cardSide.set = card.set;
@@ -789,8 +790,8 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
       //}
 
       // Trim some data to save space
-      // delete card.gempId;
-      delete card.id;
+      // delete card.id;
+      delete card.gempId;
       delete card.printings;
       delete card.legacy;
 
@@ -1363,13 +1364,13 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     }
     /*
      * Check if a search string was passed via the ?gempId= location.
-     * If a gempId was passed, then trigger a search using the gempId field.
-     * Example: ?gempId=7_152
+     * If a cardId was passed, then trigger a search using the cardId field.
+     * Example: ?cardId=1410
      */
-    console.log("gempId:",$location.search().gempId,typeof $location.search().gempId);
-    if ((typeof $location.search().gempId != undefined) && ($location.search().gempId != undefined)) {
-      $scope.search.gempId = $location.search().gempId;
-      console.log("Searching for:",$scope.search.gempId);
+    console.log("gempId:",$location.search().cardId,typeof $location.search().cardId);
+    if ((typeof $location.search().cardId != undefined) && ($location.search().cardId != undefined)) {
+      $scope.search.cardId = $location.search().cardId;
+      console.log("Searching for:",$scope.search.cardId);
       doSearch();
     }
   }) // timeout
