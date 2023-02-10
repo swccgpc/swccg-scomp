@@ -322,6 +322,16 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     }
     */
 
+    if ($scope.search.cardId != undefined){
+      var cardIdSearch = $scope.search.cardId.trim();
+      console.log("insearch:"+cardIdSearch);
+      andSearches.push({
+	condition: '=',
+	field: 'id',
+	data: cardIdSearch
+      });
+    }
+
     var searchText = $scope.search.text.toLowerCase().trim();
 
     // Specific Search Fields
@@ -778,7 +788,7 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
       //}
 
       // Trim some data to save space
-      delete card.id;
+      // delete card.id;
       delete card.gempId;
       delete card.printings;
       delete card.legacy;
@@ -1348,6 +1358,17 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     if ((typeof $location.search().s != undefined) && ($location.search().s != undefined)) {
       $scope.search.text = $location.search().s;
       console.log("Searching for:",$scope.search.text);
+      doSearch();
+    }
+    /*
+     * Check if a search string was passed via the ?gempId= location.
+     * If a cardId was passed, then trigger a search using the cardId field.
+     * Example: ?cardId=1410
+     */
+    console.log("gempId:",$location.search().cardId,typeof $location.search().cardId);
+    if ((typeof $location.search().cardId != undefined) && ($location.search().cardId != undefined)) {
+      $scope.search.cardId = $location.search().cardId;
+      console.log("Searching for:",$scope.search.cardId);
       doSearch();
     }
   }) // timeout
