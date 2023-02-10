@@ -87,7 +87,7 @@
             <div class="cs-extra-data-column" data-ng-if="data.selectedCard.pulls">
               <div class="cs-extra-data-label">Pulls:</div>
               <div data-ng-repeat='pull in data.selectedCard.pulls track by $index'>
-                <div ng-bind-html="pull | to_trusted"></div>
+                <a href="/?s={{pull}}" target="_blank">{{pull | to_trusted}}</a>
               </div>
             </div>
 
@@ -95,7 +95,7 @@
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.pulledBy">
               <div class="cs-extra-data-label">Pulled By:</div>
               <div data-ng-repeat='pulledBy in data.selectedCard.pulledBy track by $index'>
-                <div ng-bind-html="pulledBy | to_trusted"></div>
+                <a href="/?s={{pulledBy}}" target="_blank">{{pulledBy | to_trusted}}</a>
               </div>
             </div>
 
@@ -117,7 +117,7 @@
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.matching">
               <div class="cs-extra-data-label">Matching:</div>
               <div data-ng-repeat='matching in data.selectedCard.matching track by $index'>
-                <div ng-bind-html="matching | to_trusted"></div>
+                <a href="/?s={{matching}}" target="_blank">{{matching | to_trusted}}</a>
               </div>
             </div>
 
@@ -125,7 +125,7 @@
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.matchingWeapon">
               <div class="cs-extra-data-label">Matching Weapon:</div>
               <div data-ng-repeat='matchingWeapon in data.selectedCard.matchingWeapon track by $index'>
-                <div ng-bind-html="matchingWeapon | to_trusted"></div>
+                <a href="/?s={{matchingWeapon}}" target="_blank">{{matchingWeapon | to_trusted}}</a>
               </div>
             </div>
 
@@ -133,7 +133,7 @@
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.canceledBy">
               <div class="cs-extra-data-label">Canceled By:</div>
               <div data-ng-repeat='canceledBy in data.selectedCard.canceledBy track by $index'>
-                <div ng-bind-html="canceledBy | to_trusted"></div>
+                <a href="/?s={{canceledBy}}" target="_blank">{{canceledBy | to_trusted}}</a>
               </div>
             </div>
 
@@ -141,7 +141,7 @@
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.cancels">
               <div class="cs-extra-data-label">Cancels:</div>
               <div data-ng-repeat='cancels in data.selectedCard.cancels track by $index'>
-                <div ng-bind-html="cancels | to_trusted"></div>
+                <a href="/?s={{cancels}}" target="_blank">{{cancels | to_trusted}}</a>
               </div>
             </div>
 
@@ -157,7 +157,7 @@
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.underlyingcardfor && data.selectedCard.underlyingcardfor.length > 0">
               <div class="cs-extra-data-label">Underlying Card For:</div>
               <div data-ng-repeat='vcard in data.selectedCard.underlyingcardfor track by $index'>
-		<a href="/?s={{vcard}}" target="_blank">{{vcard}}</a>
+                <a href="/?s={{vcard}}" target="_blank">{{vcard | to_trusted}}</a>
               </div>
             </div>
 
