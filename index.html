@@ -157,7 +157,12 @@
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.underlyingcardfor && data.selectedCard.underlyingcardfor.length > 0">
               <div class="cs-extra-data-label">Underlying Card For:</div>
               <div data-ng-repeat='vcard in data.selectedCard.underlyingcardfor track by $index'>
-                <a href="/?s={{vcard}}" target="_blank">{{vcard | to_trusted}}</a>
+                <div data-ng-if="vcard.title">
+                  <a href="/?cardId={{vcard.cardId}}" target="_blank">{{vcard.title}}</a>
+                </div>
+                <div data-ng-if="!vcard.title">
+                  <a href="/?s={{vcard}}" target="_blank">{{vcard}}</a>
+                </div>
               </div>
             </div>
 
