@@ -87,7 +87,12 @@
             <div class="cs-extra-data-column" data-ng-if="data.selectedCard.pulls">
               <div class="cs-extra-data-label">Pulls:</div>
               <div data-ng-repeat='pull in data.selectedCard.pulls track by $index'>
-                <a href="/?s={{pull}}" target="_blank">{{pull | to_trusted}}</a>
+                <div data-ng-if="pull.title">
+                  <a href="/?cardId={{pull.cardId}}" target="_blank">{{pull.title | to_trusted}}</a>
+                </div>
+                <div data-ng-if="!pull.title">
+                  <a href="/?s={{pull}}" target="_blank">{{pull | to_trusted}}</a>
+                </div>
               </div>
             </div>
 
@@ -95,14 +100,24 @@
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.pulledBy">
               <div class="cs-extra-data-label">Pulled By:</div>
               <div data-ng-repeat='pulledBy in data.selectedCard.pulledBy track by $index'>
-                <a href="/?s={{pulledBy}}" target="_blank">{{pulledBy | to_trusted}}</a>
+                <div data-ng-if="pulledBy.title">
+                  <a href="/?cardId={{pulledBy.cardId}}" target="_blank">{{pulledBy.title | to_trusted}}</a>
+                </div>
+                <div data-ng-if="!pulledBy.title">
+                  <a href="/?s={{pulledBy}}" target="_blank">{{pulledBy | to_trusted}}</a>
+                </div>
               </div>
             </div>
 
             <!-- Counterpart -->
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.counterpart">
               <div class="cs-extra-data-label">Counterpart:</div>
-              <div data-ng-bind-html='data.selectedCard.counterpart | to_trusted'></div>
+              <div data-ng-if="counterpart.title">
+                <a href="/?cardId={{counterpart.cardId}}" target="_blank">{{counterpart.title | to_trusted}}</a>
+              </div>
+              <div data-ng-if="!counterpart.title">
+                <a href="/?s={{counterpart}}" target="_blank">{{counterpart | to_trusted}}</a>
+              </div>
             </div>
 
             <!-- Combo -->
@@ -117,7 +132,12 @@
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.matching">
               <div class="cs-extra-data-label">Matching:</div>
               <div data-ng-repeat='matching in data.selectedCard.matching track by $index'>
-                <a href="/?s={{matching}}" target="_blank">{{matching | to_trusted}}</a>
+                <div data-ng-if="matching.title">
+                  <a href="/?cardId={{matching.cardId}}" target="_blank">{{matching.title | to_trusted}}</a>
+                </div>
+                <div data-ng-if="!matching.title">
+                  <a href="/?s={{matching}}" target="_blank">{{matching | to_trusted}}</a>
+                </div>
               </div>
             </div>
 
@@ -125,7 +145,12 @@
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.matchingWeapon">
               <div class="cs-extra-data-label">Matching Weapon:</div>
               <div data-ng-repeat='matchingWeapon in data.selectedCard.matchingWeapon track by $index'>
-                <a href="/?s={{matchingWeapon}}" target="_blank">{{matchingWeapon | to_trusted}}</a>
+                <div data-ng-if="matchingWeapon.title">
+                  <a href="/?cardId={{matchingWeapon.cardId}}" target="_blank">{{matchingWeapon.title | to_trusted}}</a>
+                </div>
+                <div data-ng-if="!matchingWeapon.title">
+                  <a href="/?s={{matchingWeapon}}" target="_blank">{{matchingWeapon | to_trusted}}</a>
+                </div>
               </div>
             </div>
 
@@ -133,7 +158,12 @@
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.canceledBy">
               <div class="cs-extra-data-label">Canceled By:</div>
               <div data-ng-repeat='canceledBy in data.selectedCard.canceledBy track by $index'>
-                <a href="/?s={{canceledBy}}" target="_blank">{{canceledBy | to_trusted}}</a>
+                <div data-ng-if="canceledBy.title">
+                  <a href="/?cardId={{canceledBy.cardId}}" target="_blank">{{canceledBy.title | to_trusted}}</a>
+                </div>
+                <div data-ng-if="!canceledBy.title">
+                  <a href="/?s={{canceledBy}}" target="_blank">{{canceledBy | to_trusted}}</a>
+                </div>
               </div>
             </div>
 
@@ -141,7 +171,15 @@
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.cancels">
               <div class="cs-extra-data-label">Cancels:</div>
               <div data-ng-repeat='cancels in data.selectedCard.cancels track by $index'>
-                <a href="/?s={{cancels}}" target="_blank">{{cancels | to_trusted}}</a>
+                <div data-ng-if="cancels.title">
+                  <div data-ng-if="cancels.cardId">
+                    <a href="/?cardId={{cancels.cardId}}" target="_blank">{{cancels.title}}</a>
+                  </div>
+                  <div data-ng-if="!cancels.cardId">{{cancels.title | to_trusted}}</div>
+                </div>
+                <div data-ng-if="!cancels.title">
+                  <a href="/?s={{cancels}}" target="_blank">{{cancels | to_trusted}}</a>
+                </div>
               </div>
             </div>
 
@@ -157,7 +195,12 @@
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.underlyingcardfor && data.selectedCard.underlyingcardfor.length > 0">
               <div class="cs-extra-data-label">Underlying Card For:</div>
               <div data-ng-repeat='vcard in data.selectedCard.underlyingcardfor track by $index'>
-                <a href="/?s={{vcard}}" target="_blank">{{vcard | to_trusted}}</a>
+                <div data-ng-if="vcard.title">
+                  <a href="/?cardId={{vcard.cardId}}" target="_blank">{{vcard.title}}</a>
+                </div>
+                <div data-ng-if="!vcard.title">
+                  <a href="/?s={{vcard}}" target="_blank">{{vcard}}</a>
+                </div>
               </div>
             </div>
 
