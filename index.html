@@ -112,11 +112,11 @@
             <!-- Counterpart -->
             <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.counterpart">
               <div class="cs-extra-data-label">Counterpart:</div>
-              <div data-ng-if="counterpart.title">
-                <a href="/?cardId={{counterpart.cardId}}" target="_blank">{{counterpart.title | to_trusted}}</a>
+              <div data-ng-if="data.selectedCard.counterpart.title">
+                <a href="/?cardId={{data.selectedCard.counterpart.cardId}}" target="_blank">{{data.selectedCard.counterpart.title | to_trusted}}</a>
               </div>
-              <div data-ng-if="!counterpart.title">
-                <a href="/?s={{counterpart}}" target="_blank">{{counterpart | to_trusted}}</a>
+              <div data-ng-if="!data.selectedCard.counterpart.title">
+                <a href="/?s={{data.selectedCard.counterpart}}" target="_blank">{{data.selectedCard.counterpart | to_trusted}}</a>
               </div>
             </div>
 

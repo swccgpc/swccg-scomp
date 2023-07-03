@@ -992,7 +992,11 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     {
       // Add all string values from the array
       card[fieldName].forEach(function(txt) {
-        cardFields.push(txt.toLowerCase());
+        if (typeof txt === 'string'){
+          cardFields.push(txt.toLowerCase());
+        } else if (txt.hasOwnProperty('title')) {
+          cardFields.push(txt['title'].toLowerCase());
+        }
       });
       valueToCompare = value.toLowerCase();
     }
