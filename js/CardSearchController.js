@@ -596,13 +596,15 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
 
     try {
       // Store the loaded data into LocalStorage for fast loading later
-      // Note: This is approaching 3.8 MB. If we exceed 5MB, this will start failing
-      localStorage.setItem(LOCAL_STORAGE_DATA_KEY, JSON.stringify($scope.data));
+      // Note: This currently exceeds the 5MB limit, so disabling this until we
+      //       can find a better way to do this. Leaving the 'loading' and 'swap' 
+      //       code intact for safety
+      //localStorage.setItem(LOCAL_STORAGE_DATA_KEY, JSON.stringify($scope.data));
     }
     catch(ex) {
       console.error("Error saving data into LocalStorage. Cache will not be availalbe");
     }
-    
+
   }
 
   function loadCachedData() {
