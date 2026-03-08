@@ -35895,11 +35895,16 @@
           "Jedi Knight"
         ],
         "forfeit": "0",
-        "gametext": "This is a Dark Side card and does not count toward your deck limit. Reveal to opponent when deploying your Starting Effect. Deploys to Death Star II: Throne Room only at start of game as a frozen captive if Bring Him Before Me on table and Your Destiny is suspended; otherwise place out of play. For remainder of game, may not be placed in Reserve Deck. This is a persona of Luke only while on table. While this side up, Bring Him Before Me may not flip. May not be escorted. Flip this card if Vader present and not escorting a captive. Place out of play if released or about to leave table.",
+        "gametext": "{Immediately} 'thaw' Luke (Luke is non-frozen, captured, and seized by Vader). {While} this side up, subtracts 3 from attempts to cross Lule over (even while a captive). {Place} out of play if released or about to leave table.",
         "icons": [
           "Set 5"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual5-Dark/large/lukeskywalkertheemperorsprizeback.gif",
+        "icons": [
+            "Pilot",
+            "Warrior",
+            "Set 5"
+        ],
         "power": "6",
         "subType": "Rebel",
         "title": "•Luke Skywalker, The Emperor's Prize / •Luke Skywalker, The Emperor's Prize",
@@ -35916,7 +35921,7 @@
           "Carbon-Frozen"
         ],
         "forfeit": "0",
-        "gametext": "This is a Dark Side card and does not count toward your deck limit. Reveal to opponent when deploying your Starting Effect. Deploys to Death Star II: Throne Room only at start of game as a frozen captive if Bring Him Before Me on table and Your Destiny is suspended; otherwise place out of play. For remainder of game, may not be placed in Reserve Deck. This is a persona of Luke only while on table. While this side up, Bring Him Before Me may not flip. May not be escorted. Flip this card if Vader present and not escorting a captive. Place out of play if released or about to leave table.",
+        "gametext": "This is a Dark Side card and does not count toward your deck limit. Reveal to opponent when deploying your Starting Effect. Deploys to Death Star II: Throne Room only at start of game as a frozen captive if Bring Him Before Me on table and Your Destiny is suspended; otherwise place out of play. {For} remainder of game, may not be placed in Reserve Deck. This is a persona of Luke only while on table. {While} this side up, Bring Him Before Me may not flip. May not be escorted. {Flip} this card if Vader present and not escorting a captive. {Place} out of play if released or about to leave table.",
         "icons": [
           "Set 5"
         ],
