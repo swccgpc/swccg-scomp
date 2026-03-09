@@ -1,6 +1,9 @@
 {
   "cards": [
     {
+      "abbr": [
+        "21B"
+      ],
       "front": {
         "deploy": "2",
         "destiny": "1",
@@ -151,8 +154,8 @@
       "side": "Light",
       "underlyingCardFor": [
         {
-          "title": "A Close Race (V)",
-          "cardId": 7318
+          "cardId": 7318,
+          "title": "A Close Race (V)"
         }
       ]
     },
@@ -5815,7 +5818,7 @@
         "icons": [
           "Interior",
           "Exterior",
-          "Cave",
+          "Creature Site",
           "Planet",
           "Dagobah"
         ],
@@ -43078,7 +43081,13 @@
         "If not stacked, the destiny from hand still goes to Used Pile."
       ],
       "set": "11",
-      "side": "Light"
+      "side": "Light",
+      "underlyingCardFor": [
+        {
+          "cardId": 7495,
+          "title": "Podrace Prep (V)"
+        }
+      ]
     },
     {
       "conceptBy": "(Image courtesy of Leo Camacho)",
@@ -45495,7 +45504,7 @@
           "A New Hope"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/ANewHope-Light/large/ra7.gif",
-        "lore": "The RA line of servant droids has fifth-degree primary programming. Low intelligence with capabilities for mental labor only. Common among nobles and high-ranking officials.",
+        "lore": "The RA line of servant droids has fifth-degree primary programming: low intelligence with capabilities for mental labor only. Common among nobles and high-ranking officials.",
         "power": "1",
         "subType": "Droid",
         "title": "RA-7 (Aray-Seven)",
@@ -57303,7 +57312,7 @@
       "gempId": "211_36",
       "id": 5961,
       "legacy": false,
-      "previousId": 40016,
+      "previousId": 40111,
       "printings": [
         {
           "set": "211"
@@ -61391,6 +61400,7 @@
       "gempId": "204_15",
       "id": 5076,
       "legacy": false,
+      "previousId": 40100,
       "printings": [
         {
           "set": "204"
@@ -66818,6 +66828,7 @@
       "gempId": "215_6",
       "id": 6880,
       "legacy": false,
+      "previousId": 40109,
       "printings": [
         {
           "set": "215"
@@ -67156,6 +67167,7 @@
       "gempId": "215_14",
       "id": 6888,
       "legacy": false,
+      "previousId": 40110,
       "printings": [
         {
           "set": "215"
@@ -68893,6 +68905,7 @@
       "gempId": "217_29",
       "id": 6981,
       "legacy": false,
+      "previousId": 40104,
       "printings": [
         {
           "set": "217"
@@ -72659,7 +72672,7 @@
       "gempId": "221_43",
       "id": 7191,
       "legacy": false,
-      "previousId": 40080,
+      "previousId": 40106,
       "printings": [
         {
           "set": "221"
@@ -73158,6 +73171,7 @@
       "gempId": "221_57",
       "id": 7205,
       "legacy": false,
+      "previousId": 40101,
       "printings": [
         {
           "set": "221"
@@ -73230,6 +73244,7 @@
       "gempId": "221_59",
       "id": 7207,
       "legacy": false,
+      "previousId": 40102,
       "printings": [
         {
           "set": "221"
@@ -73816,7 +73831,7 @@
       "gempId": "209_16",
       "id": 5302,
       "legacy": false,
-      "previousId": 40033,
+      "previousId": 40103,
       "printings": [
         {
           "set": "209"
@@ -75687,7 +75702,7 @@
         "errataDate": "2024-07-25",
         "errataNotes": "Changed 'a Grabber card stacks' to 'your Grabber card stacks' and improved WHAAOW! to WHAAAAOW!",
         "errataSymbol": "E1",
-        "gametext": "Once per game, 'BEEP-BOOP' (your [Grabber] card stacks a just played opponent's Interrupt; this does not count towards any [Grabber] card's once per game limit). OR Once per game, 'WHAAAAOW!' (lose your droid at a Scomp link to cancel a battle just initiated at same or related interior site).",
+        "gametext": "Once per game, 'BEEP-BOOP' (your [Grabber] card stacks a just played opponent's Interrupt; this does not count toward any [Grabber] card's once per game limit). OR Once per game, 'WHAAAAOW!' (lose your droid at a Scomp link to cancel a battle just initiated at same or related interior site).",
         "icons": [
           "Set 23"
         ],
@@ -77214,6 +77229,7 @@
       "gempId": "225_9",
       "id": 7393,
       "legacy": false,
+      "previousId": 40108,
       "printings": [
         {
           "set": "225"
@@ -77518,6 +77534,7 @@
       "gempId": "225_42",
       "id": 7426,
       "legacy": false,
+      "previousId": 40107,
       "printings": [
         {
           "set": "225"
@@ -77701,6 +77718,7 @@
       "gempId": "225_47",
       "id": 7431,
       "legacy": false,
+      "previousId": 40105,
       "printings": [
         {
           "set": "225"
@@ -78896,7 +78914,7 @@
       "gempId": "226_28",
       "id": 7472,
       "legacy": false,
-      "previousId": 40099,
+      "previousId": 40112,
       "printings": [
         {
           "set": "226"
@@ -78945,7 +78963,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "219_31",
-      "id": 7104,
+      "id": 7482,
       "legacy": false,
       "printings": [
         {
@@ -78989,7 +79007,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "217_34",
-      "id": 6986,
+      "id": 7483,
       "legacy": false,
       "previousId": 40004,
       "printings": [
@@ -79025,7 +79043,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "209_4",
-      "id": 5533,
+      "id": 7484,
       "legacy": false,
       "printings": [
         {
@@ -79057,7 +79075,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "200_39",
-      "id": 890,
+      "id": 7485,
       "legacy": false,
       "printings": [
         {
@@ -79097,7 +79115,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "200_41",
-      "id": 1219,
+      "id": 7486,
       "legacy": false,
       "printings": [
         {
@@ -79139,7 +79157,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "210_17",
-      "id": 5627,
+      "id": 7487,
       "legacy": false,
       "printings": [
         {
@@ -79167,7 +79185,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "211_33",
-      "id": 5631,
+      "id": 7488,
       "legacy": false,
       "printings": [
         {
@@ -79207,7 +79225,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "200_20",
-      "id": 1594,
+      "id": 7489,
       "legacy": false,
       "matching": [
         "Artoo-Detoo In Red 5",
@@ -79273,7 +79291,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "210_20",
-      "id": 5703,
+      "id": 7490,
       "legacy": false,
       "printings": [
         {
@@ -79324,7 +79342,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "218_4",
-      "id": 7044,
+      "id": 7491,
       "legacy": false,
       "matchingWeapon": [
         "Mace Windu's Lightsaber"
@@ -79369,7 +79387,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "205_6",
-      "id": 5130,
+      "id": 7492,
       "legacy": false,
       "printings": [
         {
@@ -79417,7 +79435,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "218_31",
-      "id": 7072,
+      "id": 7493,
       "legacy": false,
       "matching": [
         "Any Han",
@@ -79461,7 +79479,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "217_52",
-      "id": 7005,
+      "id": 7494,
       "legacy": false,
       "printings": [
         {
@@ -79482,6 +79500,42 @@
         "Can only deploy Anakin's Lightsaber from your own Lost Pile, not the opponent's Lost Pile."
       ],
       "set": "217",
+      "side": "Light"
+    },
+    {
+      "abbr": [
+        "PPv"
+      ],
+      "front": {
+        "destiny": "3",
+        "gametext": "If Credits Will Do Fine on table, deploy Podrace Arena, a Podracer, Boonta Eve Podrace, and three Effects that deploy for free and are always immune to Alter. Opponent may deploy a Podracer (or play a Defensive Shield from under their Starting Effect). Place Interrupt in Lost Pile.",
+        "icons": [
+          "Episode I",
+          "Tatooine",
+          "Set 27"
+        ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual27-Light/large/podraceprep.gif",
+        "lore": "Advanced preparation in Podracing is usually the key to winning. A little extra work at the start can mean a lot in the long run.",
+        "subType": "Starting",
+        "title": "•Podrace Prep (V)",
+        "type": "Interrupt",
+        "uniqueness": "*",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Podrace Prep (V)/image.png",
+        "printableSlipType": "VIRTUAL"
+      },
+      "gempId": "227_1",
+      "id": 7495,
+      "legacy": false,
+      "printings": [
+        {
+          "set": "227"
+        }
+      ],
+      "rarity": "U",
+      "rulings": [
+        "If Dark chooses to deploy a Podracer, it must come from their Reserve Deck."
+      ],
+      "set": "227",
       "side": "Light"
     }
   ]

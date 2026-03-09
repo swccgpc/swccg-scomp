@@ -568,6 +568,9 @@
       "side": "Dark"
     },
     {
+      "abbr": [
+        "ABCTTU"
+      ],
       "front": {
         "destiny": "4",
         "gametext": "Deploy on Death Star system or Coruscant system. Target another system. At locations related to target system, opponent's Force drain modifiers are canceled. Effect canceled if opponent controls this system. (Immune to Alter.)",
@@ -5297,7 +5300,7 @@
         "icons": [
           "Interior",
           "Exterior",
-          "Cave",
+          "Creature Site",
           "Planet",
           "Dagobah"
         ],
@@ -18783,6 +18786,7 @@
       "gempId": "211_19",
       "id": 6262,
       "legacy": false,
+      "previousId": 20074,
       "printings": [
         {
           "set": "211"
@@ -35897,14 +35901,11 @@
         "forfeit": "0",
         "gametext": "{Immediately} 'thaw' Luke (Luke is non-frozen, captured, and seized by Vader). {While} this side up, subtracts 3 from attempts to cross Lule over (even while a captive). {Place} out of play if released or about to leave table.",
         "icons": [
-          "Set 5"
-        ],
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual5-Dark/large/lukeskywalkertheemperorsprizeback.gif",
-        "icons": [
             "Pilot",
             "Warrior",
             "Set 5"
         ],
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual5-Dark/large/lukeskywalkertheemperorsprizeback.gif",
         "power": "6",
         "subType": "Rebel",
         "title": "•Luke Skywalker, The Emperor's Prize / •Luke Skywalker, The Emperor's Prize",
@@ -53962,7 +53963,7 @@
           "Reflections 2"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/ReflectionsII-Dark/large/theemperor.gif",
-        "lore": "Leader. Secretive manipulator of the galaxy. Played Darth Vader and Prince Xizor off against one another in his relentless pursuit of 'young Skywalker'.",
+        "lore": "Leader. Secretive manipulator of the galaxy. Played Darth Vader and Prince Xizor off against one another in his relentless pursuit of 'young Skywalker.'",
         "power": "4",
         "subType": "Dark Jedi Master/Imperial",
         "title": "•The Emperor",
@@ -63897,6 +63898,7 @@
       "gempId": "214_12",
       "id": 6854,
       "legacy": false,
+      "previousId": 20068,
       "printings": [
         {
           "set": "214"
@@ -64327,6 +64329,7 @@
       "gempId": "215_25",
       "id": 6899,
       "legacy": false,
+      "previousId": 20069,
       "printings": [
         {
           "set": "215"
@@ -64937,6 +64940,7 @@
       "gempId": "216_11",
       "id": 6914,
       "legacy": false,
+      "previousId": 20064,
       "printings": [
         {
           "set": "216"
@@ -65086,6 +65090,7 @@
       "gempId": "216_15",
       "id": 6918,
       "legacy": false,
+      "previousId": 20061,
       "printings": [
         {
           "set": "216"
@@ -65122,6 +65127,7 @@
       "gempId": "216_16",
       "id": 6919,
       "legacy": false,
+      "previousId": 20062,
       "printings": [
         {
           "set": "216"
@@ -66635,6 +66641,7 @@
       "gempId": "218_9",
       "id": 7049,
       "legacy": false,
+      "previousId": 20063,
       "printings": [
         {
           "set": "218"
@@ -67577,12 +67584,12 @@
     },
     {
       "abbr": [
-        "TEv"
+        "TER"
       ],
       "front": {
         "ability": "7",
         "deploy": "5",
-        "destiny": "1",
+        "destiny": "6",
         "extraText": [
           "Dark Jedi Master"
         ],
@@ -67593,19 +67600,20 @@
           "Death Star II",
           "Set 19"
         ],
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual19-Dark/large/theemperor.gif",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual19-Dark/large/theemperorrelentless.gif",
         "lore": "Leader. Secretive manipulator of the galaxy. Played Darth Vader and Prince Xizor off against one another in his relentless pursuit of 'young Skywalker.'",
         "power": "4",
         "subType": "Dark Jedi Master/Imperial",
-        "title": "•The Emperor (V)",
+        "title": "•The Emperor, Relentless",
         "type": "Character",
         "uniqueness": "*",
-        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/The Emperor (V)/image.png",
+        "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/The Emperor, Relentless/image.png",
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "219_19",
       "id": 7091,
       "legacy": false,
+      "previousId": 20065,
       "printings": [
         {
           "set": "219"
@@ -67793,6 +67801,7 @@
       "gempId": "219_24",
       "id": 7096,
       "legacy": false,
+      "previousId": 20072,
       "printings": [
         {
           "set": "219"
@@ -68200,6 +68209,7 @@
       "gempId": "220_5",
       "id": 7127,
       "legacy": false,
+      "previousId": 20066,
       "matching": [
         "Mist Hunter"
       ],
@@ -70732,6 +70742,7 @@
       "gempId": "222_18",
       "id": 7249,
       "legacy": false,
+      "previousId": 20073,
       "printings": [
         {
           "set": "222"
@@ -71913,7 +71924,7 @@
       "gempId": "223_19",
       "id": 7307,
       "legacy": false,
-      "previousId": 20050,
+      "previousId": 20067,
       "printings": [
         {
           "set": "223"
@@ -72105,6 +72116,7 @@
       "gempId": "223_25",
       "id": 7313,
       "legacy": false,
+      "previousId": 20071,
       "printings": [
         {
           "set": "223"
@@ -73960,7 +73972,7 @@
           "Scomp Link",
           "Episode VII",
           "First Order",
-          "Permanent Pilot",
+          "Pilot",
           "Nav Computer",
           "Set 25"
         ],
@@ -74172,6 +74184,7 @@
       "gempId": "225_32",
       "id": 7416,
       "legacy": false,
+      "previousId": 20075,
       "printings": [
         {
           "set": "225"
@@ -74317,6 +74330,7 @@
       "gempId": "225_36",
       "id": 7420,
       "legacy": false,
+      "previousId": 20070,
       "printings": [
         {
           "set": "225"
@@ -74877,6 +74891,7 @@
       "gempId": "226_12",
       "id": 7456,
       "legacy": false,
+      "previousId": 20076,
       "printings": [
         {
           "set": "226"
@@ -74962,7 +74977,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "204_47",
-      "id": 5101,
+      "id": 7473,
       "legacy": false,
       "printings": [
         {
@@ -75004,7 +75019,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "200_109",
-      "id": 1276,
+      "id": 7474,
       "legacy": false,
       "printings": [
         {
@@ -75045,7 +75060,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "213_23",
-      "id": 6811,
+      "id": 7475,
       "legacy": false,
       "printings": [
         {
@@ -75084,7 +75099,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "211_23",
-      "id": 6419,
+      "id": 7476,
       "legacy": false,
       "printings": [
         {
@@ -75125,7 +75140,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "208_35",
-      "id": 5188,
+      "id": 7477,
       "legacy": false,
       "printings": [
         {
@@ -75181,7 +75196,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "200_85",
-      "id": 4028,
+      "id": 7478,
       "legacy": false,
       "printings": [
         {
@@ -75231,7 +75246,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "200_88",
-      "id": 4030,
+      "id": 7479,
       "legacy": false,
       "printings": [
         {
@@ -75269,7 +75284,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "219_27",
-      "id": 7099,
+      "id": 7480,
       "legacy": false,
       "printings": [
         {
@@ -75314,7 +75329,7 @@
         "printableSlipType": "VIRTUAL"
       },
       "gempId": "204_46",
-      "id": 5100,
+      "id": 7481,
       "legacy": false,
       "printings": [
         {

@@ -583,6 +583,17 @@
     "size": 28
   },
   {
+    "id": "227",
+    "name": "Virtual Set 27",
+    "gempName": "Set 27",
+    "abbr": "V27",
+    "legacy": false,
+    "cycle_code": "full",
+    "date_release": "2026-03-09",
+    "position": 227,
+    "size": 1
+  },
+  {
     "id": "301",
     "name": "Demo Deck",
     "gempName": "Virtual Premium Set",
