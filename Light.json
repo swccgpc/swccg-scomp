@@ -22815,6 +22815,9 @@
         }
       ],
       "rarity": "U",
+      "rulings": [
+        "A Podracer is 'leading the Podrace' if they have the highest race total (including a tie)."
+      ],
       "set": "12",
       "side": "Light"
     },
@@ -57284,7 +57287,7 @@
         "errataDate": "2022-12-12",
         "errataNotes": "Previous version only prevented opponent from firing weapons, limited immunity to < 5, and instead of Force drain +1, caused 1 direct damage per turn when Force draining with two unique Resistance characters.",
         "errataSymbol": "E1",
-        "gametext": "The Galaxy May Need A Legend: Deploy Ahch-To system and any [Episode VII] battleground. For remainder of game, Luke deploys only to Ahch-To. You may not Force drain on Ahch-To. You may not deploy [Episode I] locations or non-[Episode VII] Luke. You may not deploy Jedi while a Jedi on table. Once per game, may take any one card into hand from Force Pile; reshuffle. While this side up, once per turn, may use 1 Force to deploy an Ahch-To location or [Episode VII] battleground from Reserve Deck; reshuffle. May flip this card if Luke on Ahch-To and a battle was just initiated involving a Resistance character. We Need Luke Skywalker: Immediately place Luke out of play (ignore [Death Star II] objective restrictions, if any). For remainder of battle, weapons may not be fired. While this side up, opponent's immunity to attrition is limited to < 6. Once during your turn, may peek at the top card of your Force Pile and Reserve Deck; place both cards (in any order) on top of one of those piles. Where you have two unique (•) Resistance characters, your Force drains are +1 and, once per turn during battle, may cancel an opponent's just drawn destiny to cause a redraw.",
+        "gametext": "The Galaxy May Need A Legend: Deploy Ahch-To: Saddle and any [Episode VII] battleground. For remainder of game, Luke deploys only to Ahch-To. You may not Force drain on Ahch-To. You may not deploy [Episode I] locations or non-[Episode VII] characters of ability > 4. Once per game, may take any one card into hand from Force Pile; reshuffle. While this side up, once per turn, may deploy an Ahch-To location or [Episode VII] battleground from Reserve Deck; reshuffle. May flip this card if Luke on Ahch-To and a battle was just initiated involving a Resistance character. We Need Luke Skywalker: Immediately place Luke out of play (ignore [Death Star II] objective restrictions, if any). For remainder of battle, weapons may not be fired. While this side up, opponent's immunity to attrition is limited to < 6. Once during your turn, may peek at the top card of your Force Pile and Reserve Deck; place both cards (in any order) on top of one of those piles. Where you have two unique (•) Resistance characters, your Force drains are +1 and, once per turn during battle, may cancel an opponent's just drawn destiny to cause a redraw.",
         "icons": [
           "Episode VII",
           "Set 11"
@@ -57297,8 +57300,10 @@
       },
       "front": {
         "destiny": "0",
-        "errataSymbol": "E1",
-        "gametext": "The Galaxy May Need A Legend: Deploy Ahch-To system and any [Episode VII] battleground. For remainder of game, Luke deploys only to Ahch-To. You may not Force drain on Ahch-To. You may not deploy [Episode I] locations or non-[Episode VII] Luke. You may not deploy Jedi while a Jedi on table. Once per game, may take any one card into hand from Force Pile; reshuffle. While this side up, once per turn, may use 1 Force to deploy an Ahch-To location or [Episode VII] battleground from Reserve Deck; reshuffle. May flip this card if Luke on Ahch-To and a battle was just initiated involving a Resistance character. We Need Luke Skywalker: Immediately place Luke out of play (ignore [Death Star II] objective restrictions, if any). For remainder of battle, weapons may not be fired. While this side up, opponent's immunity to attrition is limited to < 6. Once during your turn, may peek at the top card of your Force Pile and Reserve Deck; place both cards (in any order) on top of one of those piles. Where you have two unique (•) Resistance characters, your Force drains are +1 and, once per turn during battle, may cancel an opponent's just drawn destiny to cause a redraw.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Front E1 text: The Galaxy May Need A Legend: Deploy Ahch-To system and any [Episode VII] battleground. For remainder of game, Luke deploys only to Ahch-To. You may not Force drain on Ahch-To. You may not deploy [Episode I] locations or non-[Episode VII] Luke. You may not deploy Jedi while a Jedi on table. Once per game, may take any one card into hand from Force Pile; reshuffle. While this side up, once per turn, may use 1 Force to deploy an Ahch-To location or [Episode VII] battleground from Reserve Deck; reshuffle. May flip this card if Luke on Ahch-To and a battle was just initiated involving a Resistance character.",
+        "errataSymbol": "E2",
+        "gametext": "The Galaxy May Need A Legend: Deploy Ahch-To: Saddle and any [Episode VII] battleground. For remainder of game, Luke deploys only to Ahch-To. You may not Force drain on Ahch-To. You may not deploy [Episode I] locations or non-[Episode VII] characters of ability > 4. Once per game, may take any one card into hand from Force Pile; reshuffle. While this side up, once per turn, may deploy an Ahch-To location or [Episode VII] battleground from Reserve Deck; reshuffle. May flip this card if Luke on Ahch-To and a battle was just initiated involving a Resistance character. We Need Luke Skywalker: Immediately place Luke out of play (ignore [Death Star II] objective restrictions, if any). For remainder of battle, weapons may not be fired. While this side up, opponent's immunity to attrition is limited to < 6. Once during your turn, may peek at the top card of your Force Pile and Reserve Deck; place both cards (in any order) on top of one of those piles. Where you have two unique (•) Resistance characters, your Force drains are +1 and, once per turn during battle, may cancel an opponent's just drawn destiny to cause a redraw.",
         "icons": [
           "Episode VII",
           "Set 11"
@@ -57320,8 +57325,6 @@
       ],
       "rarity": "R",
       "rulings": [
-        "While a Jedi on table, also cannot use persona replacement to replace a Jedi with a Jedi, or to replace a non-Jedi with a Jedi.",
-        "Be With Me creates an exception to the above ruling, allowing Set 14 Rey to deploy (and thereby also allowing her to persona replace another Rey).",
         "(0 side) May flip even if the Resistance character is introduced to the battle during the 'battle just initiated' responses (e.g. Light may deploy Finn as a react, then flip).",
         "(7-side) When calculating immunity to attrition, start with the base immunity and apply any modifiers. Finally, apply the limit of < 6 from this Objective last."
       ],
@@ -61383,7 +61386,10 @@
     {
       "front": {
         "destiny": "2",
-        "gametext": "Deploy on table. Once per game, may stack the top card of your Lost Pile beneath Credits Will Do Fine. May examine cards stacked beneath Credits Will Do Fine and place any two in owner's Lost Pile to take a starship into hand from Reserve Deck; reshuffle (or retrieve into hand).",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Previous text: Deploy on table. Once per game, may stack the top card of your Lost Pile beneath Credits Will Do Fine. May examine cards stacked beneath Credits Will Do Fine and place any two in owner's Lost Pile to take a starship into hand from Reserve Deck; reshuffle (or retrieve into hand).",
+        "errataSymbol": "E1",
+        "gametext": "Deploy on table. If your Podracer is on table and opponent's is not, they generate no Force at Podrace Arena. Once during opponent's control phase, if you are winning (or have won) a Podrace, may stack the bottom card of your Lost Pile on Credits Will Do Fine. [Immune to Alter.]",
         "icons": [
           "Coruscant",
           "Episode I",
@@ -61411,6 +61417,10 @@
         "We Wish To Board At Once"
       ],
       "rarity": "C",
+      "rulings": [
+        "A player is 'winning a Podrace' if they have the highest race total (does not include ties).",
+        "After the Podrace is over and the Podracers are lost from table, Dark will generate Force at Podrace Arena."
+      ],
       "set": "204",
       "side": "Light"
     },
@@ -66805,11 +66815,17 @@
       "side": "Light"
     },
     {
+      "cancels": [
+        "Blast The Door, Kid!"
+      ],
       "counterpart": "Death Star: Central Core",
       "front": {
         "darkSideIcons": 1,
         "destiny": "0",
-        "gametext": "Light: If A Power Loss 'shut down' this game, Force drain +1 here and Death Star Tractor Beam lost. Dark: If you occupy, opponent must first use 1 Force to move a character from here.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Previous text: Light: If A Power Loss 'shut down' this game, Force drain +1 here and Death Star Tractor Beam lost. Dark: If you occupy, opponent must first use 1 Force to move a character from here.",
+        "errataSymbol": "E1",
+        "gametext": "Light: While opponent occupies, you may not play Blast The Door, Kid! during battles on Death Star. Dark: While Obi-Wan here, total ability of 6 or more required for you to draw battle destiny here.",
         "icons": [
           "Interior",
           "Mobile",
@@ -66835,13 +66851,12 @@
         }
       ],
       "pulledBy": [
-        "Mindful Of The Future"
+        "Mindful Of The Future",
+        "Rescue The Princess (V)"
       ],
       "rarity": "C",
       "rulings": [
-        "For Dark's text, pay the additional cost even if the movement is free.",
-        "For group movement (e.g. Nabrun Leids) pay 1 per character.",
-        "Pay the additional cost when movement costs are normally paid."
+        "If the 6 ability requirement is not met, Dark does not get any battle destiny draws (even if they have battle destiny adders such as Stormtrooper Garrison, etc). However, 'draws if unable to otherwise' still works without 6 ability."
       ],
       "set": "215",
       "side": "Light"
@@ -67148,7 +67163,10 @@
       "front": {
         "darkSideIcons": 1,
         "destiny": "0",
-        "gametext": "Light: Once per turn, if you occupy with a Wookiee, may deploy a Kashyyyk location from Reserve Deck; reshuffle. Dark: Total ability of 6 or more required for you to draw battle destiny here.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Light text unchanged. Previous Dark text: Total ability of 6 or more required for you to draw battle destiny here.",
+        "errataSymbol": "E1",
+        "gametext": "Light: Once per turn, if you occupy with a Wookiee, may deploy a Kashyyyk location from Reserve Deck; reshuffle. Dark: Unless you occupy, your non-Wookiee characters deploy and move to here for +1 Force.",
         "icons": [
           "Exterior",
           "Planet",
@@ -67179,12 +67197,11 @@
       ],
       "pulls": [
         "Kashyyyk",
-        "Kashyyyk: Forest Depths"
+        "Kashyyyk: Forest Depths",
+        "Kashyyyk: Sacred Falls (Forest)",
+        "Kashyyyk: Work Settlement #121"
       ],
       "rarity": "U",
-      "rulings": [
-        "If Dark has less than 6 ability, cards that 'add a battle destiny' won't work, but cards that 'draw if unable to otherwise' will work."
-      ],
       "set": "215",
       "side": "Light"
     },
@@ -68890,7 +68907,10 @@
       ],
       "front": {
         "destiny": "0",
-        "gametext": "Deploy on an Ahch-To location. Opponent generates no Force here. A Thousand Generations Live In You Now: Rey is power and forfeit +1 for each Jedi out of play. Bring Back The Balance, Rey, As I Did: While [Set 14] Rey in battle, your battle destiny draws and Rey's weapon destiny draws are +1. Feel The Force Flowing Through You: [Set 14] Rey and characters with her may not add battle destiny draws. Rey, The Force Will Be With You, Always: [Set 14] Rey ignores your [Episode VII] objective deployment restrictions.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Previous text: Deploy on an Ahch-To location. Opponent generates no Force here. A Thousand Generations Live In You Now: Rey is power and forfeit +1 for each Jedi out of play. Bring Back The Balance, Rey, As I Did: While [Set 14] Rey in battle, your battle destiny draws and Rey's weapon destiny draws are +1. Feel The Force Flowing Through You: [Set 14] Rey and characters with her may not add battle destiny draws. Rey, The Force Will Be With You, Always: [Set 14] Rey ignores your [Episode VII] objective deployment restrictions.",
+        "errataSymbol": "E1",
+        "gametext": "If an Ahch-To location on table, deploy on table. A Thousand Generations Live In You Now: Rey is power and forfeit +1 for each Jedi on table or out of play. Bring Back The Balance, Rey, As I Did: While Rey in battle, your battle destiny draws and Rey's weapon destiny draws are +1. Feel The Force Flowing Through You: Rey and characters with her may not add battle destiny draws. Rey, The Force Will Be With You, Always: Unless Rey is on Jakku, she adds 1 to your total Force generation.",
         "icons": [
           "Episode VII",
           "Set 17"
@@ -68912,6 +68932,7 @@
         }
       ],
       "pulledBy": [
+        "A Good Friend",
         "The Destiny Of A Jedi"
       ],
       "rarity": "C",
@@ -68919,7 +68940,7 @@
         "Jedi stacked on Communing are counted as Jedi out of play.",
         "(3rd section) A non-character card can add battle destinies (e.g. I'm Getting Pretty Good At This) but cannot cause a character to add battle destinies (e.g. Meditation).",
         "(3rd section) Characters that draw multiple battle destiny 'if unable to otherwise' still do so while with Set 14 Rey.",
-        "(4th section) When using the Legend objective, Light can deploy Set 14 Rey even if they have a Jedi on table. But they cannot deploy a Jedi if they have Set 14 Rey on table."
+        "(4th section) To get the +1 Force generation, Rey must be on table and not on Jakku. She may be at the Jakku system location."
       ],
       "set": "217",
       "side": "Light"
@@ -72652,17 +72673,17 @@
       ],
       "front": {
         "destiny": "5",
-        "errataDate": "2024-12-30",
-        "errataNotes": "Previous text: If His Destiny on table, choose: USED: If a character of ability > 4 was just 'hit' during battle, opponent loses 1 Force. OR Peek at the bottom card of your Force Pile; may move it to the top of that pile. LOST: Cancel game text of a Dark Jedi with Luke for remainder of turn.",
-        "errataSymbol": "E1",
-        "gametext": "USED: Peek at the bottom card of your Force Pile; may move it to the top of that pile. LOST: Steal Luke's Lightsaber into hand (immune to Weapon Of A Sith). OR If His Destiny on table, cancel game text of a Dark Jedi with Luke for remainder of turn.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "E1 text: USED: Peek at the bottom card of your Force Pile; may move it to the top of that pile. LOST: Steal Luke's Lightsaber into hand (immune to Weapon Of A Sith). OR If His Destiny on table, cancel game text of a Dark Jedi with Luke for remainder of turn. Original text: If His Destiny on table, choose: USED: If a character of ability > 4 was just 'hit' during battle, opponent loses 1 Force. OR Peek at the bottom card of your Force Pile; may move it to the top of that pile. LOST: Cancel game text of a Dark Jedi with Luke for remainder of turn.",
+        "errataSymbol": "E2",
+        "gametext": "If His Destiny on table, choose: Luke steals Luke's Lightsaber. (Immune to Weapon Of A Sith.) OR Cancel Dark Strike, Force Field, or You Are Beaten. OR Cancel the game text of a Dark Jedi with Luke for remainder of turn. OR Target a Jedi. Target is power +2 for remainder of turn.",
         "icons": [
           "Death Star II",
           "Set 21"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual21-Light/large/ajedisfury.gif",
         "lore": "It had been decades since Vader had felt the sting of an enemy's blade.",
-        "subType": "Used Or Lost",
+        "subType": "Lost",
         "title": "•A Jedi's Fury",
         "type": "Interrupt",
         "uniqueness": "*",
@@ -72680,7 +72701,8 @@
       ],
       "rarity": "R",
       "rulings": [
-        "May only steal Luke's Lightsaber into hand from table, not from opponent's hand, Lost Pile, etc.",
+        "Luke may only steal Luke's Lightsaber from table, not from opponent's hand, Lost Pile, etc.",
+        "No matter where Luke's Lightsaber is on table, it goes to Luke, even if at a different location.",
         "May steal back a stolen Luke's Lightsaber from table even if it is inactive (e.g. carried by a Vader who cannot use it)."
       ],
       "set": "221",
@@ -73153,7 +73175,10 @@
       ],
       "front": {
         "destiny": "4",
-        "gametext": "If [Tatooine] or [Coruscant] Qui-Gon in battle, he is power +1 for each `credit.' OR Once per game, if a battle just initiated at Watto's Junkyard involving Qui-Gon, target a character. Lightsabers may not be fired this battle. Unless target is Watto or a Dark Jedi, cancel target's game text.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Previous text: If [Tatooine] or [Coruscant] Qui-Gon in battle, he is power +1 for each `credit.' OR Once per game, if a battle just initiated at Watto's Junkyard involving Qui-Gon, target a character. Lightsabers may not be fired this battle. Unless target is Watto or a Dark Jedi, cancel target's game text.",
+        "errataSymbol": "E1",
+        "gametext": "Each player may choose to play a Defensive Shield from under their Starting Effect or to exchange a card in hand with one of their race destinies. [Immune to Sense.] OR If a battle involving Qui-Gon was just initiated at a junkyard, weapons may not be fired this battle.",
         "icons": [
           "Tatooine",
           "Episode I",
@@ -73178,6 +73203,10 @@
         }
       ],
       "rarity": "U",
+      "rulings": [
+        "(First function) Each player makes a choice; players do not need to choose the same option.",
+        "(First function) Remember that a Podrace may end in any move phase. Using this Interrupt, there is a clear opportunity to cause a Podrace to end in Light's move phase, which is otherwise quite rare."
+      ],
       "set": "221",
       "side": "Light"
     },
@@ -73226,7 +73255,10 @@
       ],
       "front": {
         "destiny": "4",
-        "gametext": "USED: If The Hyperdrive Generator's Gone on table, take Skywalker Hut or Jar Jar into hand from Reserve Deck; reshuffle. LOST: If opponent's card was just stacked on Credits Will Do Fine, for remainder of turn, your Force drains may not be reduced.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Previous text: USED: If The Hyperdrive Generator's Gone on table, take Skywalker Hut or Jar Jar into hand from Reserve Deck; reshuffle. LOST: If opponent's card was just stacked on Credits Will Do Fine, for remainder of turn, your Force drains may not be reduced.",
+        "errataSymbol": "E1",
+        "gametext": "If Podrace Arena on table, take Skywalker Hut, Amidala, or Jar Jar into hand from Reserve Deck; reshuffle. OR During your control phase, if you have won a Podrace and [Tatooine] Anakin is present at a battleground site, opponent loses 1 Force for each [Dark Side] at that site.",
         "icons": [
           "Tatooine",
           "Episode I",
@@ -73234,7 +73266,7 @@
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual21-Light/large/eventuallyyoulllose.gif",
         "lore": "In the end, Watto finally came to understand the agony of defeat.",
-        "subType": "Used Or Lost",
+        "subType": "Used",
         "title": "•Eventually You'll Lose (V)",
         "type": "Interrupt",
         "uniqueness": "*",
@@ -73250,7 +73282,18 @@
           "set": "221"
         }
       ],
+      "pulls": [
+        "General Jar Jar",
+        "Jar Jar Binks",
+        "Padme Naberrie",
+        "Padme Naberrie (V)",
+        "Queen Amidala",
+        "Queen Amidala, Ruler Of Naboo"
+      ],
       "rarity": "U",
+      "rulings": [
+        "Amidala and Jar Jar are persona names; this Interrupt pulls any card containing either of those personas."
+      ],
       "set": "221",
       "side": "Light"
     },
@@ -73810,12 +73853,16 @@
       "abbr": [
         "ABR"
       ],
+      "combo": [
+        "Old Allies / We Need Your Help",
+        "The Galaxy May Need A Legend / We Need Luke Skywalker"
+      ],
       "front": {
         "destiny": "5",
-        "errataDate": "2023-10-02",
-        "errataNotes": "This card was blanked (removed from the game) from July 15, 2023 until October 2, 2023. Before being blanked, this was the E1 text: If Jakku on table, deploy on table. Your Force generation is +1 at Jakku battlegrounds you occupy. During your deploy phase, may place a Resistance character from hand on top of Used Pile to take a Resistance character of equal or lesser ability into hand from Reserve Deck; reshuffle. [Immune to Alter.]",
-        "errataSymbol": "E2",
-        "gametext": "If Jakku on table, deploy on table (only at start of game). Twice per game, may take a Resistance leader into hand from Reserve Deck (reshuffle). Resistance characters with printed forfeit < 6 are forfeit +1. Where you have a Resistance Agent, your total power is +3. Strike Planning is canceled. [Immune to Alter].",
+        "errataDate": "2026-03-09",
+        "errataNotes": "The E2 version was identical to the E3 version except that it began with 'If Jakku on table,'. This card was blanked (removed from the game) from July 15, 2023 until October 2, 2023. Before being blanked, this was the E1 text: If Jakku on table, deploy on table. Your Force generation is +1 at Jakku battlegrounds you occupy. During your deploy phase, may place a Resistance character from hand on top of Used Pile to take a Resistance character of equal or lesser ability into hand from Reserve Deck; reshuffle. [Immune to Alter.]",
+        "errataSymbol": "E3",
+        "gametext": "If your [Episode VII] objective on table, deploy on table (only at start of game). Twice per game, may take a Resistance leader into hand from Reserve Deck; reshuffle. Resistance characters with printed forfeit < 6 are forfeit +1. Where you have a Resistance Agent, your total power is +3. Strike Planning is canceled. [Immune to Alter.]",
         "icons": [
           "Episode VII",
           "Set 9"
@@ -77212,14 +77259,17 @@
       ],
       "front": {
         "destiny": "5",
-        "gametext": "During battle involving Rebel Leia, the number of battle destiny draws may not be limited. OR Subtract 1 from a just drawn Force Lightning or 'choke' destiny (unless targeting an Undercover spy). OR If a [Skywalker] Effect on table, take Chief Chirpa's Hut or Guest Quarters into hand from Reserve Deck; reshuffle.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Previous text: During battle involving Rebel Leia, the number of battle destiny draws may not be limited. OR Subtract 1 from a just drawn Force Lightning or 'choke' destiny (unless targeting an Undercover spy). OR If a [Skywalker] Effect on table, take Chief Chirpa's Hut or Guest Quarters into hand from Reserve Deck; reshuffle.",
+        "errataSymbol": "E1",
+        "gametext": "USED: Subtract 1 from a just drawn Force Lightning or 'choke' destiny (unless targeting an Undercover spy). OR If a [Skywalker] Effect on table, take Chief Chirpa's Hut or Guest Quarters into hand from Reserve Deck; reshuffle. LOST: If Leia in battle, all immunity to attrition there is canceled.",
         "icons": [
           "Skywalker",
           "Set 25"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mysisterhasit.gif",
         "lore": "'He's my brother.'",
-        "subType": "Used",
+        "subType": "Used Or Lost",
         "title": "•My Sister Has It",
         "type": "Interrupt",
         "uniqueness": "*",
@@ -77242,9 +77292,9 @@
       ],
       "rarity": "R",
       "rulings": [
-        "First function: Players may still initiate an action that would limit battle destiny draws, such as taking a card off I Don't Like Sand or playing the limiting function on Imperial Command & In Range. The limit is simply ignored.",
-        "Second function: The phrase 'unless targeting an Undercover spy' applies to both Force Lightning and 'choke' destiny draws.",
-        "Examples of 'choke' destiny draws: Darth Vader Dark Lord Of The Sith, Physical Choke, and Vader."
+        "First function: The phrase 'unless targeting an Undercover spy' applies to both Force Lightning and 'choke' destiny draws.",
+        "Examples of 'choke' destiny draws: Darth Vader Dark Lord Of The Sith, Physical Choke, and Vader.",
+        "Third function: If a card is both gaining immunity (e.g. Yavin 4: Jungle) and losing immunity (e.g. My Sister Has It), the removing of immunity wins."
       ],
       "set": "225",
       "side": "Light"
@@ -77517,7 +77567,10 @@
       ],
       "front": {
         "destiny": "2",
-        "gametext": "If a [Skywalker] Effect on table, destiny +2 when drawn for destiny. Take a lightsaber into hand from Force Pile; reshuffle. OR Retrieve Anakin's Lightsaber. OR Once per game, during a battle or duel involving a Skywalker and a Dark Jedi, make a just drawn destiny = 2.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Previous text: If a [Skywalker] Effect on table, destiny +2 when drawn for destiny. Take a lightsaber into hand from Force Pile; reshuffle. OR Retrieve Anakin's Lightsaber. OR Once per game, during a battle or duel involving a Skywalker and a Dark Jedi, make a just drawn destiny = 2.",
+        "errataSymbol": "E1",
+        "gametext": "If your Skywalker in battle alone with a character of greater ability, add one battle destiny. OR Deploy a lightsaber on a Skywalker from Lost Pile (or Force Pile; reshuffle). OR Once per game, during a battle or duel involving a Skywalker, make a just drawn destiny = 2.",
         "icons": [
           "Cloud City",
           "Set 25"
@@ -77702,7 +77755,10 @@
       ],
       "front": {
         "destiny": "0",
-        "gametext": "Deploy on Galactic Senate. Your Political Effects are canceled. Twice per turn, may target your agenda here: Justice: During battle, subtract 1 from a just drawn weapon destiny. Order: During any move phase, peek at the top 2 cards of any Reserve Deck and replace in any order. Peace: Subtract 1 from attrition against you. Taxation: Place a card with no printed destiny number > 4 from hand in Used Pile to activate 1 Force.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "The original version is the same except Taxation, which said: Taxation: Place a card with no printed destiny number > 4 from hand in Used Pile to activate 1 Force.",
+        "errataSymbol": "E1",
+        "gametext": "Deploy on Galactic Senate. Your Political Effects are canceled. Twice per turn, may target your agenda here: Justice: During battle, subtract 1 from a just drawn weapon destiny. Order: During any move phase, peek at the top 2 cards of any Reserve Deck and replace in any order. Peace: Subtract 1 from attrition against you. Taxation: Place a character with politics from hand in Used Pile to choose: Activate 1 Force or deploy Senate Hovercam from Reserve Deck; reshuffle.",
         "icons": [
           "Coruscant",
           "Episode I",
@@ -77723,6 +77779,12 @@
         {
           "set": "225"
         }
+      ],
+      "pulledBy": [
+        "New Leadership Is Needed (V)"
+      ],
+      "pulls": [
+        "Senate Hovercam"
       ],
       "rarity": "R",
       "rulings": [
@@ -78883,10 +78945,10 @@
       ],
       "back": {
         "destiny": "7",
-        "errataDate": "2025-12-26",
-        "errataNotes": "(Back Errata) Original text did not have the deploy -1 modifier. Also, original text had 'your lightsaber Force drain bonuses may not be canceled.' Original text had the relocation being free, and did not require battlegrounds to ping.",
-        "errataSymbol": "E1",
-        "gametext": "The Hidden Path: Deploy Mining Village, Safehouse, Underground Corridor, and Fallen Order. For remainder of game, you may not deploy <> locations or Jedi (except Jedi survivors). Weapon Levitation may not steal weapons. Once per turn, may deploy a Jabiim location from Reserve Deck; reshuffle. While this side up, you may not play Nabrun Leids. Your Force drains at Mapuzo sites are -1. Once per turn, may deploy a holocron from Reserve Deck; reshuffle. Flip this card if Jedi occupy two non-Mapuzo sites. Gather Allies And Train: While this side up, Jedi survivors are deploy -1. if your holocron is about to leave table, place it in Used Pile. Opponent's total battle destiny where they have a character of ability > 4 is -1. During your move phase, may use 2 Force to relocate a Jedi between a Jabiim site and a battleground site as a regular move. At the end of your turn, if Jedi occupy two battleground sites, opponent loses 1 Force. Flip this card if Jedi do not occupy two sites.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "(Back Errata) E1 version caused the 1 Force loss at the end of Light's turn instead of Dark's turn. Also, the E1 version allowed Jedi to occupy any two sites (including Mapuzo) to stay flipped. Original text did not have the deploy -1 modifier. Also, original text had 'your lightsaber Force drain bonuses may not be canceled.' Original text had the relocation being free, and did not require battlegrounds to ping.",
+        "errataSymbol": "E2",
+        "gametext": "The Hidden Path: Deploy Mining Village, Safehouse, Underground Corridor, and Fallen Order. For remainder of game, you may not deploy <> locations, Anakin, or Jedi (except Jedi survivors) or play A Jedi's Resilience. Weapon Levitation may not steal weapons. Once per turn, may deploy a Jabiim location from Reserve Deck; reshuffle. While this side up, you may not play Nabrun Leids. Your Force drains at Mapuzo sites are -1. Once per turn, may deploy a holocron from Reserve Deck; reshuffle. Flip this card if Jedi occupy two non-Mapuzo sites. Gather Allies And Train: While this side up, Jedi survivors are deploy -1. if your holocron is about to leave table, place it in Used Pile. Opponent's total battle destiny where they have a character of ability > 4 is -1. During your move phase, may use 2 Force to relocate a Jedi between a Jabiim site and a battleground site as a regular move. At the end of opponent's turn, if Jedi occupy two battleground sites, opponent loses 1 Force. Flip this card if Jedi do not occupy two non-Mapuzo sites.",
         "icons": [
           "Set 26"
         ],
@@ -78898,10 +78960,10 @@
       },
       "front": {
         "destiny": "0",
-        "errataDate": "2025-12-26",
-        "errataNotes": "(Front Errata) Original did not have the Weapon Levitation restriction. Original version could pull 'a Jabiim site or a battleground (except a Kamino, Tatooine, or [Reflections III] location)'.",
-        "errataSymbol": "E1",
-        "gametext": "The Hidden Path: Deploy Mining Village, Safehouse, Underground Corridor, and Fallen Order. For remainder of game, you may not deploy <> locations or Jedi (except Jedi survivors). Weapon Levitation may not steal weapons. Once per turn, may deploy a Jabiim location from Reserve Deck; reshuffle. While this side up, you may not play Nabrun Leids. Your Force drains at Mapuzo sites are -1. Once per turn, may deploy a holocron from Reserve Deck; reshuffle. Flip this card if Jedi occupy two non-Mapuzo sites. Gather Allies And Train: While this side up, Jedi survivors are deploy -1. if your holocron is about to leave table, place it in Used Pile. Opponent's total battle destiny where they have a character of ability > 4 is -1. During your move phase, may use 2 Force to relocate a Jedi between a Jabiim site and a battleground site as a regular move. At the end of your turn, if Jedi occupy two battleground sites, opponent loses 1 Force. Flip this card if Jedi do not occupy two sites.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "(Front Errata) E1 version allowed Anakin and A Jedi's Resilience. Original version did not have the Weapon Levitation restriction, and could pull 'a Jabiim site or a battleground (except a Kamino, Tatooine, or [Reflections III] location)'.",
+        "errataSymbol": "E2",
+        "gametext": "The Hidden Path: Deploy Mining Village, Safehouse, Underground Corridor, and Fallen Order. For remainder of game, you may not deploy <> locations, Anakin, or Jedi (except Jedi survivors) or play A Jedi's Resilience. Weapon Levitation may not steal weapons. Once per turn, may deploy a Jabiim location from Reserve Deck; reshuffle. While this side up, you may not play Nabrun Leids. Your Force drains at Mapuzo sites are -1. Once per turn, may deploy a holocron from Reserve Deck; reshuffle. Flip this card if Jedi occupy two non-Mapuzo sites. Gather Allies And Train: While this side up, Jedi survivors are deploy -1. if your holocron is about to leave table, place it in Used Pile. Opponent's total battle destiny where they have a character of ability > 4 is -1. During your move phase, may use 2 Force to relocate a Jedi between a Jabiim site and a battleground site as a regular move. At the end of opponent's turn, if Jedi occupy two battleground sites, opponent loses 1 Force. Flip this card if Jedi do not occupy two non-Mapuzo sites.",
         "icons": [
           "Set 26"
         ],

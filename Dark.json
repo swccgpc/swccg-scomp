@@ -18767,7 +18767,10 @@
       "front": {
         "darkSideIcons": 2,
         "destiny": "0",
-        "gametext": "Dark: Once per turn, if you just moved a [First Order] starship to here, may activate 2 Force. Light: Unless your Resistance leader here, Force drain -1 here.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Previous text: Dark: Once per turn, if you just moved a [First Order] starship to here, may activate 2 Force. Light: Unless your Resistance leader here, Force drain -1 here.",
+        "errataSymbol": "E1",
+        "gametext": "Dark: Once per game, if you just moved a [First Order] starship to here, may activate 2 Force. Light: Once per game, may deploy Connix, Paige, or Tallie here from Reserve Deck; reshuffle.",
         "icons": [
           "Planet",
           "Episode VII",
@@ -18791,6 +18794,11 @@
         {
           "set": "211"
         }
+      ],
+      "pulls": [
+        "Lieutenant Kaydel Connix",
+        "Paige Tico",
+        "Tallie Lintra In Blue 1"
       ],
       "rarity": "U",
       "set": "211",
@@ -53987,7 +53995,7 @@
       "underlyingCardFor": [
         {
           "cardId": 7091,
-          "title": "The Emperor (V)"
+          "title": "The Emperor, Relentess"
         }
       ]
     },
@@ -63880,9 +63888,18 @@
       "side": "Dark"
     },
     {
+      "abbr": [
+        "TFOWJTB"
+      ],
+      "combo": [
+        "Bow To The First Order benefits from the extra [Episode VII] icons."
+      ],
       "front": {
         "destiny": "4",
-        "gametext": "Deploy on table. Your [Episode VII] troopers are forfeit +1. Once per turn, if [Episode VII] Emperor on table, may deploy Kijimi from Reserve Deck (reshuffle) or place any three cards out of play from your Lost Pile to deploy a non-unique [Episode VII] trooper from Lost Pile. (Immune to Alter.)",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Previous text: Deploy on table. Your [Episode VII] troopers are forfeit +1. Once per turn, if [Episode VII] Emperor on table, may deploy Kijimi from Reserve Deck (reshuffle) or place any three cards out of play from your Lost Pile to deploy a non-unique [Episode VII] trooper from Lost Pile. [Immune to Alter.]",
+        "errataSymbol": "E1",
+        "gametext": "If I Want That Map on table, deploy on table. Locations where there is a Resistance Agent or Rey gain [Episode VII]. Once per turn, may deploy a Jakku or Kijimi battleground from Reserve Deck; reshuffle. Your non-unique [Episode VII] troopers are forfeit +1. [Immune to Alter.]",
         "icons": [
           "Episode VII",
           "Set 14"
@@ -63903,6 +63920,12 @@
         {
           "set": "214"
         }
+      ],
+      "pulls": [
+        "Jakku",
+        "Jakku: Niima Marketplace",
+        "Jakku: Tuanul Village",
+        "Kijimi"
       ],
       "rarity": "R",
       "set": "214",
@@ -64313,9 +64336,15 @@
       "side": "Dark"
     },
     {
+      "abbr": [
+        "EO"
+      ],
       "front": {
         "destiny": "0",
-        "gametext": "If you did not deploy an Objective, deploy on Executor. We're Not Going To Attack?: Your squadrons are destiny = 0. You may not deploy squadrons or non-Imperial starships. Unless you occupy a battleground site, Dreaded Imperial Starfleet is suspended. The Alliance Will Die...: Flagship Operations does not require any Executor sites on table to deploy. ...As Will Your Friends: At battleground systems where you have a piloted capital starship and a piloted TIE, your Force drains = 2. At sites related to systems you control, during battle may add one destiny to total power. If just lost, lose 3 Force.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Previous text: If you did not deploy an Objective, deploy on Executor. We're Not Going To Attack?: Your squadrons are destiny = 0. You may not deploy squadrons or non-Imperial starships. Unless you occupy a battleground site, Dreaded Imperial Starfleet is suspended. The Alliance Will Die...: Flagship Operations does not require any Executor sites on table to deploy. ...As Will Your Friends: At battleground systems where you have a piloted capital starship and a piloted TIE, your Force drains = 2. At sites related to systems you control, during battle may add one destiny to total power. If just lost, lose 3 Force.",
+        "errataSymbol": "E1",
+        "gametext": "If you did not deploy an Objective, deploy on table. We're Not Going To Attack?: Once per turn, may deploy a battleground system from Reserve Deck; reshuffle. You may not deploy non-Imperial starships. Unless you occupy a battleground site, Dreaded Imperial Starfleet is suspended. The Alliance Will Die...: Flagship Operations does not require any Executor sites on table to deploy, and does not target squadrons. ...As Will Your Friends: At battleground systems where you have a piloted capital starship/TIE pair, Force drains = 2. During battle at a site related to a system you occupy, may add one destiny to total power and/or re-circulate.",
         "icons": [
           "Set 15"
         ],
@@ -64335,11 +64364,14 @@
           "set": "215"
         }
       ],
+      "pulls": [
+        "A battleground system"
+      ],
       "rarity": "C",
       "rulings": [
-        "May only deploy on the Executor starship card (not on an Executor site).",
         "A TIE inside a star destroyer is landed/unpiloted so it does not give Force drain = 2.",
-        "When Force drains = 2, they cannot be modified, but the Force loss could be modified by (for example) It Could Be Worse."
+        "When Force drains = 2, they cannot be modified, but the Force loss could be modified by (for example) It Could Be Worse.",
+        "Adding one destiny to power and re-circulating are separate top-level actions, and each is once per battle."
       ],
       "set": "215",
       "side": "Dark"
@@ -64915,7 +64947,10 @@
       ],
       "back": {
         "destiny": "7",
-        "gametext": "On The Verge Of Greatness: Deploy [Set 16] Death Star and Scarif systems, Citadel Tower, Commence Primary Ignition, and Shield Gate. {For} remainder of game, you may not deploy characters of ability > 4 (except Vader). Vader is power +2 and he (or a Star Destroyer he is piloting) may make a regular move to a battle just initiated. {While} this side up, once per turn, may deploy a site (or Imperial trooper) to Scarif from Reserve Deck; reshuffle. {Flip} this card if Krennic or Tarkin on Scarif and Death Star orbiting Scarif. Taking Control Of The Weapon: {While} this side up, your Force generation is +2 for each 'blown away' Scarif site. Tarkin Doctrine is immune to Alter and, when it initiates Force loss, may take any one card into hand from Force Pile. Once per turn, if opponent's character just lost from your site, may place it out of play unless opponent loses 1 Force. Tarkin adds 3 to total of Commence Primary Ignition. {Flip} this card if you have no leaders on Scarif. {Place} this card out of play if Shield Gate not on table or if Death Star has been 'blown away.'",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Back previous text: Taking Control Of The Weapon: While this side up, your Force generation is +2 for each 'blown away' Scarif site. Tarkin Doctrine is immune to Alter and, when it initiates Force loss, may take any one card into hand from Force Pile. Once per turn, if opponent's character just lost from your site, may place it out of play unless opponent loses 1 Force. Tarkin adds 3 to total of Commence Primary Ignition. Flip this card if you have no leaders on Scarif. Place this card out of play if Shield Gate not on table or if Death Star has been 'blown away.'",
+        "errataSymbol": "E1",
+        "gametext": "On The Verge Of Greatness: Deploy [Set 16] Death Star and Scarif systems, Citadel Tower, and Shield Gate. For remainder of game, you may not deploy Endor Shield, non-Imperial characters, or non-Imperial starships. Once per turn, may deploy a Scarif battleground from Reserve Deck; reshuffle. Your non-unique Imperials, vehicles, and capital starships are deploy -1 (-2 if a Star Destroyer). Non-unique Imperials are forfeit +1. Flip this card if Krennic or Tarkin at a Scarif battleground site and Death Star orbiting Scarif. Taking Control Of The Weapon: While this side up, A Bright Center To The Universe cancels opponent's Force drain modifiers everywhere. Vader may make a regular move to a battle just initiated. At Death Star, system it orbits, and sites related to either, your total battle destiny is +1 (+2 if your non-unique card with ability in battle). During your draw phase, may retrieve a non-unique card with ability. Flip this card if you do not have a leader at a Scarif battleground site. Place out of play if Death Star or Shield Gate not on table.",
         "icons": [
           "Set 16"
         ],
@@ -64927,7 +64962,10 @@
       },
       "front": {
         "destiny": "0",
-        "gametext": "On The Verge Of Greatness: Deploy [Set 16] Death Star and Scarif systems, Citadel Tower, Commence Primary Ignition, and Shield Gate. {For} remainder of game, you may not deploy characters of ability > 4 (except Vader). Vader is power +2 and he (or a Star Destroyer he is piloting) may make a regular move to a battle just initiated. {While} this side up, once per turn, may deploy a site (or Imperial trooper) to Scarif from Reserve Deck; reshuffle. {Flip} this card if Krennic or Tarkin on Scarif and Death Star orbiting Scarif. Taking Control Of The Weapon: {While} this side up, your Force generation is +2 for each 'blown away' Scarif site. Tarkin Doctrine is immune to Alter and, when it initiates Force loss, may take any one card into hand from Force Pile. Once per turn, if opponent's character just lost from your site, may place it out of play unless opponent loses 1 Force. Tarkin adds 3 to total of Commence Primary Ignition. {Flip} this card if you have no leaders on Scarif. {Place} this card out of play if Shield Gate not on table or if Death Star has been 'blown away.'",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Front previous text: On The Verge Of Greatness: Deploy [Set 16] Death Star and Scarif systems, Citadel Tower, Commence Primary Ignition, and Shield Gate. For remainder of game, you may not deploy characters of ability > 4 (except Vader). Vader is power +2 and he (or a Star Destroyer he is piloting) may make a regular move to a battle just initiated. While this side up, once per turn, may deploy a site (or Imperial trooper) to Scarif from Reserve Deck; reshuffle. Flip this card if Krennic or Tarkin on Scarif and Death Star orbiting Scarif.",
+        "errataSymbol": "E1",
+        "gametext": "On The Verge Of Greatness: Deploy [Set 16] Death Star and Scarif systems, Citadel Tower, and Shield Gate. For remainder of game, you may not deploy Endor Shield, non-Imperial characters, or non-Imperial starships. Once per turn, may deploy a Scarif battleground from Reserve Deck; reshuffle. Your non-unique Imperials, vehicles, and capital starships are deploy -1 (-2 if a Star Destroyer). Non-unique Imperials are forfeit +1. Flip this card if Krennic or Tarkin at a Scarif battleground site and Death Star orbiting Scarif. Taking Control Of The Weapon: While this side up, A Bright Center To The Universe cancels opponent's Force drain modifiers everywhere. Vader may make a regular move to a battle just initiated. At Death Star, system it orbits, and sites related to either, your total battle destiny is +1 (+2 if your non-unique card with ability in battle). During your draw phase, may retrieve a non-unique card with ability. Flip this card if you do not have a leader at a Scarif battleground site. Place out of play if Death Star or Shield Gate not on table.",
         "icons": [
           "Set 16"
         ],
@@ -64940,6 +64978,9 @@
       "gempId": "216_11",
       "id": 6914,
       "legacy": false,
+      "pulls": [
+        "Scarif: Beach"
+      ],
       "previousId": 20064,
       "printings": [
         {
@@ -64948,13 +64989,13 @@
       ],
       "rarity": "U",
       "rulings": [
-        "Vader can make any type of regular move into battle. Examples include landspeed, shuttling (up or down) and docking bay transit.",
-        "The 'move to a battle' text does <u>not</u> permit an unlimited move, (e.g. it does not allow Vader to disembark Blizzard 4).",
-        "Star Destroyer regular movement includes using hyperspeed, moving between a Death Star and a system it is orbiting, and moving to/from/between asteroid sectors.",
-        "Vader and a Star Destroyer he is piloting can <u>each</u> make one regular move on each turn (including Light's turn), whether the regular move is via this card or not.",
-        "If Vader (or a Star Destroyer he is piloting) has already battled this turn, they can still make a regular move to a battle, but will not participate in that second battle.",
-        "Vader cannot use the text on Vader's Castle to move into battle, nor any other site that specifies that it only works during move phase.",
-        "(7-side) Even if Tarkin Doctrine causes multiple Force loss, it only initiates Force loss once per turn."
+        "(0-side) In the deploy -1/-2 sentence, the words 'non-unique' apply to Imperials, vehicles, capital starships, and Star Destroyers.",
+        "(7-side) A Bright Center To The Universe is expanded from the target system to all locations, but still only applies to Force drain modifiers that come from Light's cards affecting Light's Force drains. See that card for further rulings.",
+        "(7-side) Vader can make any type of regular move into battle. Examples include landspeed, shuttling (up or down) and docking bay transit.",
+        "(7-side) The 'move to a battle' text does <u>not</u> permit an unlimited move, (e.g. it does not allow Vader to disembark Blizzard 4).",
+        "(7-side) Vader can make one regular move on each turn (including Light's turn), whether the regular move is via this card or not.",
+        "(7-side) If Vader has already battled this turn, he can still make a regular move to a battle, but will not participate in that second battle.",
+        "(7-side) Vader cannot use the text on Vader's Castle to move into battle, nor any other site that specifies that it only works during move phase."
       ],
       "set": "216",
       "side": "Dark"
@@ -65071,7 +65112,10 @@
       "front": {
         "darkSideIcons": 1,
         "destiny": "0",
-        "gametext": "Dark: If a player just Force drained here, they may raise a converted Scarif location to the top. Light: Unless your spy here, total ability of 6 or more required for you to draw battle destiny here.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Previous text: Dark: If a player just Force drained here, they may raise a converted Scarif location to the top. Light: Unless your spy here, total ability of 6 or more required for you to draw battle destiny here.",
+        "errataSymbol": "E1",
+        "gametext": "Dark: If Krennic or a Death Trooper here, Force drain +1 here. Light: If Cassian, Jyn, or K-2SO here, Force drain +1 here.",
         "icons": [
           "Interior",
           "Planet",
@@ -65108,7 +65152,10 @@
       "front": {
         "darkSideIcons": 2,
         "destiny": "0",
-        "gametext": "Dark: If an Imperial leader here, add one destiny to your [Set 9] Epic Event total targeting a Scarif site. Light: If Shield Gate on table, opponent's Force drains here are +1.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Previous text: Dark: If an Imperial leader here, add one destiny to your [Set 9] Epic Event total targeting a Scarif site. Light: If Shield Gate on table, opponent's Force drains here are +1.",
+        "errataSymbol": "E1",
+        "gametext": "Dark: May deploy Krennic here from Reserve Deck; reshuffle. Light: If a player just Force drained here, they may raise a converted Scarif location to the top.",
         "icons": [
           "Interior",
           "Planet",
@@ -65137,7 +65184,14 @@
         "Neimoidian Advisor",
         "On The Verge Of Greatness"
       ],
+      "pulls": [
+        "Director Orson Krennic",
+        "Krennic, Death Star Commandant"
+      ],
       "rarity": "U",
+      "rulings": [
+        "Either player who just Force drained here could raise any converted Scarif location to the top, even their opponent's."
+      ],
       "set": "216",
       "side": "Dark"
     },
@@ -66625,7 +66679,10 @@
       ],
       "front": {
         "destiny": "4",
-        "gametext": "If Visage Of The Emperor on table, deploy on table. At Mustafar, Devastator is deploy -3 and immune to attrition < 6. Once per turn, may deploy Devastator, Mustafar, or a private platform from Reserve Deck; reshuffle. [Immune to Alter.]",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Previous text: If Visage Of The Emperor on table, deploy on table. At Mustafar, Devastator is deploy -3 and immune to attrition < 6. Once per turn, may deploy Devastator, Mustafar, or a private platform from Reserve Deck; reshuffle. [Immune to Alter.]",
+        "errataSymbol": "E1",
+        "gametext": "If Shield Gate on table, deploy on table. Once per game, may take Devastator into hand from Reserve Deck; reshuffle. May deploy Comm Chief or Praji to Scarif system from Reserve Deck; reshuffle. Vader is power +2 and his game text may not be canceled. If opponent just lost a battle, they lose 1 Force. Death Star moves for free. [Immune to Alter.]",
         "icons": [
           "Premium",
           "Set 18"
@@ -66654,15 +66711,15 @@
         "We Must Accelerate Our Plans"
       ],
       "pulls": [
-        "Coruscant: Private Platform (Docking Bay)",
+        "Comm Chief",
+        "Commander Praji",
+        "Commander Praji (V)",
         "Devastator",
-        "Devastator (V)",
-        "Mustafar",
-        "Mustafar: Private Platform (Docking Bay)"
+        "Devastator (V)"
       ],
       "rarity": "PM",
       "rulings": [
-        "Either virtual or non-virtual Visage Of The Emperor anywhere on table will allow this card to deploy."
+        "Both Comm Chief and Praji deploy only to the Scarif system location (aboard a starship there) when pulled by this card."
       ],
       "set": "218",
       "side": "Dark"
@@ -67590,11 +67647,14 @@
         "ability": "7",
         "deploy": "5",
         "destiny": "6",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Original card was titled The Emperor (V) and was destiny 1 with the following text: Destiny +1 for each Black Sun agent or Jedi on table (limit +5) when drawn for destiny. Deploys only to Coruscant. Never deploys or moves (even if carried) to a site opponent occupies. May cancel Projection Of A Skywalker here. Immune to attrition.",
+        "errataSymbol": "E1",
         "extraText": [
           "Dark Jedi Master"
         ],
         "forfeit": "9",
-        "gametext": "Destiny +1 for each Black Sun agent or Jedi on table (limit +5) when drawn for destiny. Deploys only to Coruscant. Never deploys or moves (even if carried) to a site opponent occupies. May cancel Projection Of A Skywalker here. Immune to attrition.",
+        "gametext": "Never deploys or moves (even if carried) to a site opponent occupies. Players do not retrieve Force for initiating a battle. While Agents Of Black Sun on table, your total battle destiny is +1 where you have a Black Sun agent. Immune to attrition.",
         "icons": [
           "Reflections II",
           "Death Star II",
@@ -67621,8 +67681,9 @@
       ],
       "rarity": "PM",
       "rulings": [
-        "To determine destiny bonus, count up all cards that are either Black Sun agents or Jedi (e.g. if there are 3 Black Sun agents and 1 Jedi, then The Emperor is destiny +4).",
-        "Do not count inactive cards such as a captive Jedi."
+        "Prevents retrieval from cards such as Draw Their Fire, Scum And Villainy, and General Leia Organa",
+        "Weather Vane (V) still retrieves Force as it is considered to be retrieval for rotating the Weather Vane, not for initiating the battle.",
+        "Total battle destiny +1 only applies while Agents Of Black Sun is on its 0-side."
       ],
       "set": "219",
       "side": "Dark"
@@ -67785,13 +67846,16 @@
       ],
       "front": {
         "destiny": "4",
-        "gametext": "USED: Target a character in battle. Target and cards that share any characteristic with target are power and forfeit -1. LOST: Once per game, if your [Set 19] objective just `studied' a character, add one battle destiny (two if a character of same species is participating in battle).",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Previous text: USED: Target a character in battle. Target and cards that share any characteristic with target are power and forfeit -1. LOST: Once per game, if your [Set 19] objective just `studied' a character, add one battle destiny (two if a character of same species is participating in battle).",
+        "errataSymbol": "E1",
+        "gametext": "If an Imperial leader just won a battle, opponent loses 1 Force (and stacks it on Thrawn's Art Collection if possible). OR Suspend Ancient Watering Hole for remainder of turn. OR If you have 4 artwork cards, you retrieve 1 Force and opponent loses 1 Force.",
         "icons": [
           "Set 19"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual19-Dark/large/understandartunderstandaspecies.gif",
         "lore": "The Empire considers alien species to be inferior.",
-        "subType": "Used Or Lost",
+        "subType": "Used",
         "title": "•Understand Art, Understand A Species",
         "type": "Interrupt",
         "uniqueness": "*",
@@ -67809,14 +67873,9 @@
       ],
       "rarity": "C",
       "rulings": [
-        "(USED) A list of all characteristics is provided in Appendix D of the Advanced Rulebook.",
-        "(USED) For example, if targeting Captain Han Solo, all captains, smugglers, Corellians, and scoundrels in the battle are power and forfeit -1.",
-        "(USED) Change lasts until the end of the battle.",
-        "(USED) The initial target can even belong to Dark player, but all the additional affected characters are still opponent's only.",
-        "(USED) May be used even if no other cards share any characteristic with target.",
-        "(USED) May be used even if the target has no characteristics (in which case, only the target is power and forfeit -1).",
-        "(USED) Only character cards have characteristics, so only character cards can be made power and forfeit -1.",
-        "(LOST) The 'character of same species' may even be an exact duplicate of the studied card."
+        "(First function) May be played regardless of whether Thrawn's Art Collection on table. If it is on table, the lost card is stacked.",
+        "(Second function) May only be played to suspend Ancient Watering Hole if it is on table.",
+        "(Third function) The phrase 'If you have 4 artwork cards' means that there are 4 artwork cards stacked on Thrawn's Art Collection."
       ],
       "set": "219",
       "side": "Dark"
@@ -68185,11 +68244,14 @@
         ],
         "deploy": "3",
         "destiny": "1",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Previous text: Adds 2 to power of anything he pilots. Power and defense value +2 with 4-LOM. Once during battle, if opponent just drew weapon or battle destiny, may draw destiny; reset opponent's destiny number to your drawn destiny number. Immune to attrition < 3.",
+        "errataSymbol": "E1",
         "extraText": [
           "Force-Sensitive"
         ],
         "forfeit": "4",
-        "gametext": "Adds 2 to power of anything he pilots. Power and defense value +2 with 4-LOM. Once during battle, if opponent just drew weapon or battle destiny, may draw destiny; reset opponent's destiny number to your drawn destiny number. Immune to attrition < 3.",
+        "gametext": "Adds 2 to power of anything he pilots. If present (or piloting an [Independent] starship) during battle, may make a just drawn destiny = the printed destiny of the top card of opponent's Lost Pile. Immune to attrition < 2 + the number of weapon destiny draws that were completed this battle.",
         "icons": [
           "Dagobah",
           "Pilot",
@@ -68222,6 +68284,10 @@
         }
       ],
       "rarity": "R",
+      "rulings": [
+        "Weapon destiny draws of both players increase Zuckuss' immunity.",
+        "Canceled weapon destiny draws do not count. For a weapon destiny that is canceled and redrawn, count only the redraw."
+      ],
       "set": "220",
       "side": "Dark"
     },
@@ -70722,18 +70788,18 @@
       "abbr": [
         "YPAWOMv"
       ],
-      "combo": [
-        "Ommni Box & It's Worse (V)"
-      ],
       "front": {
         "destiny": "5",
-        "gametext": "If opponent just lost a battle, they lose 2 Force. OR During battle, if Obi-Wan is participating (or 'communing'), add one battle destiny; characters may not be 'revived' this turn. OR Cancel Clash Of Sabers targeting your Dark Jedi.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Previous text: If opponent just lost a battle, they lose 2 Force. OR During battle, if Obi-Wan is participating (or 'communing'), add one battle destiny; characters may not be 'revived' this turn. OR Cancel Clash Of Sabers targeting your Dark Jedi.",
+        "errataSymbol": "E1",
+        "gametext": "USED: During battle, cancel game text of an opponent's hut or Jedi survivor. LOST: Cancel Clash Of Sabers (targeting your character of ability > 3) or Old Ben. OR Target a Jedi. Target is power -2 for remainder of turn.",
         "icons": [
           "Set 22"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual22-Dark/large/yourpowersareweakoldman.gif",
         "lore": "'You should not have come back.'",
-        "subType": "Lost",
+        "subType": "Used Or Lost",
         "title": "Your Powers Are Weak, Old Man (V)",
         "type": "Interrupt",
         "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/Your Powers Are Weak Old Man/image.png",
@@ -70750,7 +70816,8 @@
       ],
       "rarity": "R1",
       "rulings": [
-        "Multiple copies of this card may be played after winning a battle, causing 2 Force loss each."
+        "May cancel the game text of opponent's hut anywhere on table, but may only cancel game text of a Jedi survivor participating in the battle.",
+        "Canceling the game text of Tatooine: Skywalker Hut does not cancel the 'May not be separated from Slave Quarters' text."
       ],
       "set": "222",
       "side": "Dark"
@@ -71905,10 +71972,10 @@
       ],
       "front": {
         "destiny": "5",
-        "errataDate": "2024-12-30",
-        "errataNotes": "Added 'Perimeter Patrol is suspended.' to game text.",
-        "errataSymbol": "E1",
-        "gametext": "Deploy on Bunker; may immediately take any one [Endor] or [Death Star II] card into hand from Force Pile; reshuffle. While an Imperial leader here, your total Force generation is +1. Perimeter Patrol is suspended. If opponent controls Bunker, place Effect in Used Pile. [Immune to Alter.]",
+        "errataDate": "2026-03-09",
+        "errataNotes": "E1 version game text: Deploy on Bunker; may immediately take any one [Endor] or [Death Star II] card into hand from Force Pile; reshuffle. While an Imperial leader here, your total Force generation is +1. Perimeter Patrol is suspended. If opponent controls Bunker, place Effect in Used Pile. [Immune to Alter.] Original version is the same as E1 version except it does not suspend Perimeter Patrol.",
+        "errataSymbol": "E2",
+        "gametext": "Deploy on Bunker; may choose: Activate 1 Force for each opponent's non-battleground location on table, or take Endor Shield into hand from Force Pile; reshuffle. Fenson, Kensaric, and Perimeter Patrol's game text is canceled. Fallen Portal may not target Endor sites. [Immune to Alter.]",
         "icons": [
           "Endor",
           "Set 23"
@@ -71932,7 +71999,7 @@
       ],
       "rarity": "R",
       "rulings": [
-        "In the event that Light controls Bunker when Dark deploys this card, this card goes to Used Pile as an automatic response, leaving Dark unable to take a card into hand from Force Pile."
+        "The only time Dark may choose to activate Force or take Endor Shield into hand is as a response immediately after deploying this card. Dark may pass and do neither option."
       ],
       "set": "223",
       "side": "Dark"
@@ -72101,13 +72168,16 @@
       ],
       "front": {
         "destiny": "3",
-        "gametext": "USED: Deploy Empire's New Order or Overseeing It Personally from Reserve Deck; reshuffle. LOST: Once per game, choose: Place an opponent's just-played Interrupt out of play. OR If Xizor (or two Imperial leaders) in battle, re-circulate.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Previous text: USED: Deploy Empire's New Order or Overseeing It Personally from Reserve Deck; reshuffle. LOST: Once per game, choose: Place an opponent's just-played Interrupt out of play. OR If Xizor (or two Imperial leaders) in battle, re-circulate.",
+        "errataSymbol": "E1",
+        "gametext": "If two Imperials (or two Black Sun agents) in battle, re-circulate and shuffle your Reserve Deck. OR Once per game, if Emperor or Tarkin on table, Allegations Of Corruption stacks opponent's just played Interrupt; this does not count toward that card's once per game limit.",
         "icons": [
           "Set 23"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual23-Dark/large/theempiresback.gif",
         "lore": "'No star system will dare oppose the Emperor now.'",
-        "subType": "Used Or Lost",
+        "subType": "Lost",
         "title": "The Empire's Back (V)",
         "type": "Interrupt",
         "printableSlipUrl": "https://res.starwarsccg.org/vkit/cards/standard/The Empire's Back (V)/image.png",
@@ -72123,6 +72193,10 @@
         }
       ],
       "rarity": "U1",
+      "rulings": [
+        "(First function) One Imperial and one Black Sun agent does NOT work.",
+        "(Second function) 'Emperor' refers to any Sidious persona card with the word 'Emperor' in title (such as Emperor Palpatine but not Master Sidious)."
+      ],
       "set": "223",
       "side": "Dark"
     },
@@ -74157,7 +74231,10 @@
       ],
       "back": {
         "destiny": "7",
-        "gametext": "The First Order Reigns: Deploy Crait and D'Qar systems, Supremacy: Bridge, and Tracked Fleet. For remainder of game, you may not deploy cards with ability except [Episode VII] cards. Your [Episode VII] characters and starships are power +1. Supremacy is deploy -9 to [Episode VII] systems. Once per turn, may deploy an [Episode VII] battleground from Reserve Deck; reshuffle. While this side up, neither player loses more than 1 Force to Force drains at systems (unless Tracked Fleet there). Flip this card if Tracked Fleet is 'annihilated.' The Resistance Is Doomed: While this side up, once per turn, may deploy a non-unique trooper (or non-unique [First Order] vehicle) from Lost Pile. While you occupy a Crait location, your Force drains at battlegrounds where you have two First Order characters are +1. While Kylo occupies Salt Plateau, opponent may not Force drain where their character or permanent pilot is alone. While you control Salt Plateau, opponent's Force retrieval is canceled. Place out of play if Kylo just forfeited from a battle you lost at Salt Plateau where Han, Leia, or Luke present.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Back previous text: The Resistance Is Doomed: While this side up, once per turn, may deploy a non-unique trooper (or non-unique [First Order] vehicle) from Lost Pile. While you occupy a Crait location, your Force drains at battlegrounds where you have two First Order characters are +1. While Kylo occupies Salt Plateau, opponent may not Force drain where their character or permanent pilot is alone. While you control Salt Plateau, opponent's Force retrieval is canceled. Place out of play if Kylo just forfeited from a battle you lost at Salt Plateau where Han, Leia, or Luke present.",
+        "errataSymbol": "E1",
+        "gametext": "The First Order Reigns: Deploy Crait and D'Qar systems, a Crait (or Supremacy) battleground site, and Tracked Fleet. For remainder of game, you may not deploy cards with ability except [Episode VII] cards. Supremacy is deploy = 7 to [Episode VII] systems. Once per turn, may deploy a card with 'Supremacy' in title or an [Episode VII] battleground from Reserve Deck; reshuffle. While this side up, neither player loses more than 1 Force to Force drains at systems (unless Tracked Fleet there). Flip this card if Tracked Fleet is 'annihilated.' The Resistance Is Doomed: While this side up, once per turn, may deploy a non-unique trooper (or non-unique [First Order] vehicle) from Lost Pile. While Kylo occupies a Crait location, your Force drains at battlegrounds where you have two First Order characters are +1. While Kylo controls Salt Plateau, opponent may not Force drain where their character or permanent pilot is alone and opponent's Force retrieval is canceled. Place out of play if Kylo was just forfeited from a battle you lost at Salt Plateau where Han, Leia, or Luke present.",
         "icons": [
           "Episode VII",
           "Set 25"
@@ -74170,7 +74247,10 @@
       },
       "front": {
         "destiny": "0",
-        "gametext": "The First Order Reigns: Deploy Crait and D'Qar systems, Supremacy: Bridge, and Tracked Fleet. For remainder of game, you may not deploy cards with ability except [Episode VII] cards. Your [Episode VII] characters and starships are power +1. Supremacy is deploy -9 to [Episode VII] systems. Once per turn, may deploy an [Episode VII] battleground from Reserve Deck; reshuffle. While this side up, neither player loses more than 1 Force to Force drains at systems (unless Tracked Fleet there). Flip this card if Tracked Fleet is 'annihilated.' The Resistance Is Doomed: While this side up, once per turn, may deploy a non-unique trooper (or non-unique [First Order] vehicle) from Lost Pile. While you occupy a Crait location, your Force drains at battlegrounds where you have two First Order characters are +1. While Kylo occupies Salt Plateau, opponent may not Force drain where their character or permanent pilot is alone. While you control Salt Plateau, opponent's Force retrieval is canceled. Place out of play if Kylo just forfeited from a battle you lost at Salt Plateau where Han, Leia, or Luke present.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Front previous text: The First Order Reigns: Deploy Crait and D'Qar systems, Supremacy: Bridge, and Tracked Fleet. For remainder of game, you may not deploy cards with ability except [Episode VII] cards. Your [Episode VII] characters and starships are power +1. Supremacy is deploy -9 to [Episode VII] systems. Once per turn, may deploy an [Episode VII] battleground from Reserve Deck; reshuffle. While this side up, neither player loses more than 1 Force to Force drains at systems (unless Tracked Fleet there). Flip this card if Tracked Fleet is 'annihilated.'",
+        "errataSymbol": "E1",
+        "gametext": "The First Order Reigns: Deploy Crait and D'Qar systems, a Crait (or Supremacy) battleground site, and Tracked Fleet. For remainder of game, you may not deploy cards with ability except [Episode VII] cards. Supremacy is deploy = 7 to [Episode VII] systems. Once per turn, may deploy a card with 'Supremacy' in title or an [Episode VII] battleground from Reserve Deck; reshuffle. While this side up, neither player loses more than 1 Force to Force drains at systems (unless Tracked Fleet there). Flip this card if Tracked Fleet is 'annihilated.' The Resistance Is Doomed: While this side up, once per turn, may deploy a non-unique trooper (or non-unique [First Order] vehicle) from Lost Pile. While Kylo occupies a Crait location, your Force drains at battlegrounds where you have two First Order characters are +1. While Kylo controls Salt Plateau, opponent may not Force drain where their character or permanent pilot is alone and opponent's Force retrieval is canceled. Place out of play if Kylo was just forfeited from a battle you lost at Salt Plateau where Han, Leia, or Luke present.",
         "icons": [
           "Episode VII",
           "Set 25"
@@ -74189,6 +74269,12 @@
         {
           "set": "225"
         }
+      ],
+      "pulls": [
+        "An [Episode VII] battleground",
+        "Supremacy",
+        "Supremacy: Bridge",
+        "Supremacy: Throne Room"
       ],
       "rarity": "C",
       "rulings": [
@@ -74314,7 +74400,10 @@
       ],
       "front": {
         "destiny": "0",
-        "gametext": "Deploy on Galactic Senate. [V17] Passel Argente's game text and your Political Effects are canceled. Twice per turn, may target your agenda here: Blockade: Cancel a 'react.' Taxation: Place a card with no printed destiny number > 4 from hand in Used Pile to activate 1 Force. Trade: During your draw phase, place a card from hand in Lost Pile, shuffle that pile, and take top card into hand. Wealth: Subtract 1 from attrition against you.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "The original version is the same except Taxation, which said: Taxation: Place a card with no printed destiny number > 4 from hand in Used Pile to activate 1 Force.",
+        "errataSymbol": "E1",
+        "gametext": "Deploy on Galactic Senate. [V17] Passel Argente's game text and your Political Effects are canceled. Twice per turn, may target your agenda here: Blockade: Cancel a 'react.' Taxation: Place a character with politics from hand in Used Pile to choose: Activate 1 Force or deploy Senate Hovercam from Reserve Deck; reshuffle. Trade: During your draw phase, place a card from hand in Lost Pile, shuffle that pile, and take top card into hand. Wealth: Subtract 1 from attrition against you.",
         "icons": [
           "Coruscant",
           "Episode I",
@@ -74335,6 +74424,12 @@
         {
           "set": "225"
         }
+      ],
+      "pulledBy": [
+        "No Civility, Only Politics (V)"
+      ],
+      "pulls": [
+        "Senate Hovercam"
       ],
       "rarity": "R",
       "rulings": [
@@ -74857,7 +74952,10 @@
       ],
       "back": {
         "destiny": "7",
-        "gametext": "This Deal Is Getting Worse All The Time: Deploy a Cloud City battleground site and [Cloud City] I'm Sorry. For remainder of game, you may not deploy Admiral's Orders. During your control phase, your Lando may make a regular move. While this side up, once per turn, may take Cloud City Occupation, Dark Deal, Vader's Bounty, or [Special Edition] Bespin into hand from Reserve Deck; reshuffle. Flip this card if you control 3 Bespin locations and opponent controls fewer than 3 Bespin locations. Pray I Don't Alter It Any Further: While this side up, Sense and Alter may not be played. Force drain bonuses at same site as your Lando or your Lobot may not be canceled. While Vader at a Bespin location, game text of Admiral's Orders is canceled and, if a character was just frozen, opponent loses 3 Force. If your alien/Imperial pair in battle, your total battle destiny is +2. If your Lando in battle, may target a character present with him; target is forfeit = 0. Flip this card if opponent controls more Bespin locations than you.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Back previous text: Pray I Don't Alter It Any Further: While this side up, Sense and Alter may not be played. Force drain bonuses at same site as your Lando or your Lobot may not be canceled. While Vader at a Bespin location, game text of Admiral's Orders is canceled and, if a character was just frozen, opponent loses 3 Force. If your alien/Imperial pair in battle, your total battle destiny is +2. If your Lando in battle, may target a character present with him; target is forfeit = 0. Flip this card if opponent controls more Bespin locations than you.",
+        "errataSymbol": "E1",
+        "gametext": "This Deal Is Getting Worse All The Time: Deploy a Cloud City battleground site and [Cloud City] I'm Sorry. For remainder of game, you may not deploy Admiral's Orders or [Death Star II] Executor. During your control phase, your Lando may make a regular move. Once during your turn, may take Dark Deal, Vader's Bounty, or [Special Edition] Bespin into hand from Reserve Deck; reshuffle. Flip this card if you control three Bespin locations and opponent controls fewer than three Bespin locations. Pray I Don't Alter It Any Further: While this side up, Sense and Alter may not be played. Force drain bonuses at same site as your Lando or your Lobot may not be canceled. While Vader at a Bespin location, game text of Admiral's Orders is canceled. While your alien/Imperial pair in battle, your total battle destiny is +2. Once per battle involving your Lando (twice if any Lobot also there), may add or subtract 1 from a just drawn destiny. Flip this card if opponent controls more Bespin locations than you.",
         "icons": [
           "Cloud City",
           "Premium",
@@ -74876,7 +74974,10 @@
       ],
       "front": {
         "destiny": "0",
-        "gametext": "This Deal Is Getting Worse All The Time: Deploy a Cloud City battleground site and [Cloud City] I'm Sorry. For remainder of game, you may not deploy Admiral's Orders. During your control phase, your Lando may make a regular move. While this side up, once per turn, may take Cloud City Occupation, Dark Deal, Vader's Bounty, or [Special Edition] Bespin into hand from Reserve Deck; reshuffle. Flip this card if you control 3 Bespin locations and opponent controls fewer than 3 Bespin locations. Pray I Don't Alter It Any Further: While this side up, Sense and Alter may not be played. Force drain bonuses at same site as your Lando or your Lobot may not be canceled. While Vader at a Bespin location, game text of Admiral's Orders is canceled and, if a character was just frozen, opponent loses 3 Force. If your alien/Imperial pair in battle, your total battle destiny is +2. If your Lando in battle, may target a character present with him; target is forfeit = 0. Flip this card if opponent controls more Bespin locations than you.",
+        "errataDate": "2026-03-09",
+        "errataNotes": "Front previous text: This Deal Is Getting Worse All The Time: Deploy a Cloud City battleground site and [Cloud City] I'm Sorry. For remainder of game, you may not deploy Admiral's Orders. During your control phase, your Lando may make a regular move. While this side up, once per turn, may take Cloud City Occupation, Dark Deal, Vader's Bounty, or [Special Edition] Bespin into hand from Reserve Deck; reshuffle. Flip this card if you control 3 Bespin locations and opponent controls fewer than 3 Bespin locations.",
+        "errataSymbol": "E1",
+        "gametext": "This Deal Is Getting Worse All The Time: Deploy a Cloud City battleground site and [Cloud City] I'm Sorry. For remainder of game, you may not deploy Admiral's Orders or [Death Star II] Executor. During your control phase, your Lando may make a regular move. Once during your turn, may take Dark Deal, Vader's Bounty, or [Special Edition] Bespin into hand from Reserve Deck; reshuffle. Flip this card if you control three Bespin locations and opponent controls fewer than three Bespin locations. Pray I Don't Alter It Any Further: While this side up, Sense and Alter may not be played. Force drain bonuses at same site as your Lando or your Lobot may not be canceled. While Vader at a Bespin location, game text of Admiral's Orders is canceled. While your alien/Imperial pair in battle, your total battle destiny is +2. Once per battle involving your Lando (twice if any Lobot also there), may add or subtract 1 from a just drawn destiny. Flip this card if opponent controls more Bespin locations than you.",
         "icons": [
           "Cloud City",
           "Premium",
@@ -74899,14 +75000,14 @@
       ],
       "pulls": [
         "Bespin (V)",
-        "Cloud City Occupation",
         "Dark Deal",
         "Dark Deal (V)",
         "Vader's Bounty"
       ],
       "rarity": "PM",
       "rulings": [
-        "Multiple alien/Imperial pairs still only gives total battle destiny +2, not +4 or more."
+        "(7-side) Multiple alien/Imperial pairs still only gives total battle destiny +2, not +4 or more.",
+        "(7-side) When Lando with Lobot, Dark may not use this text to affect the same destiny draw twice (cumulative rule)."
       ],
       "set": "226",
       "side": "Dark"
