@@ -332,6 +332,7 @@
           "Black Sun agent",
           "bounty hunter",
           "information broker",
+          "rifle",
           "thief"
         ],
         "deploy": "3",
@@ -393,6 +394,7 @@
           "Black Sun agent",
           "bounty hunter",
           "information broker",
+          "rifle",
           "thief"
         ],
         "deploy": "3",
@@ -5414,7 +5416,8 @@
       "front": {
         "armor": "5",
         "characteristics": [
-          "Imperial (starship)"
+          "Imperial (starship)",
+          "ship-docking capability"
         ],
         "deploy": "6",
         "destiny": "1",
@@ -6877,6 +6880,7 @@
       "front": {
         "armor": "5",
         "characteristics": [
+          "ship-docking capability",
           "Trade Federation (starship)"
         ],
         "deploy": "5",
@@ -7881,7 +7885,8 @@
       "front": {
         "armor": "4",
         "characteristics": [
-          "Independent (starship)"
+          "Independent (starship)",
+          "ship-docking capability"
         ],
         "deploy": "4",
         "destiny": "1",
@@ -13637,6 +13642,7 @@
         "ability": "7",
         "characteristics": [
           "leader",
+          "Serennian",
           "Trade Federation"
         ],
         "deploy": "6",
@@ -13654,7 +13660,7 @@
           "Set 0"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual0-Dark/large/countdooku.gif",
-        "lore": "Serrennoian leader. Trade Federation.",
+        "lore": "Serennian leader. Trade Federation.",
         "power": "5",
         "subType": "Dark Jedi Master",
         "title": "•Count Dooku",
@@ -17215,9 +17221,6 @@
       ]
     },
     {
-      "combo": [
-        "Dengar + Luke? Luuuuke! + any (Rebel) Han Makes Rebel Han Lost. (Indiana Jones Jedi Knight)"
-      ],
       "front": {
         "ability": "2",
         "characteristics": [
@@ -18240,7 +18243,8 @@
         "ability": "4",
         "characteristics": [
           "Black Sun agent",
-          "bounty hunter"
+          "bounty hunter",
+          "Sakiyan"
         ],
         "deploy": "4",
         "destiny": "1",
@@ -18290,7 +18294,8 @@
         "characteristics": [
           "assassin",
           "Black Sun agent",
-          "bounty hunter"
+          "bounty hunter",
+          "Sakiyan"
         ],
         "deploy": "4",
         "destiny": "1",
@@ -19332,6 +19337,10 @@
     {
       "front": {
         "armor": "3",
+        "characteristics": [
+          "blaster",
+          "cannon"
+        ],
         "deploy": "3",
         "destiny": "2",
         "extraText": [
@@ -19376,6 +19385,10 @@
     {
       "front": {
         "armor": "3",
+        "characteristics": [
+          "blaster",
+          "cannon"
+        ],
         "deploy": "3",
         "destiny": "2",
         "extraText": [
@@ -26795,7 +26808,8 @@
       "front": {
         "armor": "4",
         "characteristics": [
-          "Independent (starship)"
+          "Independent (starship)",
+          "ship-docking capability"
         ],
         "deploy": "3",
         "destiny": "2",
@@ -31748,6 +31762,7 @@
         "ability": "3",
         "armor": "5",
         "characteristics": [
+          "Black Sun agent",
           "bounty hunter",
           "Trade Federation"
         ],
@@ -31798,6 +31813,7 @@
         "ability": "3",
         "armor": "5",
         "characteristics": [
+          "Black Sun agent",
           "bounty hunter",
           "Trade Federation"
         ],
@@ -40803,8 +40819,7 @@
       "counterpart": "Red 8 (V)",
       "front": {
         "characteristics": [
-          "Imperial (starship)",
-          "heroic"
+          "Imperial (starship)"
         ],
         "deploy": "2",
         "destiny": "2",
@@ -42385,6 +42400,7 @@
       "front": {
         "ability": "1",
         "characteristics": [
+          "Aqualish",
           "smuggler"
         ],
         "deploy": "2",
@@ -42433,6 +42449,7 @@
       "front": {
         "ability": "2",
         "characteristics": [
+          "Aqualish",
           "smuggler"
         ],
         "deploy": "2",
@@ -50073,7 +50090,8 @@
       "front": {
         "armor": "7",
         "characteristics": [
-          "Imperial (starship)"
+          "Imperial (starship)",
+          "ship-docking capability"
         ],
         "deploy": "8",
         "destiny": "1",
@@ -64163,6 +64181,9 @@
     },
     {
       "front": {
+        "characteristics": [
+          "lightsaber"
+        ],
         "destiny": "2",
         "gametext": "Deploy on Gideon, [Set 13] Maul, or your Mandalorian. May add 1 to Force drain where present. May target a character. Draw destiny. Target hit, and its forfeit = 0, if destiny +2 > defense value. If just lost from table or hand, opponent may steal this weapon into hand.",
         "icons": [
@@ -68448,6 +68469,7 @@
         "ability": "7",
         "characteristics": [
           "leader",
+          "Serennian",
           "Trade Federation"
         ],
         "deploy": "6",
@@ -68465,7 +68487,7 @@
           "Set 0"
         ],
         "imageUrl": "https://res.starwarsccg.org/cards/VirtualAlternateImage-Dark/large/countdooku_ai.gif",
-        "lore": "Serrennoian leader. Trade Federation.",
+        "lore": "Serennian leader. Trade Federation.",
         "power": "5",
         "subType": "Dark Jedi Master",
         "title": "•Count Dooku (AI)",
@@ -68889,6 +68911,11 @@
       ],
       "front": {
         "ability": "5",
+        "characteristics": [
+          "assassin",
+          "Dathomirian",
+          "female"
+        ],
         "deploy": "5",
         "destiny": "1",
         "extraText": [
@@ -68930,6 +68957,9 @@
         "AVL"
       ],
       "front": {
+        "characteristics": [
+          "lightsaber"
+        ],
         "destiny": "1",
         "gametext": "Deploy on a Sith. If present at opponent's site, may add 1 to Force drain here. May target a character (twice per battle if on Ventress). Draw two destiny. Subtract 2 from total if this weapon already fired this battle. Target hit, and its forfeit = 0, if total destiny > defense value.",
         "icons": [
@@ -69307,6 +69337,9 @@
       ],
       "front": {
         "armor": "9",
+        "characteristics": [
+          "ship-docking capability"
+        ],
         "deploy": "5",
         "destiny": "2",
         "forfeit": "7",
@@ -70299,7 +70332,10 @@
       "front": {
         "ability": "3",
         "characteristics": [
-          "bounty hunter"
+          "Black Sun agent",
+          "bounty hunter",
+          "blaster rifle",
+          "rifle"
         ],
         "armor": "5",
         "deploy": "4",
@@ -71705,6 +71741,10 @@
       ],
       "front": {
         "armor": "6",
+        "characteristics": [
+          "Imperial (starship)",
+          "ship-docking capability"
+        ],
         "deploy": "4",
         "destiny": "1",
         "forfeit": "6",
@@ -71744,6 +71784,11 @@
       ],
       "front": {
         "ability": "2",
+        "characteristics": [
+          "Abyssin",
+          "gambler",
+          "information broker"
+        ],
         "deploy": "3",
         "destiny": "3",
         "forfeit": "5",
@@ -71811,6 +71856,13 @@
       ],
       "front": {
         "ability": "2",
+        "characteristics": [
+          "biker scout trooper",
+          "Imperial Remnant",
+          "scout",
+          "stormtrooper",
+          "trooper"
+        ],
         "deploy": "2",
         "destiny": "3",
         "errataDate": "2024-12-30",
@@ -71935,6 +71987,10 @@
       "front": {
         "ability": "4",
         "armor": "5",
+        "characteristics": [
+          "Imperial Remnant",
+          "leader"
+        ],
         "deploy": "4",
         "destiny": "1",
         "forfeit": "6",
@@ -72101,6 +72157,12 @@
       "front": {
         "ability": "2",
         "armor": "4",
+        "characteristics": [
+          "leader",
+          "sandtrooper",
+          "stormtrooper",
+          "trooper"
+        ],
         "deploy": "2",
         "destiny": "2",
         "forfeit": "3",
@@ -73473,6 +73535,9 @@
       ],
       "front": {
         "ability": "6",
+        "characteristics": [
+          "mercenary"
+        ],
         "deploy": "6",
         "destiny": "1",
         "extraText": [
@@ -73515,6 +73580,9 @@
       ],
       "front": {
         "ability": "2",
+        "characteristics": [
+          "leader"
+        ],
         "deploy": "3",
         "destiny": "2",
         "forfeit": "5",
@@ -73552,6 +73620,9 @@
     {
       "front": {
         "ability": "3",
+        "characteristics": [
+          "Knight of Ren"
+        ],
         "deploy": "4",
         "destiny": "2",
         "extraText": [
@@ -73741,6 +73812,9 @@
       ],
       "front": {
         "armor": "6",
+        "characteristics": [
+          "enclosed"
+        ],
         "deploy": "6",
         "destiny": "2",
         "forfeit": "7",
@@ -73780,6 +73854,9 @@
     {
       "front": {
         "armor": "8",
+        "characteristics": [
+          "ship-docking capability"
+        ],
         "deploy": "9",
         "destiny": "3",
         "forfeit": "9",
@@ -73826,6 +73903,9 @@
         "IGPCv"
       ],
       "front": {
+        "characteristics": [
+          "cannon"
+        ],
         "destiny": "1",
         "gametext": "Deploy on your bounty hunter. May target a character. Draw destiny. If destiny +1 > defense value, target hit, its forfeit = 0 and, if IG-88 firing repeatedly, may add one destiny to power or attrition. May fire repeatedly for 2 Force each time.",
         "icons": [
@@ -73862,6 +73942,10 @@
       ],
       "front": {
         "ability": "7",
+        "characteristics": [
+          "leader",
+          "Trade Federation"
+        ],
         "deploy": "6",
         "destiny": "1",
         "extraText": [
@@ -74037,6 +74121,9 @@
     {
       "front": {
         "armor": "10",
+        "characteristics": [
+          "ship-docking capability"
+        ],
         "deploy": "16",
         "destiny": "1",
         "forfeit": "16",
@@ -74290,6 +74377,9 @@
         "TGIL"
       ],
       "front": {
+        "characteristics": [
+          "lightsaber"
+        ],
         "destiny": "2",
         "gametext": "Deploy on an Inquisitor. Dodge may not target characters here. May target a character. Draw two destiny. Target hit, and may not be used to satisfy attrition, if total destiny > defense value. If hit by Grand Inquisitor, target's forfeit = 0.",
         "icons": [
@@ -74355,6 +74445,9 @@
     {
       "front": {
         "ability": "4",
+        "characteristics": [
+          "Knight of Ren"
+        ],
         "deploy": "4",
         "destiny": "2",
         "extraText": [
