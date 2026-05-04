@@ -74699,7 +74699,8 @@
         "characteristics": [
           "assassin",
           "Black Sun agent",
-          "female"
+          "female",
+          "bodyguard"
         ],
         "deploy": "4",
         "destiny": "2",
@@ -74845,7 +74846,8 @@
         "ability": "5",
         "characteristics": [
           "female",
-          "spy"
+          "spy",
+          "Sith apprentice"
         ],
         "deploy": "5",
         "destiny": "1",
