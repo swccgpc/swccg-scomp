@@ -4152,7 +4152,8 @@
         "characteristics": [
           "information broker",
           "gangster",
-          "leader"
+          "leader",
+          "Black Sun agent"
         ],
         "deploy": "3",
         "destiny": "2",
@@ -62150,7 +62151,8 @@
         "characteristics": [
           "assassin",
           "bounty hunter",
-          "female"
+          "female",
+          "Black Sun agent"
         ],
         "deploy": "4",
         "destiny": "2",
@@ -62200,7 +62202,8 @@
         "characteristics": [
           "assassin",
           "bounty hunter",
-          "female"
+          "female",
+          "Black Sun agent"
         ],
         "deploy": "4",
         "destiny": "2",
@@ -62249,7 +62252,8 @@
         "characteristics": [
           "assassin",
           "bounty hunter",
-          "female"
+          "female",
+          "Black Sun agent"
         ],
         "deploy": "4",
         "destiny": "2",
@@ -70290,7 +70294,8 @@
         "characteristics": [
           "bounty hunter",
           "guard",
-          "Wookiee"
+          "Wookiee",
+          "Black Sun agent"
         ],
         "armor": "5",
         "deploy": "4",
@@ -70379,7 +70384,8 @@
         "ability": "2",
         "characteristics": [
           "bounty hunter",
-          "gunner"
+          "gunner",
+          "Black Sun agent"
         ],
         "deploy": "3",
         "destiny": "3",
@@ -71512,7 +71518,8 @@
         "characteristics": [
           "bounty hunter",
           "Gand",
-          "scout"
+          "scout",
+          "Black Sun agent"
         ],
         "deploy": "4",
         "destiny": "1",
@@ -71787,7 +71794,8 @@
         "characteristics": [
           "Abyssin",
           "gambler",
-          "information broker"
+          "information broker",
+          "Black Sun agent"
         ],
         "deploy": "3",
         "destiny": "3",
@@ -72501,7 +72509,8 @@
         "characteristics": [
           "assassin",
           "information broker",
-          "r-unit"
+          "r-unit",
+          "Black Sun agent"
         ],
         "deploy": "5",
         "destiny": "3",
