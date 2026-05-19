@@ -667,6 +667,8 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
 
       card.underlyingcardfor = card.underlyingCardFor ?? [];
 
+      card.personas = card.personas ?? [];
+
       addCardDataToFrontBack(card, card.front);
       addCardDataToFrontBack(card, card.back);
 
@@ -772,6 +774,7 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
     cardSide.titleSortable = getSimpleName(card.front.title);
     cardSide.setAbbreviation = getSetAbbreviation(card.set);
     cardSide.underlyingCardFor = card.underlyingcardfor;
+    cardSide.personas = card.personas;
     
     // If we are missing an array completely, just stick an empty one in it's place
     if (!cardSide.icons) {
@@ -1345,8 +1348,9 @@ cardSearchApp.controller('CardSearchController', ['$scope', '$document', '$http'
             card.matchingWeapon ||
             card.canceledBy ||
             card.cancels ||
-            card.abbreviations||
-            card.underlyingcardfor;
+            card.abbreviations ||
+            card.underlyingcardfor ||
+            card.personas;
   };
 
 
