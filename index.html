@@ -204,6 +204,15 @@
               </div>
             </div>
 
+            <!-- Personas -->
+            <div class=" cs-extra-data-column" data-ng-if="data.selectedCard.personas && data.selectedCard.personas.length > 0">
+              <div class="cs-extra-data-label">Personas:</div>
+              <div data-ng-repeat='persona in data.selectedCard.personas track by $index'>
+                <div ng-bind-html="persona | to_trusted"></div>
+              </div>
+            </div>
+
+
             <!-- Rulings -->
             <div class="cs-extra-data-column" data-ng-if="data.selectedCard.rulings">
               <div class="cs-extra-data-label">Rulings:</div>
